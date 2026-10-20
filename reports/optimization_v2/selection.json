@@ -1,0 +1,45 @@
+{
+  "selected_policy": "fixed1536",
+  "criterion": "Among the two pre-specified candidates meeting point TTFT/throughput guardrails in all three scenes, minimize mean paired primary-scene Decode P99 change versus balanced.",
+  "candidate_scores": {
+    "fixed1536": -21.383943368384543,
+    "equalized256": -9.696700320787345
+  },
+  "feasible": [
+    "fixed1536",
+    "equalized256"
+  ],
+  "note": "Engineering selection from the registered comparisons; intervals are descriptive, without selection or multiplicity adjustment.",
+  "base_stage_selection": "fixed1536",
+  "matched_guardrails": [
+    {
+      "stage": "opt_match1536",
+      "policy": "equalized1536",
+      "scenario": "interference",
+      "point_guardrails": true,
+      "ci_guardrails": true,
+      "point_decode_improvement": true,
+      "ci_decode_improvement": true
+    },
+    {
+      "stage": "opt_match1536",
+      "policy": "equalized1536",
+      "scenario": "transition",
+      "point_guardrails": false,
+      "ci_guardrails": false,
+      "point_decode_improvement": true,
+      "ci_decode_improvement": true
+    },
+    {
+      "stage": "opt_match1536",
+      "policy": "equalized1536",
+      "scenario": "mixed",
+      "point_guardrails": false,
+      "ci_guardrails": false,
+      "point_decode_improvement": true,
+      "ci_decode_improvement": true
+    }
+  ],
+  "matched_incremental_p99": true,
+  "matched_selection_rule": "Promote the new equal-base candidate only if all three scene point guardrails pass and primary-scene P99 improvement versus fresh fixed1536 has a negative upper CI bound."
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "stage": "opt_match1536",
+    "scenario": "correctness",
+    "seed": 401,
+    "hashes": [
+      "8f4e49af0d88b074b5eb7b2ada2c681cc9ba8587294d5a9248695023eee7447a"
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "correctness",
+    "seed": 409,
+    "hashes": [
+      "791a611a6dba010036f57a5a1dba231fe181f2a5282a44afdc384f978c0962eb"
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "correctness",
+    "seed": 419,
+    "hashes": [
+      "02fee74f68253382b793b0687fe7e23d3f2299c5130a021fd585ae9fc1eb962d"
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "seed": 401,
+    "hashes": [
+      "fad48f1235adb2dd6804daedaed90383b31c6791b965ecb8060caa642c8d7a84"
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "seed": 409,
+    "hashes": [
+      "7d4a782b7a403f087161f1fdd44a30c5cc6fcca572164fddb6522091073835f2"
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "seed": 419,
+    "hashes": [
+      "811c68a22f3959bf27fdf56c7cee709d62cbbf7878e7c749e29cb778d3c8dd25"
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "seed": 401,
+    "hashes": [
+      "14d47784f5150685f5bdc09aee37a02ef8e4186433921256426d3bfe97e207bc"
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "seed": 409,
+    "hashes": [
+      "9bae8ca63467b1fe963f5918cb6214c86cd325a92a5d8ee46ebe623faa73d880"
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "seed": 419,
+    "hashes": [
+      "6451bc2fea9e03fa5b7bd85e4f538277de38308cb7d6bf375a9e1e115c010d14"
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "seed": 401,
+    "hashes": [
+      "aafe3b72800871ae5d79f419e7abdd5eabb321b7c5158c259b7cdef7a7df47e5"
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "seed": 409,
+    "hashes": [
+      "8b033b4d41f90083a634afae1bff54c581ed36549df4628a302512873c528479"
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "seed": 419,
+    "hashes": [
+      "5ef1884d58f387bb9c2839dcb510f4194e326a00eb64f4eb32d6165d39821b8e"
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "interference",
+    "seed": 227,
+    "hashes": [
+      "10e5afd6e4ae44e8c9aa0604618e9a8f0de1a2a17abebd7a22ebe42a56259e6a"
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "mixed",
+    "seed": 227,
+    "hashes": [
+      "a0abc57a3c2da85e543963adeb13a81e679aa31f887783844f3836e62c707d90"
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "transition",
+    "seed": 227,
+    "hashes": [
+      "4a4354bf8b33f81a67597a71f56dddc129ee2f5818adfb793720108c196d2abc"
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "seed": 227,
+    "hashes": [
+      "10e5afd6e4ae44e8c9aa0604618e9a8f0de1a2a17abebd7a22ebe42a56259e6a"
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "seed": 227,
+    "hashes": [
+      "a0abc57a3c2da85e543963adeb13a81e679aa31f887783844f3836e62c707d90"
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "seed": 227,
+    "hashes": [
+      "4a4354bf8b33f81a67597a71f56dddc129ee2f5818adfb793720108c196d2abc"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "correctness",
+    "seed": 307,
+    "hashes": [
+      "aca7e6284b1b9681efdd89eaff69482d7d396328c6f579d8512628acdb6eb21f"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "correctness",
+    "seed": 311,
+    "hashes": [
+      "86b380c7daba1570031bffe363b2ca065df7539f9fc988a59e94e3964e4d258a"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "correctness",
+    "seed": 313,
+    "hashes": [
+      "2b40e868aaf1a83dc84be33f2acd30a96ffef4b66e7761b7f180715ef886d5bc"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "correctness",
+    "seed": 317,
+    "hashes": [
+      "f3470d470ddfb02c9a42960f9fded9bccb8c1deef153ee190115622e8ebc50a0"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "correctness",
+    "seed": 331,
+    "hashes": [
+      "442fc8ff3376a683edece335fea5e43a8be03b6b6d68032b4be1bbbecd1a93c2"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "seed": 307,
+    "hashes": [
+      "a14f97c659604fc9581a8f79ddbce935c16c3954d84669e346280039fce43fae"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "seed": 311,
+    "hashes": [
+      "973b76c49db03329524625b0599e692e804694be78604c80e35309e34c3a637a"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "seed": 313,
+    "hashes": [
+      "182e6f7b6d50c976cfac9de03670304d83b05c368ae92b6552a5a90e69bba621"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "seed": 317,
+    "hashes": [
+      "e936d5f4712e748c68fc3aeae00a0b15b5c4da7bf57e0928a3d0c9775c4a0478"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "seed": 331,
+    "hashes": [
+      "9e784a2ddb91d3a3d64910c1e9969d31212aaf921f4d34c7ea3c7655a027e8d5"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "seed": 307,
+    "hashes": [
+      "276a7af7ec93f3c164c0b730aae9f4a48c5bda7f3b869875d04f7b0948d9f236"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "seed": 311,
+    "hashes": [
+      "9b25bb5d9f8fd03132cd78adf738d5ea290c3572e189b9da84598b9b304b9f41"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "seed": 313,
+    "hashes": [
+      "0b8a263144f33f720e129e5caa6f9c66cf95ad03c7cb31d20506177f5ab431c6"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "seed": 317,
+    "hashes": [
+      "5a5990113b13a2ae1850a316302445317d1e70a83c5e2d14b3802158c0e2a215"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "seed": 331,
+    "hashes": [
+      "e1cff4b1ebe1ca721e694b86f91169285dccf0e3e3776db3b61668b59b8ea8af"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "seed": 307,
+    "hashes": [
+      "88df7618c58838ceb20e74a5ae6e06309eb93c9dfd03ce784ca2756d54095c46"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "seed": 311,
+    "hashes": [
+      "b9cfe56558b87fbbf27cb75112c2caaef4b1d748b87c7f5a184adb912bb8d2b1"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "seed": 313,
+    "hashes": [
+      "956941d1fff50ce75e1179da75ecb931a19352743eab3fab65b31af5328261f8"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "seed": 317,
+    "hashes": [
+      "5d586393ae91274b03307802b3ae32df1cdf5b274d211bd7ce11d46a19732eb1"
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "seed": 331,
+    "hashes": [
+      "e06130c6b267ed0d0653c14488ffbadcb4255beb5279ca7eec3f8ebc58a731d6"
+    ]
+  }
+]

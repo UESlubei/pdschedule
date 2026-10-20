@@ -1,0 +1,118 @@
+{
+  "checked_at": "2026-10-19T23:21:11.448514+08:00",
+  "scope": "Design-stage read-only inventory; no model inference or performance benchmark run in this task.",
+  "python": "3.11.16",
+  "packages": {
+    "vllm": "0.32.0+cu129",
+    "torch": "2.13.0+cu129",
+    "triton": "3.7.1",
+    "transformers": "5.19.0"
+  },
+  "cuda_runtime": "12.9",
+  "cuda_available": true,
+  "vllm_path": "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/lib/python3.11/site-packages/vllm",
+  "gpu": "NVIDIA GeForce RTX 3090, 570.86.15, 24576 MiB, 29 MiB",
+  "source_files": {
+    "v1/core/sched/scheduler.py": {
+      "path": "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/lib/python3.11/site-packages/vllm/v1/core/sched/scheduler.py",
+      "sha256": "d9a39870286c424cef2fc0730e24092ee3df67e848608e2278944846bab804ae"
+    },
+    "v1/core/sched/async_scheduler.py": {
+      "path": "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/lib/python3.11/site-packages/vllm/v1/core/sched/async_scheduler.py",
+      "sha256": "38d296e77e4d612e696241c67298eb1ca9b6a48b483cd33d35495bf31691032e"
+    },
+    "v1/engine/core.py": {
+      "path": "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/lib/python3.11/site-packages/vllm/v1/engine/core.py",
+      "sha256": "458fd729771681b124d3a4d5b1c575f689bf789a5e0c8cc9f5c524eb6ec84f87"
+    },
+    "config/scheduler.py": {
+      "path": "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/lib/python3.11/site-packages/vllm/config/scheduler.py",
+      "sha256": "2fb86b1572a4925be59f304d13b4f6ec03d496b67a7c4abbb976ecda2232839a"
+    },
+    "engine/arg_utils.py": {
+      "path": "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/lib/python3.11/site-packages/vllm/engine/arg_utils.py",
+      "sha256": "c10281277fd9a90dc8b22670db4f1af53708c5caa2aefee7aa861fa579329219"
+    },
+    "entrypoints/openai/completion/protocol.py": {
+      "path": "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/lib/python3.11/site-packages/vllm/entrypoints/openai/completion/protocol.py",
+      "sha256": "b52f1211a6b9e3fef69653949d3cee2cfabd387a6601d7c81f73569fa81c2987"
+    }
+  },
+  "model": {
+    "path": "/mnt/ondeviceinfer/models/Qwen3-1.7B",
+    "resolved_path": "/mnt/ondeviceinfer/huggingface/hub/models--Qwen--Qwen3-1.7B/snapshots/70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "config": {
+      "architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "attention_bias": false,
+      "attention_dropout": 0.0,
+      "bos_token_id": 151643,
+      "eos_token_id": 151645,
+      "head_dim": 128,
+      "hidden_act": "silu",
+      "hidden_size": 2048,
+      "initializer_range": 0.02,
+      "intermediate_size": 6144,
+      "max_position_embeddings": 40960,
+      "max_window_layers": 28,
+      "model_type": "qwen3",
+      "num_attention_heads": 16,
+      "num_hidden_layers": 28,
+      "num_key_value_heads": 8,
+      "rms_norm_eps": 1e-06,
+      "rope_scaling": null,
+      "rope_theta": 1000000,
+      "sliding_window": null,
+      "tie_word_embeddings": true,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.51.0",
+      "use_cache": true,
+      "use_sliding_window": false,
+      "vocab_size": 151936
+    },
+    "shards": [
+      {
+        "name": "model-00001-of-00002.safetensors",
+        "exists": true,
+        "size_bytes": 3441185608
+      },
+      {
+        "name": "model-00002-of-00002.safetensors",
+        "exists": true,
+        "size_bytes": 622329984
+      }
+    ],
+    "config_sha256": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+    "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "weight_sha256_checked_this_task": false
+  },
+  "reference_chat": {
+    "thread_id": "01a154b6-19cb-7aa1-a6c7-77ea72f76a26",
+    "host_id": "remote-ssh-discovered:server11",
+    "read_attempts": 2,
+    "result": "Tool response exceeds the size limit, including turnLimit=1/includeOutputs=false; contents not used."
+  },
+  "cli_check": {
+    "command": "python -m vllm.entrypoints.cli.main serve --help=all",
+    "exit_code": 0,
+    "verified_options": [
+      "--served-model-name",
+      "--host",
+      "--port",
+      "--dtype",
+      "--max-model-len",
+      "--max-num-batched-tokens",
+      "--max-num-scheduled-tokens",
+      "--max-num-seqs",
+      "--gpu-memory-utilization",
+      "--enable-chunked-prefill",
+      "--no-enable-prefix-caching",
+      "--stream-interval",
+      "--no-async-scheduling",
+      "--enforce-eager"
+    ],
+    "help_sha256": "84cd7b525d6d236a48f9a7e7554e7ce73fc3c4d5d69e5f6198ef7d609a6ad864",
+    "server_started": false
+  }
+}

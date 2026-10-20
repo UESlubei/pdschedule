@@ -1,0 +1,1730 @@
+[
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-aging-aging-every-step-s17",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-aging-aging-every-step-s29",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-aging-aging-every-step-s43",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-fixed4096-reserve-off-s17",
+    "ledger_present": true,
+    "steps": 1075,
+    "completed": 1059,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-fixed4096-reserve-off-s29",
+    "ledger_present": true,
+    "steps": 1075,
+    "completed": 1059,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-fixed4096-reserve-off-s43",
+    "ledger_present": true,
+    "steps": 1075,
+    "completed": 1059,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-fixed512-idle-relax-s17",
+    "ledger_present": true,
+    "steps": 1087,
+    "completed": 1071,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-fixed512-idle-relax-s29",
+    "ledger_present": true,
+    "steps": 1087,
+    "completed": 1071,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-fixed512-idle-relax-s43",
+    "ledger_present": true,
+    "steps": 1085,
+    "completed": 1069,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-ema01-s17",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-ema01-s29",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-ema01-s43",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-ema04-s17",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-ema04-s29",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-ema04-s43",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-k1-s17",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-k1-s29",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-k1-s43",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-k16-s17",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-k16-s29",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-k16-s43",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-k4-s17",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-k4-s29",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-k4-s43",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-min1024-s17",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-min1024-s29",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-min1024-s43",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-min512-s17",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-min512-s29",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-min512-s43",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-rho01-s17",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-rho01-s29",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-rho01-s43",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-rho03-s17",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-rho03-s29",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/ablation/default-joint-rho03-s43",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-fixed2048-min2048-s151",
+    "ledger_present": true,
+    "steps": 10774,
+    "completed": 10754,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-fixed2048-min2048-s163",
+    "ledger_present": true,
+    "steps": 10800,
+    "completed": 10780,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-fixed2048-min2048-s179",
+    "ledger_present": true,
+    "steps": 10916,
+    "completed": 10896,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-fixed2048-min2048-s191",
+    "ledger_present": true,
+    "steps": 10020,
+    "completed": 10000,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-fixed2048-min2048-s211",
+    "ledger_present": true,
+    "steps": 10861,
+    "completed": 10841,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-joint-min2048-s151",
+    "ledger_present": true,
+    "steps": 10852,
+    "completed": 10832,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-joint-min2048-s163",
+    "ledger_present": true,
+    "steps": 10854,
+    "completed": 10834,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-joint-min2048-s179",
+    "ledger_present": true,
+    "steps": 10888,
+    "completed": 10868,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-joint-min2048-s191",
+    "ledger_present": true,
+    "steps": 10040,
+    "completed": 10020,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-joint-min2048-s211",
+    "ledger_present": true,
+    "steps": 10851,
+    "completed": 10831,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-stock-min2048-s151",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-stock-min2048-s163",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-stock-min2048-s179",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-stock-min2048-s191",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/balanced/default-stock-min2048-s211",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/calibration_extension/default-observe",
+    "ledger_present": true,
+    "steps": 2184,
+    "completed": 2154,
+    "errors": [],
+    "trials": 8
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/calibration_extension/eager-observe",
+    "ledger_present": true,
+    "steps": 2169,
+    "completed": 2154,
+    "errors": [],
+    "trials": 8
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/compatibility/default-aging",
+    "ledger_present": true,
+    "steps": 203,
+    "completed": 178,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/compatibility/default-aging-pressure",
+    "ledger_present": true,
+    "steps": 596,
+    "completed": 580,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/compatibility/default-fixed512",
+    "ledger_present": true,
+    "steps": 254,
+    "completed": 228,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/compatibility/default-off",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/compatibility/default-stock",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/compatibility/eager-aging",
+    "ledger_present": true,
+    "steps": 174,
+    "completed": 161,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/compatibility/eager-aging-pressure",
+    "ledger_present": true,
+    "steps": 579,
+    "completed": 571,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/compatibility/eager-fixed512",
+    "ledger_present": true,
+    "steps": 216,
+    "completed": 203,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/compatibility/eager-off",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/compatibility/eager-stock",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/default_pilot/default-joint",
+    "ledger_present": true,
+    "steps": 1161,
+    "completed": 1140,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/default_pilot/default-observe",
+    "ledger_present": true,
+    "steps": 4263,
+    "completed": 4221,
+    "errors": [],
+    "trials": 14
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/default_pilot/default-stock",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-aging-seed101",
+    "ledger_present": true,
+    "steps": 9587,
+    "completed": 9567,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-aging-seed17",
+    "ledger_present": true,
+    "steps": 9068,
+    "completed": 9048,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-aging-seed29",
+    "ledger_present": true,
+    "steps": 10505,
+    "completed": 10485,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-aging-seed43",
+    "ledger_present": true,
+    "steps": 10499,
+    "completed": 10479,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-aging-seed71",
+    "ledger_present": true,
+    "steps": 10152,
+    "completed": 10132,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-aimd-seed101",
+    "ledger_present": true,
+    "steps": 10118,
+    "completed": 10098,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-aimd-seed17",
+    "ledger_present": true,
+    "steps": 9596,
+    "completed": 9576,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-aimd-seed29",
+    "ledger_present": true,
+    "steps": 10752,
+    "completed": 10732,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-aimd-seed43",
+    "ledger_present": true,
+    "steps": 10821,
+    "completed": 10801,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-aimd-seed71",
+    "ledger_present": true,
+    "steps": 10627,
+    "completed": 10607,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed1024-seed101",
+    "ledger_present": true,
+    "steps": 9950,
+    "completed": 9930,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed1024-seed17",
+    "ledger_present": true,
+    "steps": 9645,
+    "completed": 9625,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed1024-seed29",
+    "ledger_present": true,
+    "steps": 10751,
+    "completed": 10731,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed1024-seed43",
+    "ledger_present": true,
+    "steps": 10735,
+    "completed": 10715,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed1024-seed71",
+    "ledger_present": true,
+    "steps": 10524,
+    "completed": 10504,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed2048-seed101",
+    "ledger_present": true,
+    "steps": 10757,
+    "completed": 10737,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed2048-seed17",
+    "ledger_present": true,
+    "steps": 10228,
+    "completed": 10208,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed2048-seed29",
+    "ledger_present": true,
+    "steps": 11402,
+    "completed": 11382,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed2048-seed43",
+    "ledger_present": true,
+    "steps": 11496,
+    "completed": 11476,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed2048-seed71",
+    "ledger_present": true,
+    "steps": 11210,
+    "completed": 11190,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed256-seed101",
+    "ledger_present": true,
+    "steps": 8668,
+    "completed": 8648,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed256-seed17",
+    "ledger_present": true,
+    "steps": 8164,
+    "completed": 8144,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed256-seed29",
+    "ledger_present": true,
+    "steps": 9663,
+    "completed": 9643,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed256-seed43",
+    "ledger_present": true,
+    "steps": 9592,
+    "completed": 9572,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed256-seed71",
+    "ledger_present": true,
+    "steps": 9392,
+    "completed": 9372,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed4096-seed101",
+    "ledger_present": true,
+    "steps": 10820,
+    "completed": 10800,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed4096-seed17",
+    "ledger_present": true,
+    "steps": 10399,
+    "completed": 10379,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed4096-seed29",
+    "ledger_present": true,
+    "steps": 11493,
+    "completed": 11473,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed4096-seed43",
+    "ledger_present": true,
+    "steps": 11557,
+    "completed": 11537,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed4096-seed71",
+    "ledger_present": true,
+    "steps": 11298,
+    "completed": 11278,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed512-seed101",
+    "ledger_present": true,
+    "steps": 9628,
+    "completed": 9608,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed512-seed17",
+    "ledger_present": true,
+    "steps": 9213,
+    "completed": 9193,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed512-seed29",
+    "ledger_present": true,
+    "steps": 10434,
+    "completed": 10414,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed512-seed43",
+    "ledger_present": true,
+    "steps": 10478,
+    "completed": 10458,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed512-seed71",
+    "ledger_present": true,
+    "steps": 10244,
+    "completed": 10224,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-joint-seed101",
+    "ledger_present": true,
+    "steps": 9554,
+    "completed": 9534,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-joint-seed17",
+    "ledger_present": true,
+    "steps": 9117,
+    "completed": 9097,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-joint-seed29",
+    "ledger_present": true,
+    "steps": 10478,
+    "completed": 10458,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-joint-seed43",
+    "ledger_present": true,
+    "steps": 10448,
+    "completed": 10428,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-joint-seed71",
+    "ledger_present": true,
+    "steps": 10130,
+    "completed": 10110,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-load-seed101",
+    "ledger_present": true,
+    "steps": 9598,
+    "completed": 9578,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-load-seed17",
+    "ledger_present": true,
+    "steps": 9259,
+    "completed": 9239,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-load-seed29",
+    "ledger_present": true,
+    "steps": 10488,
+    "completed": 10468,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-load-seed43",
+    "ledger_present": true,
+    "steps": 10479,
+    "completed": 10459,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-load-seed71",
+    "ledger_present": true,
+    "steps": 10243,
+    "completed": 10223,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-observe-seed101",
+    "ledger_present": true,
+    "steps": 10810,
+    "completed": 10790,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-observe-seed17",
+    "ledger_present": true,
+    "steps": 10450,
+    "completed": 10430,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-observe-seed29",
+    "ledger_present": true,
+    "steps": 11525,
+    "completed": 11505,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-observe-seed43",
+    "ledger_present": true,
+    "steps": 11520,
+    "completed": 11500,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-observe-seed71",
+    "ledger_present": true,
+    "steps": 11326,
+    "completed": 11306,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-stock-seed101",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-stock-seed17",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-stock-seed29",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-stock-seed43",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-stock-seed71",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/idle/default-fixed512",
+    "ledger_present": true,
+    "steps": 1203,
+    "completed": 1173,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/idle/default-joint",
+    "ledger_present": true,
+    "steps": 1098,
+    "completed": 1068,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/idle/default-stock",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/load_calibration/default-stock",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-fixed512-seed101",
+    "ledger_present": true,
+    "steps": 1100,
+    "completed": 1092,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-fixed512-seed17",
+    "ledger_present": true,
+    "steps": 1100,
+    "completed": 1092,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-fixed512-seed29",
+    "ledger_present": true,
+    "steps": 1100,
+    "completed": 1092,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-fixed512-seed43",
+    "ledger_present": true,
+    "steps": 1100,
+    "completed": 1092,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-fixed512-seed71",
+    "ledger_present": true,
+    "steps": 1100,
+    "completed": 1092,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-joint-seed101",
+    "ledger_present": true,
+    "steps": 1071,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-joint-seed17",
+    "ledger_present": true,
+    "steps": 1070,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-joint-seed29",
+    "ledger_present": true,
+    "steps": 1070,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-joint-seed43",
+    "ledger_present": true,
+    "steps": 1071,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-joint-seed71",
+    "ledger_present": true,
+    "steps": 1071,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-stock-seed101",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-stock-seed17",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-stock-seed29",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-stock-seed43",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/mechanism/eager-stock-seed71",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th1024-a0-s101",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th1024-a0-s17",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th1024-a0-s29",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th1024-a0-s43",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th1024-a0-s71",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th1024-a1-s101",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th1024-a1-s17",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th1024-a1-s29",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th1024-a1-s43",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th1024-a1-s71",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th512-a0-s101",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th512-a0-s17",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th512-a0-s29",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th512-a0-s43",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native/default-stock-th512-a0-s71",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native2048/default-stock-th2048-a0-s101",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native2048/default-stock-th2048-a0-s17",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native2048/default-stock-th2048-a0-s29",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native2048/default-stock-th2048-a0-s43",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/native2048/default-stock-th2048-a0-s71",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/pilot/eager-fixed4096",
+    "ledger_present": true,
+    "steps": 2605,
+    "completed": 2596,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/pilot/eager-fixed512",
+    "ledger_present": true,
+    "steps": 2638,
+    "completed": 2629,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/pilot/eager-joint",
+    "ledger_present": true,
+    "steps": 2608,
+    "completed": 2599,
+    "errors": [],
+    "trials": 2
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/pilot/eager-load",
+    "ledger_present": true,
+    "steps": 2674,
+    "completed": 2662,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/pilot/eager-observe",
+    "ledger_present": true,
+    "steps": 5756,
+    "completed": 5734,
+    "errors": [],
+    "trials": 15
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/pilot/eager-stock",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 14
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/profiles/aging",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/profiles/fixed2048",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/profiles/fixed512",
+    "ledger_present": true,
+    "steps": 1108,
+    "completed": 1092,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/profiles/joint",
+    "ledger_present": true,
+    "steps": 1078,
+    "completed": 1062,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/profiles/observe",
+    "ledger_present": true,
+    "steps": 1075,
+    "completed": 1059,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-aging-seed101",
+    "ledger_present": true,
+    "steps": 19270,
+    "completed": 19254,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-aging-seed17",
+    "ledger_present": true,
+    "steps": 19185,
+    "completed": 19169,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-aging-seed29",
+    "ledger_present": true,
+    "steps": 19221,
+    "completed": 19205,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-aging-seed43",
+    "ledger_present": true,
+    "steps": 19216,
+    "completed": 19200,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-aging-seed71",
+    "ledger_present": true,
+    "steps": 19209,
+    "completed": 19193,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-fixed512-seed101",
+    "ledger_present": true,
+    "steps": 19272,
+    "completed": 19256,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-fixed512-seed17",
+    "ledger_present": true,
+    "steps": 19200,
+    "completed": 19184,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-fixed512-seed29",
+    "ledger_present": true,
+    "steps": 19256,
+    "completed": 19240,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-fixed512-seed43",
+    "ledger_present": true,
+    "steps": 19257,
+    "completed": 19241,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-fixed512-seed71",
+    "ledger_present": true,
+    "steps": 19328,
+    "completed": 19312,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-joint-seed101",
+    "ledger_present": true,
+    "steps": 19298,
+    "completed": 19282,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-joint-seed17",
+    "ledger_present": true,
+    "steps": 19306,
+    "completed": 19290,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-joint-seed29",
+    "ledger_present": true,
+    "steps": 19317,
+    "completed": 19301,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-joint-seed43",
+    "ledger_present": true,
+    "steps": 19258,
+    "completed": 19242,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/starvation/default-joint-seed71",
+    "ledger_present": true,
+    "steps": 19202,
+    "completed": 19186,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/validation/default-fixed1024",
+    "ledger_present": true,
+    "steps": 1088,
+    "completed": 1072,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/validation/default-fixed2048",
+    "ledger_present": true,
+    "steps": 1079,
+    "completed": 1063,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/validation/default-fixed256",
+    "ledger_present": true,
+    "steps": 1151,
+    "completed": 1135,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/validation/default-fixed4096",
+    "ledger_present": true,
+    "steps": 1075,
+    "completed": 1059,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/validation/default-fixed512",
+    "ledger_present": true,
+    "steps": 1108,
+    "completed": 1092,
+    "errors": [],
+    "trials": 1
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/validation/default-stock",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 1
+  }
+]

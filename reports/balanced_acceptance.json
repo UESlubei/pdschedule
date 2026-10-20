@@ -1,0 +1,23 @@
+{
+  "protocol": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/manifests/balanced-protocol.json",
+  "scenarios": [
+    {
+      "scenario": "interference",
+      "pairs": 5,
+      "point_constraints_met": true,
+      "ci_constraints_met": true
+    },
+    {
+      "scenario": "transition",
+      "pairs": 5,
+      "point_constraints_met": true,
+      "ci_constraints_met": true
+    },
+    {
+      "scenario": "mixed",
+      "pairs": 5,
+      "point_constraints_met": true,
+      "ci_constraints_met": false
+    }
+  ]
+}

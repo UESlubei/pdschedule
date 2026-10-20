@@ -1,0 +1,7 @@
+{
+  "mode": "joint",
+  "minimum": 2048,
+  "initial": 2048,
+  "maximum": 4096,
+  "reserve": true
+}

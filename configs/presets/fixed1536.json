@@ -1,0 +1,7 @@
+{
+  "mode": "fixed",
+  "cap": 1536,
+  "maximum": 4096,
+  "fixed_idle_relax": true,
+  "reserve": true
+}

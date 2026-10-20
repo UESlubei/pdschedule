@@ -1,0 +1,3710 @@
+[
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "equalized1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -54.81197671250355,
+    "ci95": [
+      -55.0010918944007,
+      -54.6590518876795
+    ],
+    "changes": [
+      -55.0010918944007,
+      -54.659051887679496,
+      -54.775786355430455
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "equalized1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 3.758690340504119,
+    "ci95": [
+      3.594362931242312,
+      3.9334229199158965
+    ],
+    "changes": [
+      3.594362931242312,
+      3.9334229199158965,
+      3.7482851703541487
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "equalized1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -2.2976280688243533,
+    "ci95": [
+      -2.413496532696968,
+      -2.177293631655186
+    ],
+    "changes": [
+      -2.177293631655186,
+      -2.413496532696968,
+      -2.3020940421209057
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "equalized1536",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -9.804997144362492,
+    "ci95": [
+      -9.889942082331748,
+      -9.731454797064565
+    ],
+    "changes": [
+      -9.889942082331748,
+      -9.731454797064565,
+      -9.793594553691165
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "equalized1536",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 2.029610011274315,
+    "ci95": [
+      2.017481755035422,
+      2.0448847623431465
+    ],
+    "changes": [
+      2.0264635164443767,
+      2.0448847623431465,
+      2.017481755035422
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "equalized1536",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -1.0589996048791,
+    "ci95": [
+      -1.093309024285738,
+      -1.0410615290077807
+    ],
+    "changes": [
+      -1.0410615290077807,
+      -1.093309024285738,
+      -1.042628261343781
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -49.89972504382641,
+    "ci95": [
+      -50.062280343095665,
+      -49.771043711418905
+    ],
+    "changes": [
+      -50.062280343095665,
+      -49.771043711418905,
+      -49.86585107696465
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 1.6946755022960502,
+    "ci95": [
+      1.5367575830414149,
+      1.8506936060254775
+    ],
+    "changes": [
+      1.5367575830414149,
+      1.8506936060254775,
+      1.6965753178212584
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -1.2519006297463682,
+    "ci95": [
+      -1.3347807872122643,
+      -1.148185419329717
+    ],
+    "changes": [
+      -1.148185419329717,
+      -1.3347807872122641,
+      -1.2727356826971237
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 99.60087386844434,
+    "ci95": [
+      99.08834940839438,
+      100.24943206667653
+    ],
+    "changes": [
+      100.24943206667652,
+      99.08834940839438,
+      99.46484013026213
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": -1.6662786334519601,
+    "ci95": [
+      -1.8170652947973487,
+      -1.513498775834532
+    ],
+    "changes": [
+      -1.513498775834532,
+      -1.8170652947973487,
+      -1.6682718297239996
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": 1.2678343740108715,
+    "ci95": [
+      1.1615218437823538,
+      1.3528382117447002
+    ],
+    "changes": [
+      1.1615218437823538,
+      1.3528382117447002,
+      1.2891430665055603
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "equalized1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -34.19568268250348,
+    "ci95": [
+      -34.63953225443521,
+      -33.366182654843094
+    ],
+    "changes": [
+      -34.58133313823214,
+      -33.366182654843094,
+      -34.63953225443521
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "equalized1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 14.450303181841898,
+    "ci95": [
+      7.272506862615713,
+      27.404448379672704
+    ],
+    "changes": [
+      7.272506862615713,
+      27.404448379672708,
+      8.673954303237274
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "equalized1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -0.056741449681940725,
+    "ci95": [
+      -0.06467271304178013,
+      -0.051356473819519355
+    ],
+    "changes": [
+      -0.054195162184522694,
+      -0.051356473819519355,
+      -0.06467271304178013
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "equalized1536",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 0.760615455840763,
+    "ci95": [
+      0.26107217432269625,
+      1.2315310477291286
+    ],
+    "changes": [
+      1.2315310477291286,
+      0.26107217432269625,
+      0.789243145470464
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "equalized1536",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 4.94608889454083,
+    "ci95": [
+      1.4381098972057194,
+      10.690345457025563
+    ],
+    "changes": [
+      1.4381098972057194,
+      10.690345457025563,
+      2.7098113293912096
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "equalized1536",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -0.012778184513236498,
+    "ci95": [
+      -0.015654197523484736,
+      -0.009793074561437187
+    ],
+    "changes": [
+      -0.01288728145478757,
+      -0.009793074561437187,
+      -0.015654197523484736
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -34.689407009874124,
+    "ci95": [
+      -35.37718319115024,
+      -33.539692025932546
+    ],
+    "changes": [
+      -35.37718319115024,
+      -33.539692025932546,
+      -35.15134581253959
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 8.886115198020065,
+    "ci95": [
+      5.7516814650059755,
+      15.09987420640602
+    ],
+    "changes": [
+      5.7516814650059755,
+      15.099874206406017,
+      5.806789922648203
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -0.04396895501502426,
+    "ci95": [
+      -0.04902619017493892,
+      -0.041313204878723475
+    ],
+    "changes": [
+      -0.041313204878723475,
+      -0.041567469991410366,
+      -0.04902619017493892
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 53.13835310234071,
+    "ci95": [
+      50.46574872782654,
+      54.74410577891356
+    ],
+    "changes": [
+      54.74410577891356,
+      50.46574872782654,
+      54.20520480028203
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": -8.01529828604272,
+    "ci95": [
+      -13.118931980175553,
+      -5.438855803828768
+    ],
+    "changes": [
+      -5.438855803828768,
+      -13.118931980175553,
+      -5.488107074123838
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": 0.04398842436728797,
+    "ci95": [
+      0.04133027974186909,
+      0.049050237637726646
+    ],
+    "changes": [
+      0.04133027974186909,
+      0.04158475572226816,
+      0.049050237637726646
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "equalized1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -49.031734902609934,
+    "ci95": [
+      -49.16748759027276,
+      -48.92579254783629
+    ],
+    "changes": [
+      -49.00192456972074,
+      -49.16748759027276,
+      -48.92579254783629
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "equalized1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 15.477797038914558,
+    "ci95": [
+      12.982477301339012,
+      16.977664485271404
+    ],
+    "changes": [
+      12.982477301339014,
+      16.977664485271404,
+      16.473249330133257
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "equalized1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -0.08336232740762488,
+    "ci95": [
+      -0.08712931874033103,
+      -0.07903809026967856
+    ],
+    "changes": [
+      -0.07903809026967856,
+      -0.08712931874033103,
+      -0.08391957321286503
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "equalized1536",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -9.203060509320276,
+    "ci95": [
+      -9.671026652980231,
+      -8.504886721619586
+    ],
+    "changes": [
+      -8.504886721619586,
+      -9.433268153361007,
+      -9.671026652980231
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "equalized1536",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 7.089343501965617,
+    "ci95": [
+      5.143792883891263,
+      8.45234277883451
+    ],
+    "changes": [
+      5.143792883891263,
+      8.45234277883451,
+      7.671894843171079
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "equalized1536",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -0.0300123542639974,
+    "ci95": [
+      -0.039302664114937436,
+      -0.02342120865040931
+    ],
+    "changes": [
+      -0.02731319002664545,
+      -0.039302664114937436,
+      -0.02342120865040931
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -43.86394796696873,
+    "ci95": [
+      -44.261421618098915,
+      -43.45755790232414
+    ],
+    "changes": [
+      -44.26142161809891,
+      -43.872864380483136,
+      -43.45755790232414
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 7.830110676972553,
+    "ci95": [
+      7.455204156562889,
+      8.174235718412625
+    ],
+    "changes": [
+      7.455204156562889,
+      7.860892155942145,
+      8.174235718412625
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -0.053365676106231774,
+    "ci95": [
+      -0.060512537330081884,
+      -0.04784545916549643
+    ],
+    "changes": [
+      -0.05173903182311701,
+      -0.04784545916549643,
+      -0.060512537330081884
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 78.14472993520037,
+    "ci95": [
+      76.85829668844535,
+      79.40895319366643
+    ],
+    "changes": [
+      79.40895319366643,
+      78.16693992348934,
+      76.85829668844535
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": -7.260833870249317,
+    "ci95": [
+      -7.556545848579798,
+      -6.937964722211709
+    ],
+    "changes": [
+      -6.937964722211709,
+      -7.287991039956443,
+      -7.556545848579798
+    ]
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": 0.05339445137707196,
+    "ci95": [
+      0.04786836200310063,
+      0.06054917717353003
+    ],
+    "changes": [
+      0.05176581495458521,
+      0.04786836200310063,
+      0.06054917717353003
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "fixed1792",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 5.962643506648346,
+    "ci95": [
+      5.962643506648346,
+      5.962643506648346
+    ],
+    "changes": [
+      5.962643506648346
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "fixed1792",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -5.990297008579315,
+    "ci95": [
+      -5.990297008579315,
+      -5.990297008579315
+    ],
+    "changes": [
+      -5.990297008579315
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "fixed1792",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 3.109144687422427,
+    "ci95": [
+      3.109144687422427,
+      3.109144687422427
+    ],
+    "changes": [
+      3.109144687422427
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "fixed1792",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 10.008868208762745,
+    "ci95": [
+      10.008868208762745,
+      10.008868208762745
+    ],
+    "changes": [
+      10.008868208762745
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "fixed1792",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -6.35468247581783,
+    "ci95": [
+      -6.35468247581783,
+      -6.35468247581783
+    ],
+    "changes": [
+      -6.35468247581783
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "fixed1792",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 0.1141755724745952,
+    "ci95": [
+      0.1141755724745952,
+      0.1141755724745952
+    ],
+    "changes": [
+      0.1141755724745952
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "fixed1792",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 4.081791098320786,
+    "ci95": [
+      4.081791098320786,
+      4.081791098320786
+    ],
+    "changes": [
+      4.081791098320786
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "fixed1792",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -25.59862936757814,
+    "ci95": [
+      -25.59862936757814,
+      -25.59862936757814
+    ],
+    "changes": [
+      -25.59862936757814
+    ]
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "fixed1792",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 0.1241464684058391,
+    "ci95": [
+      0.1241464684058391,
+      0.1241464684058391
+    ],
+    "changes": [
+      0.1241464684058391
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -34.89429743597277,
+    "ci95": [
+      -34.89429743597277,
+      -34.89429743597277
+    ],
+    "changes": [
+      -34.89429743597277
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 3.0990088856754694,
+    "ci95": [
+      3.0990088856754694,
+      3.0990088856754694
+    ],
+    "changes": [
+      3.0990088856754694
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -2.5713642419016414,
+    "ci95": [
+      -2.5713642419016414,
+      -2.5713642419016414
+    ],
+    "changes": [
+      -2.5713642419016414
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 26.85926310287865,
+    "ci95": [
+      26.85926310287865,
+      26.85926310287865
+    ],
+    "changes": [
+      26.85926310287865
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -0.45483013530076555,
+    "ci95": [
+      -0.45483013530076555,
+      -0.45483013530076555
+    ],
+    "changes": [
+      -0.45483013530076555
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.15741753615814424,
+    "ci95": [
+      -0.15741753615814424,
+      -0.15741753615814424
+    ],
+    "changes": [
+      -0.15741753615814424
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "equalized",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -42.195104800021355,
+    "ci95": [
+      -42.195104800021355,
+      -42.195104800021355
+    ],
+    "changes": [
+      -42.195104800021355
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "equalized",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 4.751263968421227,
+    "ci95": [
+      4.751263968421227,
+      4.751263968421227
+    ],
+    "changes": [
+      4.751263968421227
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "equalized",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -3.215134567873845,
+    "ci95": [
+      -3.215134567873845,
+      -3.215134567873845
+    ],
+    "changes": [
+      -3.215134567873845
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "equalized",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -11.213775562699313,
+    "ci95": [
+      -11.213775562699313,
+      -11.213775562699313
+    ],
+    "changes": [
+      -11.213775562699313
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "equalized",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 1.602590655917835,
+    "ci95": [
+      1.602590655917835,
+      1.602590655917835
+    ],
+    "changes": [
+      1.602590655917835
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "equalized",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.6607608953599464,
+    "ci95": [
+      -0.6607608953599464,
+      -0.6607608953599464
+    ],
+    "changes": [
+      -0.6607608953599464
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "equalized",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 12.63355005802762,
+    "ci95": [
+      12.63355005802762,
+      12.63355005802762
+    ],
+    "changes": [
+      12.63355005802762
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "equalized",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 1.1404714553684414,
+    "ci95": [
+      1.1404714553684414,
+      1.1404714553684414
+    ],
+    "changes": [
+      1.1404714553684414
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "equalized",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.8171382779967207,
+    "ci95": [
+      -0.8171382779967207,
+      -0.8171382779967207
+    ],
+    "changes": [
+      -0.8171382779967207
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -48.67879493259497,
+    "ci95": [
+      -48.67879493259497,
+      -48.67879493259497
+    ],
+    "changes": [
+      -48.67879493259497
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 3.5700768061439625,
+    "ci95": [
+      3.5700768061439625,
+      3.5700768061439625
+    ],
+    "changes": [
+      3.5700768061439625
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -2.4177526724308396,
+    "ci95": [
+      -2.4177526724308396,
+      -2.4177526724308396
+    ],
+    "changes": [
+      -2.4177526724308396
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -21.172488666512812,
+    "ci95": [
+      -21.172488666512812,
+      -21.172488666512812
+    ],
+    "changes": [
+      -21.172488666512812
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 0.4569082919030354,
+    "ci95": [
+      0.4569082919030354,
+      0.4569082919030354
+    ],
+    "changes": [
+      0.4569082919030354
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 0.15766572966513515,
+    "ci95": [
+      0.15766572966513515,
+      0.15766572966513515
+    ],
+    "changes": [
+      0.15766572966513515
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 53.59637644898538,
+    "ci95": [
+      53.59637644898538,
+      53.59637644898538
+    ],
+    "changes": [
+      53.59637644898538
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -3.005857106843679,
+    "ci95": [
+      -3.005857106843679,
+      -3.005857106843679
+    ],
+    "changes": [
+      -3.005857106843679
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 2.639228417696393,
+    "ci95": [
+      2.639228417696393,
+      2.639228417696393
+    ],
+    "changes": [
+      2.639228417696393
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 94.85123131590632,
+    "ci95": [
+      94.85123131590632,
+      94.85123131590632
+    ],
+    "changes": [
+      94.85123131590632
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -3.4470156981984412,
+    "ci95": [
+      -3.4470156981984412,
+      -3.4470156981984412
+    ],
+    "changes": [
+      -3.4470156981984412
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 2.4776562731895435,
+    "ci95": [
+      2.4776562731895435,
+      2.4776562731895435
+    ],
+    "changes": [
+      2.4776562731895435
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -17.50035582915589,
+    "ci95": [
+      -17.50035582915589,
+      -17.50035582915589
+    ],
+    "changes": [
+      -17.50035582915589
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 4.790466922266345,
+    "ci95": [
+      4.790466922266345,
+      4.790466922266345
+    ],
+    "changes": [
+      4.790466922266345
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.06843209763714997,
+    "ci95": [
+      -0.06843209763714997,
+      -0.06843209763714997
+    ],
+    "changes": [
+      -0.06843209763714997
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 26.82098721347097,
+    "ci95": [
+      26.82098721347097,
+      26.82098721347097
+    ],
+    "changes": [
+      26.82098721347097
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -0.369299648314092,
+    "ci95": [
+      -0.369299648314092,
+      -0.369299648314092
+    ],
+    "changes": [
+      -0.369299648314092
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.056680868416703056,
+    "ci95": [
+      -0.056680868416703056,
+      -0.056680868416703056
+    ],
+    "changes": [
+      -0.056680868416703056
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "equalized",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -13.691581358198423,
+    "ci95": [
+      -13.691581358198423,
+      -13.691581358198423
+    ],
+    "changes": [
+      -13.691581358198423
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "equalized",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 5.7998020867813915,
+    "ci95": [
+      5.7998020867813915,
+      5.7998020867813915
+    ],
+    "changes": [
+      5.7998020867813915
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "equalized",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.06635902528839832,
+    "ci95": [
+      -0.06635902528839832,
+      -0.06635902528839832
+    ],
+    "changes": [
+      -0.06635902528839832
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "equalized",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 4.6167162407029005,
+    "ci95": [
+      4.6167162407029005,
+      4.6167162407029005
+    ],
+    "changes": [
+      4.6167162407029005
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "equalized",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 0.9631936894257453,
+    "ci95": [
+      0.9631936894257453,
+      0.9631936894257453
+    ],
+    "changes": [
+      0.9631936894257453
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "equalized",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 0.002074491967118952,
+    "ci95": [
+      0.002074491967118952,
+      0.002074491967118952
+    ],
+    "changes": [
+      0.002074491967118952
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "equalized",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 32.675952326775025,
+    "ci95": [
+      32.675952326775025,
+      32.675952326775025
+    ],
+    "changes": [
+      32.675952326775025
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "equalized",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 0.5903369702040084,
+    "ci95": [
+      0.5903369702040084,
+      0.5903369702040084
+    ],
+    "changes": [
+      0.5903369702040084
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "equalized",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.05460755228965386,
+    "ci95": [
+      -0.05460755228965386,
+      -0.05460755228965386
+    ],
+    "changes": [
+      -0.05460755228965386
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -34.94795618332722,
+    "ci95": [
+      -34.94795618332722,
+      -34.94795618332722
+    ],
+    "changes": [
+      -34.94795618332722
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 5.178892201266283,
+    "ci95": [
+      5.178892201266283,
+      5.178892201266283
+    ],
+    "changes": [
+      5.178892201266283
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.011757893696706656,
+    "ci95": [
+      -0.011757893696706656,
+      -0.011757893696706656
+    ],
+    "changes": [
+      -0.011757893696706656
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -21.148697705944073,
+    "ci95": [
+      -21.148697705944073,
+      -21.148697705944073
+    ],
+    "changes": [
+      -21.148697705944073
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 0.37066852587657184,
+    "ci95": [
+      0.37066852587657184,
+      0.37066852587657184
+    ],
+    "changes": [
+      0.37066852587657184
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 0.05671301384544414,
+    "ci95": [
+      0.05671301384544414,
+      0.05671301384544414
+    ],
+    "changes": [
+      0.05671301384544414
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 21.212644012033977,
+    "ci95": [
+      21.212644012033977,
+      21.212644012033977
+    ],
+    "changes": [
+      21.212644012033977
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -4.571472065125848,
+    "ci95": [
+      -4.571472065125848,
+      -4.571472065125848
+    ],
+    "changes": [
+      -4.571472065125848
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 0.06847895922539315,
+    "ci95": [
+      0.06847895922539315,
+      0.06847895922539315
+    ],
+    "changes": [
+      0.06847895922539315
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 53.723071763611685,
+    "ci95": [
+      53.723071763611685,
+      53.723071763611685
+    ],
+    "changes": [
+      53.723071763611685
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -4.92388928318066,
+    "ci95": [
+      -4.92388928318066,
+      -4.92388928318066
+    ],
+    "changes": [
+      -4.92388928318066
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 0.01175927633991769,
+    "ci95": [
+      0.01175927633991769,
+      0.01175927633991769
+    ],
+    "changes": [
+      0.01175927633991769
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -27.579769158617516,
+    "ci95": [
+      -27.579769158617516,
+      -27.579769158617516
+    ],
+    "changes": [
+      -27.579769158617516
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 6.847996348815633,
+    "ci95": [
+      6.847996348815633,
+      6.847996348815633
+    ],
+    "changes": [
+      6.847996348815633
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.08218823602346159,
+    "ci95": [
+      -0.08218823602346159,
+      -0.08218823602346159
+    ],
+    "changes": [
+      -0.08218823602346159
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 25.907635553980548,
+    "ci95": [
+      25.907635553980548,
+      25.907635553980548
+    ],
+    "changes": [
+      25.907635553980548
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -3.6691378309627654,
+    "ci95": [
+      -3.6691378309627654,
+      -3.6691378309627654
+    ],
+    "changes": [
+      -3.6691378309627654
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.00207582307216736,
+    "ci95": [
+      -0.00207582307216736,
+      -0.00207582307216736
+    ],
+    "changes": [
+      -0.00207582307216736
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "equalized",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -34.886893013259666,
+    "ci95": [
+      -34.886893013259666,
+      -34.886893013259666
+    ],
+    "changes": [
+      -34.886893013259666
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "equalized",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 15.044718020973002,
+    "ci95": [
+      15.044718020973002,
+      15.044718020973002
+    ],
+    "changes": [
+      15.044718020973002
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "equalized",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.10410872561845697,
+    "ci95": [
+      -0.10410872561845697,
+      -0.10410872561845697
+    ],
+    "changes": [
+      -0.10410872561845697
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "equalized",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -10.089893072346722,
+    "ci95": [
+      -10.089893072346722,
+      -10.089893072346722
+    ],
+    "changes": [
+      -10.089893072346722
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "equalized",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 7.671385474930559,
+    "ci95": [
+      7.671385474930559,
+      7.671385474930559
+    ],
+    "changes": [
+      7.671385474930559
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "equalized",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.02193852047798206,
+    "ci95": [
+      -0.02193852047798206,
+      -0.02193852047798206
+    ],
+    "changes": [
+      -0.02193852047798206
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "equalized",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 13.203689756663906,
+    "ci95": [
+      13.203689756663906,
+      13.203689756663906
+    ],
+    "changes": [
+      13.203689756663906
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "equalized",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 3.720773937348132,
+    "ci95": [
+      3.720773937348132,
+      3.720773937348132
+    ],
+    "changes": [
+      3.720773937348132
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "equalized",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.02401388814528005,
+    "ci95": [
+      -0.02401388814528005,
+      -0.02401388814528005
+    ],
+    "changes": [
+      -0.02401388814528005
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -42.48146228563425,
+    "ci95": [
+      -42.48146228563425,
+      -42.48146228563425
+    ],
+    "changes": [
+      -42.48146228563425
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 10.91772038884422,
+    "ci95": [
+      10.91772038884422,
+      10.91772038884422
+    ],
+    "changes": [
+      10.91772038884422
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": -0.08011407597776632,
+    "ci95": [
+      -0.08011407597776632,
+      -0.08011407597776632
+    ],
+    "changes": [
+      -0.08011407597776632
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": -20.57669929229442,
+    "ci95": [
+      -20.57669929229442,
+      -20.57669929229442
+    ],
+    "changes": [
+      -20.57669929229442
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": 3.8088913026900206,
+    "ci95": [
+      3.8088913026900206,
+      3.8088913026900206
+    ],
+    "changes": [
+      3.8088913026900206
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 0.0020758661634756592,
+    "ci95": [
+      0.0020758661634756592,
+      0.0020758661634756592
+    ],
+    "changes": [
+      0.0020758661634756592
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 38.08296223057306,
+    "ci95": [
+      38.08296223057306,
+      38.08296223057306
+    ],
+    "changes": [
+      38.08296223057306
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -6.409101324146205,
+    "ci95": [
+      -6.409101324146205,
+      -6.409101324146205
+    ],
+    "changes": [
+      -6.409101324146205
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 0.08225584064791569,
+    "ci95": [
+      0.08225584064791569,
+      0.08225584064791569
+    ],
+    "changes": [
+      0.08225584064791569
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 1,
+    "mean_change_pct": 73.85699284741054,
+    "ci95": [
+      73.85699284741054,
+      73.85699284741054
+    ],
+    "changes": [
+      73.85699284741054
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 1,
+    "mean_change_pct": -9.843080393799985,
+    "ci95": [
+      -9.843080393799985,
+      -9.843080393799985
+    ],
+    "changes": [
+      -9.843080393799985
+    ]
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 1,
+    "mean_change_pct": 0.08017831009003995,
+    "ci95": [
+      0.08017831009003995,
+      0.08017831009003995
+    ],
+    "changes": [
+      0.08017831009003995
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -36.12563525351448,
+    "ci95": [
+      -36.25533255899329,
+      -35.99959345192363
+    ],
+    "changes": [
+      -36.28104592422283,
+      -36.33011647999644,
+      -35.975685965510706,
+      -36.03606046708815,
+      -36.005267430754294
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 1.4001223463307921,
+    "ci95": [
+      1.158768338839673,
+      1.6610094326025624
+    ],
+    "changes": [
+      1.0303083378059297,
+      1.1611245446334628,
+      1.4275513357817182,
+      1.5417921361471132,
+      1.8398353772857368
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -1.5076899767611196,
+    "ci95": [
+      -1.669126673587249,
+      -1.3646893149763661
+    ],
+    "changes": [
+      -1.3267522595168613,
+      -1.3293672709349003,
+      -1.548551210562621,
+      -1.5112075139783077,
+      -1.822571628812908
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 27.242526809207938,
+    "ci95": [
+      26.391442711021956,
+      28.180253652609004
+    ],
+    "changes": [
+      27.021786245716626,
+      26.111375456159823,
+      26.356338198536754,
+      28.910897959440884,
+      27.8122361861856
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -0.07197183796394668,
+    "ci95": [
+      -0.534552943346418,
+      0.5577506550267586
+    ],
+    "changes": [
+      -0.3544371304754157,
+      -0.7613677033372568,
+      -0.3757057251236984,
+      1.1658758453615414,
+      -0.03422447624490399
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.37987957144331563,
+    "ci95": [
+      -0.7624036812719437,
+      -0.056202747472313686
+    ],
+    "changes": [
+      -0.29268937514026483,
+      0.15513747335655914,
+      -0.2325626211154952,
+      -1.0755465520263963,
+      -0.453736782290981
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -41.99196346537652,
+    "ci95": [
+      -42.19916403718164,
+      -41.795525522036556
+    ],
+    "changes": [
+      -42.00972473400313,
+      -41.99308872970728,
+      -41.658271382157466,
+      -42.343681485445174,
+      -41.95505099556955
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 1.8226709636883864,
+    "ci95": [
+      1.563502168478026,
+      2.0588076405518674
+    ],
+    "changes": [
+      1.9914211638171864,
+      1.8519084446741108,
+      2.2070827088684464,
+      1.3815735887453773,
+      1.6813689123368114
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -1.7508134928886943,
+    "ci95": [
+      -1.9355536577323673,
+      -1.5391459908733875
+    ],
+    "changes": [
+      -1.9732285402900063,
+      -1.7706935099061627,
+      -1.9803088490878307,
+      -1.3463324244587294,
+      -1.6835041407007423
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -9.183799300149015,
+    "ci95": [
+      -9.551322416292958,
+      -8.90608391801348
+    ],
+    "changes": [
+      -8.990541186485135,
+      -8.89427141472886,
+      -8.87566778706227,
+      -9.861214090966852,
+      -9.297302021501963
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 0.4178673684487566,
+    "ci95": [
+      0.011215247303346665,
+      0.8245194895941665
+    ],
+    "changes": [
+      0.9513113854880739,
+      0.6828551018487783,
+      0.7685597875729533,
+      -0.15778581806682457,
+      -0.15560361459919791
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.2463871191492939,
+    "ci95": [
+      -0.5286861083010463,
+      0.039318358595872294
+    ],
+    "changes": [
+      -0.6551687469266487,
+      -0.44727212825631524,
+      -0.4385487911393038,
+      0.16740492532993922,
+      0.14164914524585903
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 15.553152392091691,
+    "ci95": [
+      15.134790779648876,
+      15.971514004534509
+    ],
+    "changes": [
+      15.601840237486364,
+      14.894687438241228,
+      15.141369392137772,
+      16.198718325072605,
+      15.92914656752049
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 0.34324659162006776,
+    "ci95": [
+      -0.031401282541345665,
+      0.7178944657814812
+    ],
+    "changes": [
+      0.5935024542360612,
+      -0.08371163969455031,
+      0.3899665393263474,
+      1.006250440554468,
+      -0.18977483632198755
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.6263066123885808,
+    "ci95": [
+      -0.8763713652799288,
+      -0.37624185949723277
+    ],
+    "changes": [
+      -0.9459405127554166,
+      -0.2928285415785492,
+      -0.670091511691262,
+      -0.9099421445987743,
+      -0.3127303513189017
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -49.79829419773832,
+    "ci95": [
+      -50.117495409135906,
+      -49.486938486246764
+    ],
+    "changes": [
+      -49.836200577028286,
+      -49.51297352066614,
+      -49.330350224385725,
+      -50.38127842920095,
+      -49.93066823741052
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 1.4766511704435636,
+    "ci95": [
+      0.8758249367401083,
+      1.8867888067563854
+    ],
+    "changes": [
+      1.3896709782195815,
+      1.9372417812285603,
+      1.8100575507516314,
+      0.3715840817314575,
+      1.8747014602865875
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -1.1307663155338799,
+    "ci95": [
+      -1.406722984949007,
+      -0.7466730710579061
+    ],
+    "changes": [
+      -1.0370983610892615,
+      -1.4822052884569947,
+      -1.319056221169057,
+      -0.44039764362309164,
+      -1.3750740633309944
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -21.404873485627174,
+    "ci95": [
+      -21.980017325492646,
+      -20.88016976267938
+    ],
+    "changes": [
+      -21.273347702294533,
+      -20.70501202743359,
+      -20.85873852811759,
+      -22.42703946452774,
+      -21.760229705762423
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 0.07636516048944886,
+    "ci95": [
+      -0.5491847543669004,
+      0.5383122006888641
+    ],
+    "changes": [
+      0.35569785574849355,
+      0.7672089847643448,
+      0.37712259630877654,
+      -1.152439827777163,
+      0.03423619340279238
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": 0.3829602782432229,
+    "ci95": [
+      0.056932397626057174,
+      0.7697636209663195
+    ],
+    "changes": [
+      0.2935485605879862,
+      -0.15489716980103818,
+      0.23310473559854383,
+      1.0872403278852083,
+      0.45580493694541424
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 56.55818235798406,
+    "ci95": [
+      56.24902681806717,
+      56.876483212060705
+    ],
+    "changes": [
+      56.939173673623,
+      57.060127129936376,
+      56.190662107103485,
+      56.338087882386034,
+      56.26286099687141
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -1.3800072751764603,
+    "ci95": [
+      -1.6336678934288293,
+      -1.1451165511602526
+    ],
+    "changes": [
+      -1.0198012405950307,
+      -1.1477971897407735,
+      -1.4074591341121212,
+      -1.518381844275396,
+      -1.8065969671589799
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": 1.5311158142821002,
+    "ci95": [
+      1.38362676147469,
+      1.6978807826244235
+    ],
+    "changes": [
+      1.344591659743788,
+      1.3472775375679813,
+      1.5729085042461621,
+      1.5343954127499115,
+      1.856405957102658
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 99.20686389865214,
+    "ci95": [
+      97.97282946502492,
+      100.48084848215585
+    ],
+    "changes": [
+      99.34694171950338,
+      98.07068661675602,
+      97.35680124658546,
+      101.5368329418037,
+      99.72305696861217
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -1.4518676597226143,
+    "ci95": [
+      -1.851827023349859,
+      -0.8642904600201163
+    ],
+    "changes": [
+      -1.3706238168167184,
+      -1.900425935975536,
+      -1.777876954690183,
+      -0.3702084460766142,
+      -1.8402031450540202
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": 1.1451503077480352,
+    "ci95": [
+      0.7538499914267494,
+      1.4268380257415236
+    ],
+    "changes": [
+      1.047966807676426,
+      1.5045051432554413,
+      1.3366878858854347,
+      0.4423457237672235,
+      1.3942459781556504
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -3.277875044689547,
+    "ci95": [
+      -10.762565274094055,
+      1.0700220318104403
+    ],
+    "changes": [
+      0.040158797338429864,
+      0.44471136962467295,
+      -18.099232179144455,
+      1.8402060003469556,
+      -0.6152192116133381
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 3.892162316489629,
+    "ci95": [
+      3.4299859431985085,
+      4.3563228515023456
+    ],
+    "changes": [
+      3.24188592119512,
+      3.3369370192013914,
+      4.112218591123007,
+      4.77748621572911,
+      3.992283835199517
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.0554292712313198,
+    "ci95": [
+      -0.08236366746931179,
+      -0.03382987308380825
+    ],
+    "changes": [
+      -0.06552951995544287,
+      -0.037070603932609636,
+      -0.026918648311735627,
+      -0.10645672302646014,
+      -0.04117086093035072
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 23.015790337314886,
+    "ci95": [
+      21.064562385465212,
+      25.96563180981418
+    ],
+    "changes": [
+      22.04084085669691,
+      20.330129358840733,
+      28.74437792971971,
+      22.409419138102216,
+      21.55418440321486
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -0.7409236674620456,
+    "ci95": [
+      -1.2246668136717487,
+      -0.16151311796914758
+    ],
+    "changes": [
+      -0.9109081857183066,
+      -1.4121100444787649,
+      -1.1941028968414535,
+      0.3380835938636251,
+      -0.5255808041353283
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.022443571144072916,
+    "ci95": [
+      -0.034859250683667575,
+      -0.010027891604478256
+    ],
+    "changes": [
+      -0.040935649585194245,
+      -0.005147030790664253,
+      -0.024774037410568717,
+      -0.007535679515247029,
+      -0.033825458418690335
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 2.247502336533178,
+    "ci95": [
+      -6.911898022925857,
+      7.375071587069945
+    ],
+    "changes": [
+      6.919096489454657,
+      7.620733270246238,
+      -15.760253927569611,
+      7.3573974527012975,
+      5.10053839783331
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 3.8076552788117635,
+    "ci95": [
+      3.182760308286796,
+      4.462116445863136
+    ],
+    "changes": [
+      3.851826431042782,
+      2.885199474016731,
+      4.856374253769391,
+      4.373003645367057,
+      3.0718725898628563
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.053312856248006746,
+    "ci95": [
+      -0.07557862500497503,
+      -0.03820300608054383
+    ],
+    "changes": [
+      -0.050381568272772626,
+      -0.04864148290016912,
+      -0.03273858594662338,
+      -0.09635445631581696,
+      -0.038448187804651646
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 5.6089866968785485,
+    "ci95": [
+      4.225870902014788,
+      6.758398708510628
+    ],
+    "changes": [
+      6.876176302410308,
+      7.1442506059026245,
+      2.8558685270093864,
+      5.417498323143155,
+      5.751139725927268
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -0.08054305954659391,
+    "ci95": [
+      -0.6060985569285227,
+      0.45958537052543047
+    ],
+    "changes": [
+      0.5907878419745716,
+      -0.43715012096858796,
+      0.7147630438737229,
+      -0.38603958251991477,
+      -0.8850764800927613
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": 0.002119607432533588,
+    "ci95": [
+      -0.006413910956215574,
+      0.01065312582128275
+    ],
+    "changes": [
+      0.015157884571648239,
+      -0.011575169952959818,
+      -0.005821504705261216,
+      0.010113032713876535,
+      0.002723794535364199
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 29.87328608942647,
+    "ci95": [
+      28.796889771694907,
+      31.24819278476564
+    ],
+    "changes": [
+      30.43258423494739,
+      28.926815354643097,
+      32.42114809930858,
+      29.040947367278203,
+      28.54493539095506
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -0.8223460959427586,
+    "ci95": [
+      -1.4521537489484881,
+      -0.24748017331887917
+    ],
+    "changes": [
+      -0.32550187855651114,
+      -1.8430871246797098,
+      -0.4878748591801707,
+      -0.04926112515060144,
+      -1.4060054921468002
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.020325133791723182,
+    "ci95": [
+      -0.02973377097871266,
+      -0.008018883369345087
+    ],
+    "changes": [
+      -0.025783969992043687,
+      -0.016721604966074555,
+      -0.030594099894065696,
+      0.002576591112890547,
+      -0.03110258521932252
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -21.195982651816685,
+    "ci95": [
+      -28.797171319583573,
+      -16.923812617802895
+    ],
+    "changes": [
+      -18.027311107428524,
+      -16.525718118290257,
+      -36.38497529922093,
+      -16.803619592826514,
+      -18.23828914131719
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 4.668933799623831,
+    "ci95": [
+      4.331276048334476,
+      5.038421706282352
+    ],
+    "changes": [
+      4.190969995664928,
+      4.817069384305461,
+      5.370450189247689,
+      4.42444430156228,
+      4.541735127338797
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.03299013745004631,
+    "ci95": [
+      -0.06721171992970287,
+      -0.00871800055395111
+    ],
+    "changes": [
+      -0.024603942153789138,
+      -0.03192521634265422,
+      -0.0021451423395379976,
+      -0.09892849844580498,
+      -0.00734788796844521
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -18.664263693960034,
+    "ci95": [
+      -20.554498963479425,
+      -17.397414634161994
+    ],
+    "changes": [
+      -18.0602171387673,
+      -16.89529419370399,
+      -22.3267053613875,
+      -18.30694018147405,
+      -17.732161594467332
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 0.7503131112997807,
+    "ci95": [
+      0.16554613629010229,
+      1.2402044980328597
+    ],
+    "changes": [
+      0.919282000712629,
+      1.4323362079418311,
+      1.2085340367840036,
+      -0.3369444399915822,
+      0.5283577510520221
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": 0.022450607447064286,
+    "ci95": [
+      0.010029452550650575,
+      0.034871762343478
+    ],
+    "changes": [
+      0.04095241372177316,
+      0.005147295723562095,
+      0.024780176460748038,
+      0.007536247422690323,
+      0.03383690390654781
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 4.085633111859665,
+    "ci95": [
+      -1.0489155622076707,
+      13.16280942181892
+    ],
+    "changes": [
+      -0.04014267652231451,
+      -0.4427424436396654,
+      22.098977409752194,
+      -1.8069543185533998,
+      0.6190275882615115
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -3.7435464828034215,
+    "ci95": [
+      -4.171584888162952,
+      -3.315511509326934
+    ],
+    "changes": [
+      -3.140087855107232,
+      -3.2291812738569514,
+      -3.94979441104103,
+      -4.559649585305592,
+      -3.8390192887063024
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": 0.05546814589378446,
+    "ci95": [
+      0.033841662751834534,
+      0.08244178162334137
+    ],
+    "changes": [
+      0.06557248929288662,
+      0.03708435132561139,
+      0.02692589639909926,
+      0.10657017414157366,
+      0.04118781830975138
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 28.29779426343419,
+    "ci95": [
+      20.37926112061502,
+      42.755218804720045
+    ],
+    "changes": [
+      21.991850396726687,
+      19.79737680368263,
+      57.19556892473445,
+      20.19753685267016,
+      22.306638339357022
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -4.459244302029884,
+    "ci95": [
+      -4.795808796797831,
+      -4.151204811866021
+    ],
+    "changes": [
+      -4.022392723514612,
+      -4.5956917252131575,
+      -5.096732698400963,
+      -4.2369814186275505,
+      -4.344422944393134
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": 0.033013097818868076,
+    "ci95": [
+      0.008719445948481841,
+      0.06727264624665885
+    ],
+    "changes": [
+      0.02460999718325585,
+      0.03193541179196124,
+      0.0021451883568834873,
+      0.09902646383954661,
+      0.00734842792269319
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -28.670463957727726,
+    "ci95": [
+      -29.067940223540838,
+      -28.27298769191462
+    ],
+    "changes": [
+      -29.356175571532994,
+      -28.74943189055964,
+      -28.93895904203927,
+      -28.133732133310186,
+      -28.17402115119655
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 6.7175815634564495,
+    "ci95": [
+      6.020796158219732,
+      7.5762414258649455
+    ],
+    "changes": [
+      6.281018129926275,
+      5.81677689436797,
+      6.094704436218223,
+      7.090390415785164,
+      8.305017940984616
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.05627165397451783,
+    "ci95": [
+      -0.06476846873611164,
+      -0.04443861742084776
+    ],
+    "changes": [
+      -0.05874934068801352,
+      -0.03411595732379924,
+      -0.062182276741562514,
+      -0.05766293839127856,
+      -0.06864775672793533
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 27.182514766223626,
+    "ci95": [
+      26.04718262307682,
+      28.51776084328369
+    ],
+    "changes": [
+      26.931565144293025,
+      25.739662333238343,
+      25.91251165230719,
+      29.673728931415845,
+      27.65510576986372
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -0.9919543916619666,
+    "ci95": [
+      -2.4008589733850605,
+      0.494691148787223
+    ],
+    "changes": [
+      -0.5891314610382392,
+      -2.849524069477183,
+      -2.858057633466349,
+      1.3307449533533244,
+      0.006196252318613205
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "balanced",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.012566162908469458,
+    "ci95": [
+      -0.026495759490570148,
+      0.0018329290073104687
+    ],
+    "changes": [
+      -0.011281103909011048,
+      0.012665564320224476,
+      -0.015667489741855167,
+      -0.035383227029439634,
+      -0.013164558182265917
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -35.95594957490341,
+    "ci95": [
+      -36.269443642332796,
+      -35.51412454455716
+    ],
+    "changes": [
+      -36.30013039931369,
+      -36.164656613796176,
+      -35.12334093084257,
+      -35.9004695309444,
+      -36.2911503996202
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 6.664783188547432,
+    "ci95": [
+      5.360648889866182,
+      8.25281269575245
+    ],
+    "changes": [
+      9.390767970908431,
+      5.60417541267566,
+      7.729438040825443,
+      5.362321525211522,
+      5.237212993116103
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.06684893171691408,
+    "ci95": [
+      -0.08672414847267218,
+      -0.0496137330530777
+    ],
+    "changes": [
+      -0.08021765797542324,
+      -0.05648375270597139,
+      -0.10175079162346723,
+      -0.04764174676217259,
+      -0.04815070951753597
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -10.209601341425675,
+    "ci95": [
+      -10.924775364519173,
+      -9.378883017823576
+    ],
+    "changes": [
+      -9.829528460498416,
+      -10.407249963041421,
+      -8.702914853811317,
+      -10.807208483458929,
+      -11.301104946318286
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -0.03606708924886126,
+    "ci95": [
+      -1.818668861607735,
+      1.7465346831100128
+    ],
+    "changes": [
+      2.9259691859373937,
+      -0.2009147206444739,
+      1.5408248821598747,
+      -1.613654487451488,
+      -2.832560306245613
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.010582279969773012,
+    "ci95": [
+      -0.029083612946685378,
+      0.00983698548417733
+    ],
+    "changes": [
+      -0.02148093719638311,
+      -0.022375428973975264,
+      -0.039593134794546625,
+      0.010026973476628953,
+      0.020511127639410986
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 14.19023043250489,
+    "ci95": [
+      13.2287970769983,
+      15.136586832789325
+    ],
+    "changes": [
+      14.454790823078634,
+      12.653621371534008,
+      14.954452972911646,
+      15.659618697522347,
+      13.22866829747782
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -1.0434613795295578,
+    "ci95": [
+      -2.6207553802172496,
+      0.7655754066776788
+    ],
+    "changes": [
+      2.3195999198845074,
+      -3.0447136767977723,
+      -1.3612704144693955,
+      -0.3043831597544733,
+      -2.826539566510655
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.02314853397890282,
+    "ci95": [
+      -0.041647116060972156,
+      -0.004088141734650552
+    ],
+    "changes": [
+      -0.0327596178185563,
+      -0.009712698628105976,
+      -0.05525442128606617,
+      -0.025359801419588823,
+      0.007343869257803171
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -43.911294267244806,
+    "ci95": [
+      -44.329119448112486,
+      -43.506074017844846
+    ],
+    "changes": [
+      -44.34495127499558,
+      -43.3348501281876,
+      -43.563161416247844,
+      -44.57916151643967,
+      -43.73434700035334
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 7.8059669886614325,
+    "ci95": [
+      6.576674746747075,
+      8.91432467457189
+    ],
+    "changes": [
+      6.910863663032885,
+      8.920492546061087,
+      9.216165388071218,
+      5.684005841547135,
+      8.298307504594838
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.04370987329489262,
+    "ci95": [
+      -0.051953836793545705,
+      -0.03217169209291937
+    ],
+    "changes": [
+      -0.047473592324287495,
+      -0.04677559725065894,
+      -0.04652207584117107,
+      -0.02228759743304609,
+      -0.0554905036252995
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -21.363013251141915,
+    "ci95": [
+      -22.178766424725872,
+      -20.663627694783592
+    ],
+    "changes": [
+      -21.217389948416542,
+      -20.470599217152706,
+      -20.579775045598005,
+      -22.883377516744517,
+      -21.663924527797796
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 1.0296815285311434,
+    "ci95": [
+      -0.46399424487242324,
+      2.4686243253396922
+    ],
+    "changes": [
+      0.5926227883295665,
+      2.9331035614432066,
+      2.9421458577412407,
+      -1.3132686964513307,
+      -0.006195868406966287
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": 0.012570080762221991,
+    "ci95": [
+      -0.0018311289558603505,
+      0.026503967299604803
+    ],
+    "changes": [
+      0.011282376685639584,
+      -0.01266396035817241,
+      0.01566994482884443,
+      0.035395751188427305,
+      0.01316629146637105
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 40.20035294830477,
+    "ci95": [
+      39.41904403184642,
+      40.98166186476312
+    ],
+    "changes": [
+      41.555190151488276,
+      40.349758118981896,
+      40.72408545092856,
+      39.14733986951651,
+      39.22539115060859
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -6.288110319931812,
+    "ci95": [
+      -7.039833819407415,
+      -5.678610567713088
+    ],
+    "changes": [
+      -5.909821189563558,
+      -5.497027092570206,
+      -5.744588731930733,
+      -6.620939925847946,
+      -7.668174659746619
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "balanced",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": 0.05630471304598483,
+    "ci95": [
+      0.044459995143912856,
+      0.06481054599155378
+    ],
+    "changes": [
+      0.058783875827495,
+      0.03412760028134176,
+      0.06222096715555736,
+      0.05769620771998163,
+      0.06869491424554841
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 78.30172509741612,
+    "ci95": [
+      77.01148104049427,
+      79.63601636925713
+    ],
+    "changes": [
+      79.6782184022642,
+      76.47531194432462,
+      77.18923049100314,
+      80.43754431767276,
+      77.7283203318159
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": -7.226653427711067,
+    "ci95": [
+      -8.183840613604353,
+      -6.157791295177817
+    ],
+    "changes": [
+      -6.464136034682976,
+      -8.189912051938919,
+      -8.438462708632887,
+      -5.378302796422396,
+      -7.662453546878156
+    ]
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "stock",
+    "baseline": "fixed1536",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": 0.0437302470089751,
+    "ci95": [
+      0.03218351342592296,
+      0.05198103080975791
+    ],
+    "changes": [
+      0.047496140448366475,
+      0.0467974870547172,
+      0.046543728950054764,
+      0.022292565910397855,
+      0.0555213126813392
+    ]
+  }
+]

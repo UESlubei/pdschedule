@@ -1,0 +1,110 @@
+[
+  {
+    "stage": "opt_validation",
+    "policy": "balanced",
+    "scenario": "interference",
+    "point_guardrails": true,
+    "ci_guardrails": true,
+    "point_decode_improvement": true,
+    "ci_decode_improvement": true
+  },
+  {
+    "stage": "opt_validation",
+    "policy": "balanced",
+    "scenario": "transition",
+    "point_guardrails": true,
+    "ci_guardrails": true,
+    "point_decode_improvement": true,
+    "ci_decode_improvement": true
+  },
+  {
+    "stage": "opt_validation",
+    "policy": "balanced",
+    "scenario": "mixed",
+    "point_guardrails": true,
+    "ci_guardrails": true,
+    "point_decode_improvement": true,
+    "ci_decode_improvement": false
+  },
+  {
+    "stage": "opt_validation",
+    "policy": "fixed1536",
+    "scenario": "interference",
+    "point_guardrails": true,
+    "ci_guardrails": true,
+    "point_decode_improvement": true,
+    "ci_decode_improvement": true
+  },
+  {
+    "stage": "opt_validation",
+    "policy": "fixed1536",
+    "scenario": "transition",
+    "point_guardrails": true,
+    "ci_guardrails": true,
+    "point_decode_improvement": true,
+    "ci_decode_improvement": true
+  },
+  {
+    "stage": "opt_validation",
+    "policy": "fixed1536",
+    "scenario": "mixed",
+    "point_guardrails": true,
+    "ci_guardrails": true,
+    "point_decode_improvement": true,
+    "ci_decode_improvement": true
+  },
+  {
+    "stage": "opt_validation",
+    "policy": "equalized256",
+    "scenario": "interference",
+    "point_guardrails": true,
+    "ci_guardrails": true,
+    "point_decode_improvement": true,
+    "ci_decode_improvement": true
+  },
+  {
+    "stage": "opt_validation",
+    "policy": "equalized256",
+    "scenario": "transition",
+    "point_guardrails": true,
+    "ci_guardrails": true,
+    "point_decode_improvement": true,
+    "ci_decode_improvement": true
+  },
+  {
+    "stage": "opt_validation",
+    "policy": "equalized256",
+    "scenario": "mixed",
+    "point_guardrails": true,
+    "ci_guardrails": true,
+    "point_decode_improvement": false,
+    "ci_decode_improvement": false
+  },
+  {
+    "stage": "opt_match1536",
+    "policy": "equalized1536",
+    "scenario": "interference",
+    "point_guardrails": true,
+    "ci_guardrails": true,
+    "point_decode_improvement": true,
+    "ci_decode_improvement": true
+  },
+  {
+    "stage": "opt_match1536",
+    "policy": "equalized1536",
+    "scenario": "transition",
+    "point_guardrails": false,
+    "ci_guardrails": false,
+    "point_decode_improvement": true,
+    "ci_decode_improvement": true
+  },
+  {
+    "stage": "opt_match1536",
+    "policy": "equalized1536",
+    "scenario": "mixed",
+    "point_guardrails": false,
+    "ci_guardrails": false,
+    "point_decode_improvement": true,
+    "ci_decode_improvement": true
+  }
+]

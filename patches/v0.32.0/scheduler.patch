@@ -1,0 +1,106 @@
+--- a/vllm/v1/core/sched/scheduler.py
++++ b/vllm/v1/core/sched/scheduler.py
+@@ -440,6 +440,9 @@
+         )
+         self._kv_fetch_counts: dict[str, int] = dict.fromkeys(KV_FETCH_STAGES, 0)
+ 
++        from apb.runtime import create as create_apb_runtime
++        self._apb = create_apb_runtime(self)
++
+     def _mamba_block_aligned_split(
+         self,
+         request: Request,
+@@ -590,6 +593,8 @@
+ 
+     def schedule(self, throttle_prefills: bool = False) -> SchedulerOutput:
+         self.current_step += 1
++        if self._apb is not None:
++            self._apb.begin()
+         # NOTE(woosuk) on the scheduling algorithm:
+         # There's no "decoding phase" nor "prefill phase" in the scheduler.
+         # Each request just has the num_computed_tokens and
+@@ -658,6 +663,8 @@
+         req_index = 0
+         while req_index < len(self.running) and token_budget > 0:
+             request = self.running[req_index]
++            if self._apb is not None:
++                self._apb.enter(request)
+             if input_budget <= draft_slots:
+                 break
+ 
+@@ -752,6 +759,9 @@
+                 request, request.num_computed_tokens, num_new_tokens
+             )
+ 
++            if self._apb is not None:
++                num_new_tokens = self._apb.clip(request, request.num_computed_tokens, num_new_tokens, token_budget, input_budget)
++
+             if num_new_tokens == 0:
+                 # The request cannot be scheduled because one of the following
+                 # reasons:
+@@ -815,6 +825,8 @@
+                             preempted_req_id = preempted_req.request_id
+                             scheduled_running_reqs.remove(preempted_req)
+                             restored = num_scheduled_tokens.pop(preempted_req_id)
++                            if self._apb is not None:
++                                self._apb.refund(preempted_req_id)
+                             token_budget += restored
+                             input_budget += restored + draft_slots
+                             req_to_new_blocks.pop(preempted_req_id)
+@@ -852,6 +864,8 @@
+             prefill_scheduled |= request.is_prefill_chunk
+             request_id = request.request_id
+             req_to_new_blocks[request_id] = new_blocks
++            if self._apb is not None:
++                self._apb.charge(request, request.num_computed_tokens, num_new_tokens)
+             num_scheduled_tokens[request_id] = num_new_tokens
+             token_budget -= num_new_tokens
+             input_budget -= num_new_tokens + draft_slots
+@@ -1167,6 +1181,10 @@
+                         break
+ 
+                     num_new_tokens = min(num_new_tokens, request_token_budget)
++                    if self._apb is not None:
++                        num_new_tokens = self._apb.clip(request, num_computed_tokens, num_new_tokens, token_budget, input_budget)
++                        if num_new_tokens == 0:
++                            break
+                     assert num_new_tokens > 0
+ 
+                     # Apply Mamba alignment before encoder caps.
+@@ -1362,6 +1380,8 @@
+                 req_to_new_blocks[request_id] = self.kv_cache_manager.get_blocks(
+                     request_id
+                 )
++                if self._apb is not None:
++                    self._apb.charge(request, num_computed_tokens, num_new_tokens)
+                 num_scheduled_tokens[request_id] = num_new_tokens
+                 token_budget -= num_new_tokens
+                 input_budget -= num_new_tokens + draft_slots
+@@ -1550,6 +1570,9 @@
+         # write KV and have their output processed later in update_from_output).
+         if self.defer_block_free and total_num_scheduled_tokens > 0:
+             self.sched_step_seq += 1
++
++        if self._apb is not None:
++            self._apb.scheduled(scheduler_output)
+ 
+         with record_function_or_nullcontext("schedule: update_after_schedule"):
+             self._update_after_schedule(scheduler_output)
+@@ -2421,6 +2444,8 @@
+                 engine_core_outputs[0] = eco = EngineCoreOutputs()
+             eco.scheduler_stats = stats
+ 
++        if self._apb is not None:
++            self._apb.completed(scheduler_output, engine_core_outputs)
+         return engine_core_outputs
+ 
+     def _ec_transfer_pending(self, request: Request, num_computed_tokens: int) -> bool:
+@@ -2979,6 +3004,8 @@
+ 
+     def shutdown(self) -> None:
+         logger.debug_once("[shutdown] Scheduler: start")
++        if self._apb is not None:
++            self._apb.close()
+         if self.kv_event_publisher:
+             self.kv_event_publisher.shutdown()
+         if self.connector is not None:

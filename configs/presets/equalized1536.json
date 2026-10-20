@@ -1,0 +1,8 @@
+{
+  "mode": "equalized",
+  "cap": 1536,
+  "maximum": 4096,
+  "chunk_alignment": 512,
+  "context_weight": 0.00012347502462458387,
+  "reserve": true
+}

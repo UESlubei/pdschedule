@@ -1,0 +1,48 @@
+[
+  {
+    "receipt": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/interruptions/20261020-1830/receipt.json",
+    "record": {
+      "time_unix": 1792492292.8981853,
+      "reason": "Outer runners exited during interactive interruption; detached API service remained idle. Rerun the entire partially completed seed317 cohort to avoid a five-hour within-round gap. No performance-based exclusions.",
+      "archived": [
+        {
+          "name": "default-fixed1536-s317",
+          "completed": true,
+          "metrics": 4
+        },
+        {
+          "name": "default-balanced-s317",
+          "completed": true,
+          "metrics": 4
+        },
+        {
+          "name": "default-stock-s317",
+          "completed": false,
+          "metrics": 0
+        }
+      ],
+      "completed_trials_excluded_from_primary_matrix": 8,
+      "analysis_python": "/home/sdn/anaconda3/envs/ljc/bin/python"
+    },
+    "archived_audits": [
+      {
+        "jit_warnings": [],
+        "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/interruptions/20261020-1830/default-balanced-s317",
+        "ledger_present": true,
+        "steps": 11169,
+        "completed": 11147,
+        "errors": [],
+        "trials": 4
+      },
+      {
+        "jit_warnings": [],
+        "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/interruptions/20261020-1830/default-fixed1536-s317",
+        "ledger_present": true,
+        "steps": 11121,
+        "completed": 11099,
+        "errors": [],
+        "trials": 4
+      }
+    ]
+  }
+]

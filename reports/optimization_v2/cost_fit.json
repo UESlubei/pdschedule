@@ -1,0 +1,114 @@
+{
+  "features": [
+    "intercept",
+    "prefill/1024",
+    "attention_pairs/1e6",
+    "decode_count",
+    "decode_context/1e4"
+  ],
+  "coefficients": [
+    6.302345178507933,
+    41.67930425427031,
+    5.025735467901905,
+    0.09092928750152918,
+    3.3204085855849557
+  ],
+  "train_steps": 10462,
+  "retained_steps": 10317,
+  "valid_steps": 7023,
+  "validation_mae_ms": 3.1036992069330065,
+  "validation_absolute_error_p95_ms": 8.24275827644365,
+  "context_weight": 0.00012347502462458387,
+  "train_seeds": [
+    17,
+    29,
+    43
+  ],
+  "validation_seeds": [
+    71,
+    101
+  ],
+  "sources": [
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed512-seed17/scheduler.jsonl",
+      "sha256": "ca3e04d784d1aa9b965b020ddfb5bff8fc52102bc1837087d3fe46bed46aad95"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed1024-seed17/scheduler.jsonl",
+      "sha256": "5f37e876a53db10d7ce6d3f2608caf55142cc3a54e7226cd1645c12de121f7a7"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed2048-seed17/scheduler.jsonl",
+      "sha256": "8b9e22f74275e01c8a9a59a86e17c04fd653789b19567df992dbf133626173aa"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed4096-seed17/scheduler.jsonl",
+      "sha256": "082ae93f48f67688fbfeaaa47babea3a76c24104ad4c43ac65b359d3c7668b12"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed512-seed29/scheduler.jsonl",
+      "sha256": "e34f82fd1ef39c606b55bb00908e428e3e321fddf5369e18f0ac817d21ff6175"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed1024-seed29/scheduler.jsonl",
+      "sha256": "c2aa1aed0b49a589bc95983a6dcda4d3074dd4b89f10e670e26ff80166cede24"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed2048-seed29/scheduler.jsonl",
+      "sha256": "a871a4c7106e59beb6030062fe8701b6a480b45b4a0e73e4c863d59014af56da"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed4096-seed29/scheduler.jsonl",
+      "sha256": "b20fbcd55a4fb8ed2f540b955ec71d5248c8f1ef8c5f82189262ce7e0fd3d937"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed512-seed43/scheduler.jsonl",
+      "sha256": "4464fa8e44529ed6199f7dce7b72750d4beefccc0265fe7852d0ea64cc55df1f"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed1024-seed43/scheduler.jsonl",
+      "sha256": "86329f5203bdb77cdefd4dcb8875be6fe30e6f98bc99bb813394a0bf312b7996"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed2048-seed43/scheduler.jsonl",
+      "sha256": "dc195c91622942448b4fc9b491e62cb166032e6fbad9a68f89f737be3cc2ec80"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed4096-seed43/scheduler.jsonl",
+      "sha256": "8487b73e27512a2f4b2e7a694727af97f314e6561d5af14ad3a24385a52057f7"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed512-seed71/scheduler.jsonl",
+      "sha256": "4a0ad78ec8e2e869358d649e9cc9255b74111ebd448b5a4795fb3f7c367725e4"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed1024-seed71/scheduler.jsonl",
+      "sha256": "c5e801e82413fcfad5aec61877533ca6c0a6ab7a4b07460aaebc63d3b84502a3"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed2048-seed71/scheduler.jsonl",
+      "sha256": "960107661d1f3cdf9ab23d43037f3334c96a835295130544a08b36c5f99ee28e"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed4096-seed71/scheduler.jsonl",
+      "sha256": "ba5ccda1e1c9fe6321b51b9409ff86401b5893e86cdd54915aaf17c601a14ff5"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed512-seed101/scheduler.jsonl",
+      "sha256": "59a1a966bb3a0360b13abae7dfed148684c5ff45cf2d8d06666f3e50bdd21f4f"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed1024-seed101/scheduler.jsonl",
+      "sha256": "96da339d4f0a0da1635a33f01b7a31d89af5cda4ca278909f7d3e9e3be6e9494"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed2048-seed101/scheduler.jsonl",
+      "sha256": "1442837f6172394dc830f1cb118c9f1e5254aa86772e2fee2702102aa93c09e7"
+    },
+    {
+      "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320/raw/formal/default-fixed4096-seed101/scheduler.jsonl",
+      "sha256": "35cc8574be32cedee69d99091dd95965d727a9a9d55adecf4b66af32643415f1"
+    }
+  ],
+  "note": "Host completed Decode interval model, not GPU kernel timing. Equalization uses only the prefill/context ratio."
+}

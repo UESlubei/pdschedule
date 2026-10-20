@@ -1,0 +1,470 @@
+[
+  {
+    "stages": [
+      "compatibility"
+    ],
+    "scenario": "cache",
+    "seed": 907,
+    "sessions": 8,
+    "hashes": [
+      "5777018da71edcac4e5f93e7840d455a74d4c06ba690870b2446ea56c69e0084"
+    ]
+  },
+  {
+    "stages": [
+      "compatibility"
+    ],
+    "scenario": "correctness",
+    "seed": 907,
+    "sessions": 8,
+    "hashes": [
+      "c51694d95edcd6bb49b6657983f449603876e8481f8b4637d68b0ccc5082c0b2"
+    ]
+  },
+  {
+    "stages": [
+      "ablation",
+      "formal",
+      "mechanism",
+      "native",
+      "native2048"
+    ],
+    "scenario": "interference",
+    "seed": 17,
+    "sessions": 30,
+    "hashes": [
+      "135fb23fcf2f0c58df5e6cc8711dece668927b2663297350537b41d344ffbb93"
+    ]
+  },
+  {
+    "stages": [
+      "ablation",
+      "formal",
+      "mechanism",
+      "native",
+      "native2048"
+    ],
+    "scenario": "interference",
+    "seed": 29,
+    "sessions": 30,
+    "hashes": [
+      "d5cd97ce191cd11146e85a9368d248b9ddb21eb991297b438110fc61d98f902b"
+    ]
+  },
+  {
+    "stages": [
+      "ablation",
+      "formal",
+      "mechanism",
+      "native",
+      "native2048"
+    ],
+    "scenario": "interference",
+    "seed": 43,
+    "sessions": 30,
+    "hashes": [
+      "fa107dab50e810f73939552b13aa6bb7be6eadc3e4eca791373b02c6b791e36f"
+    ]
+  },
+  {
+    "stages": [
+      "formal",
+      "mechanism",
+      "native",
+      "native2048"
+    ],
+    "scenario": "interference",
+    "seed": 71,
+    "sessions": 18,
+    "hashes": [
+      "32c6d19467b3dccc6c9ef587d16b116af3dc7ac19b51d9c0bdb0e6ed2d386e64"
+    ]
+  },
+  {
+    "stages": [
+      "formal",
+      "mechanism",
+      "native",
+      "native2048"
+    ],
+    "scenario": "interference",
+    "seed": 101,
+    "sessions": 18,
+    "hashes": [
+      "3ec50f52384baaf2d6c9e6443560c61bd754112bbef2436cb98f2bf2840666a3"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "interference",
+    "seed": 151,
+    "sessions": 3,
+    "hashes": [
+      "5bba544f96b11f458c075bf5901aa6d7a7ab73caa31bfc302d814b1d6d17ba46"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "interference",
+    "seed": 163,
+    "sessions": 3,
+    "hashes": [
+      "2ea4ca9c5469c583f106edac541802214658e21154823bbd8ec114a2c38e767b"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "interference",
+    "seed": 179,
+    "sessions": 3,
+    "hashes": [
+      "6f68d7b5ce8901afdddb9a1dfa8bf4cf5fd2234ddb58154355dfff7f681651eb"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "interference",
+    "seed": 191,
+    "sessions": 3,
+    "hashes": [
+      "2ce9b6ef30ad525b0a4cc892cd9367420202049123d96d6b2bf268e2277b1c00"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "interference",
+    "seed": 211,
+    "sessions": 3,
+    "hashes": [
+      "c405eac0ce0ec43521ca0845b414859590539582187e4d092a6689dcbc52434a"
+    ]
+  },
+  {
+    "stages": [
+      "profiles"
+    ],
+    "scenario": "interference",
+    "seed": 919,
+    "sessions": 5,
+    "hashes": [
+      "23412bd318e86f143921ea2dec8c8b9b79377bb4bf7d411711cd08071691e9a6"
+    ]
+  },
+  {
+    "stages": [
+      "formal",
+      "native",
+      "native2048"
+    ],
+    "scenario": "mixed",
+    "seed": 17,
+    "sessions": 15,
+    "hashes": [
+      "055d7200b16297317018388d6bf90b0996bed30080881c98f472c7ffd71d4b90"
+    ]
+  },
+  {
+    "stages": [
+      "formal",
+      "native",
+      "native2048"
+    ],
+    "scenario": "mixed",
+    "seed": 29,
+    "sessions": 15,
+    "hashes": [
+      "319ea5292dae778d76ab5088af4f1d7e4337b4d3c2a4b2c3a72f76f9722ef312"
+    ]
+  },
+  {
+    "stages": [
+      "formal",
+      "native",
+      "native2048"
+    ],
+    "scenario": "mixed",
+    "seed": 43,
+    "sessions": 15,
+    "hashes": [
+      "e77f28ba46ede6d9903a4f56927f2311f24fbc71f5279c1646d7b2c7d69277c2"
+    ]
+  },
+  {
+    "stages": [
+      "formal",
+      "native",
+      "native2048"
+    ],
+    "scenario": "mixed",
+    "seed": 71,
+    "sessions": 15,
+    "hashes": [
+      "e3fd239101eddb0a6be9d2a5729c8f86e7c8e127d521411b4dc6f02e81af9cbb"
+    ]
+  },
+  {
+    "stages": [
+      "formal",
+      "native",
+      "native2048"
+    ],
+    "scenario": "mixed",
+    "seed": 101,
+    "sessions": 15,
+    "hashes": [
+      "97a412b35f39cd91e861caccf8028ec3bd869d1d5b0e001678ef18ae6942adc9"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "mixed",
+    "seed": 151,
+    "sessions": 3,
+    "hashes": [
+      "9bfdc1b7687ef9ad97e30ad30f1bc9917bce29babbae43b1e90687bf4d9539c9"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "mixed",
+    "seed": 163,
+    "sessions": 3,
+    "hashes": [
+      "8b0a8b62ef57bf8ce41d4f17c0f7e7621d888b84fb05238b983e11531b89bbc6"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "mixed",
+    "seed": 179,
+    "sessions": 3,
+    "hashes": [
+      "41d3af57eff11152e0cf699937735aacbc7bd01d86d9af11c5d20890a733c521"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "mixed",
+    "seed": 191,
+    "sessions": 3,
+    "hashes": [
+      "9844aaa14f9c20f2f789ae4b1845e597034dce4351b12a72363c8058e4eb161b"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "mixed",
+    "seed": 211,
+    "sessions": 3,
+    "hashes": [
+      "2e0b3cc83302a63809e2beb059d4dc9513f1ce6eba07462387894461cd1d60b0"
+    ]
+  },
+  {
+    "stages": [
+      "idle"
+    ],
+    "scenario": "prefill",
+    "seed": 947,
+    "sessions": 3,
+    "hashes": [
+      "394d76e7a1daf07c31b5599f5b042cf298aed2ab36371e1e4636a90187fdce4d"
+    ]
+  },
+  {
+    "stages": [
+      "compatibility"
+    ],
+    "scenario": "pressure",
+    "seed": 907,
+    "sessions": 2,
+    "hashes": [
+      "e333e3732788938626ae6031501c36413f0eecef1a62293ae9b4030d621cb9f5"
+    ]
+  },
+  {
+    "stages": [
+      "starvation"
+    ],
+    "scenario": "starvation",
+    "seed": 17,
+    "sessions": 3,
+    "hashes": [
+      "321506f3eb6ce2cd4cf4cba2a05c414a6e82b36b5e49878425b17228744a825d"
+    ]
+  },
+  {
+    "stages": [
+      "starvation"
+    ],
+    "scenario": "starvation",
+    "seed": 29,
+    "sessions": 3,
+    "hashes": [
+      "d2b7bc5ad8fe226777f7af0c509d6cf02877e3591ca36879d3dbff71b4f3653e"
+    ]
+  },
+  {
+    "stages": [
+      "starvation"
+    ],
+    "scenario": "starvation",
+    "seed": 43,
+    "sessions": 3,
+    "hashes": [
+      "d7ab1630e4e1c1cbbb4c047d9f73a00f326fce4eefa115fb44fc74bab8e61efd"
+    ]
+  },
+  {
+    "stages": [
+      "starvation"
+    ],
+    "scenario": "starvation",
+    "seed": 71,
+    "sessions": 3,
+    "hashes": [
+      "61887d1fff990ba0ea321047af999e71d22fc2bcd72901246f5208a48a5b33b4"
+    ]
+  },
+  {
+    "stages": [
+      "starvation"
+    ],
+    "scenario": "starvation",
+    "seed": 101,
+    "sessions": 3,
+    "hashes": [
+      "2f36214c8aaf6f26010c92369b7e29f1dbbcd0171fe2af051902639876d883c9"
+    ]
+  },
+  {
+    "stages": [
+      "formal"
+    ],
+    "scenario": "transition",
+    "seed": 17,
+    "sessions": 11,
+    "hashes": [
+      "a194525c8c5d8d08e05d0152b6c92a82766fc0efe4fbf43634ada1a2250570b7"
+    ]
+  },
+  {
+    "stages": [
+      "formal"
+    ],
+    "scenario": "transition",
+    "seed": 29,
+    "sessions": 11,
+    "hashes": [
+      "ea3f15cc5bf834705646f7e9b4f406d8d9dca76ca588f055c966b1025e92e066"
+    ]
+  },
+  {
+    "stages": [
+      "formal"
+    ],
+    "scenario": "transition",
+    "seed": 43,
+    "sessions": 11,
+    "hashes": [
+      "eac25105f2a1777e1d65f5cce42fa12364d0da6e99743e7e2788d20f1a1c3535"
+    ]
+  },
+  {
+    "stages": [
+      "formal"
+    ],
+    "scenario": "transition",
+    "seed": 71,
+    "sessions": 11,
+    "hashes": [
+      "9aa4e1b21106874eaab6ee6f76989867c0b02f6982092d42c5086202beb2cb68"
+    ]
+  },
+  {
+    "stages": [
+      "formal"
+    ],
+    "scenario": "transition",
+    "seed": 101,
+    "sessions": 11,
+    "hashes": [
+      "144854085571dfc99d58f7de466705c0a63459be673ee4dec8ce17dc0a892578"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "transition",
+    "seed": 151,
+    "sessions": 3,
+    "hashes": [
+      "2975acce7bca449ddc90951d269e55c70a30f18ce2c4e0912a04925012416928"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "transition",
+    "seed": 163,
+    "sessions": 3,
+    "hashes": [
+      "a7f4859124827b68e8251a2d5b35e216d958af84f6b26dd65c1b0eb287352994"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "transition",
+    "seed": 179,
+    "sessions": 3,
+    "hashes": [
+      "e38fa2d7aa4e2e9a252994eac2d60f16883bac8aee779ba88e9f4193c71e240e"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "transition",
+    "seed": 191,
+    "sessions": 3,
+    "hashes": [
+      "d7d08f888969986783733aed6db6dbdbc5b638c38f660bfd503fcbc0b1992b54"
+    ]
+  },
+  {
+    "stages": [
+      "balanced"
+    ],
+    "scenario": "transition",
+    "seed": 211,
+    "sessions": 3,
+    "hashes": [
+      "6d91d13094d25529ff688087996b50ac80ac9660bb6c21116fb9fa771d9930f3"
+    ]
+  }
+]

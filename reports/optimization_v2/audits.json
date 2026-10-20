@@ -1,0 +1,317 @@
+[
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_match1536/default-equalized1536-s401",
+    "ledger_present": true,
+    "steps": 9923,
+    "completed": 9900,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_match1536/default-equalized1536-s409",
+    "ledger_present": true,
+    "steps": 9547,
+    "completed": 9524,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_match1536/default-equalized1536-s419",
+    "ledger_present": true,
+    "steps": 10356,
+    "completed": 10334,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_match1536/default-fixed1536-s401",
+    "ledger_present": true,
+    "steps": 10060,
+    "completed": 10038,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_match1536/default-fixed1536-s409",
+    "ledger_present": true,
+    "steps": 9740,
+    "completed": 9718,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_match1536/default-fixed1536-s419",
+    "ledger_present": true,
+    "steps": 10492,
+    "completed": 10470,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_match1536/default-stock-s401",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_match1536/default-stock-s409",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_match1536/default-stock-s419",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_refine/default-equalized256-s227",
+    "ledger_present": true,
+    "steps": 11024,
+    "completed": 11004,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_refine/default-fixed1792-s227",
+    "ledger_present": true,
+    "steps": 10471,
+    "completed": 10451,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_screen/default-balanced-s227",
+    "ledger_present": true,
+    "steps": 10933,
+    "completed": 10913,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_screen/default-equalized-s227",
+    "ledger_present": true,
+    "steps": 10891,
+    "completed": 10871,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_screen/default-fixed1536-s227",
+    "ledger_present": true,
+    "steps": 11020,
+    "completed": 11000,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_screen/default-stock-s227",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 3
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-balanced-s307",
+    "ledger_present": true,
+    "steps": 11309,
+    "completed": 11287,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-balanced-s311",
+    "ledger_present": true,
+    "steps": 10847,
+    "completed": 10825,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-balanced-s313",
+    "ledger_present": true,
+    "steps": 10586,
+    "completed": 10564,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-balanced-s317",
+    "ledger_present": true,
+    "steps": 11017,
+    "completed": 10995,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-balanced-s331",
+    "ledger_present": true,
+    "steps": 10961,
+    "completed": 10939,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-equalized256-s307",
+    "ledger_present": true,
+    "steps": 11239,
+    "completed": 11216,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-equalized256-s311",
+    "ledger_present": true,
+    "steps": 10804,
+    "completed": 10782,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-equalized256-s313",
+    "ledger_present": true,
+    "steps": 10506,
+    "completed": 10484,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-equalized256-s317",
+    "ledger_present": true,
+    "steps": 11097,
+    "completed": 11074,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-equalized256-s331",
+    "ledger_present": true,
+    "steps": 11059,
+    "completed": 11036,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-fixed1536-s307",
+    "ledger_present": true,
+    "steps": 11377,
+    "completed": 11355,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-fixed1536-s311",
+    "ledger_present": true,
+    "steps": 10821,
+    "completed": 10798,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-fixed1536-s313",
+    "ledger_present": true,
+    "steps": 10680,
+    "completed": 10658,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-fixed1536-s317",
+    "ledger_present": true,
+    "steps": 11199,
+    "completed": 11177,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-fixed1536-s331",
+    "ledger_present": true,
+    "steps": 11075,
+    "completed": 11053,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-stock-s307",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-stock-s311",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-stock-s313",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-stock-s317",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 4
+  },
+  {
+    "jit_warnings": [],
+    "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_validation/default-stock-s331",
+    "ledger_present": false,
+    "steps": 0,
+    "completed": 0,
+    "errors": [],
+    "trials": 4
+  }
+]

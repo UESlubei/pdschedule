@@ -1,0 +1,14 @@
+{
+  "stock": {"flavor": "stock", "mode": "off"},
+  "off": {"flavor": "candidate", "mode": "off"},
+  "observe": {"mode": "observe"},
+  "fixed256": {"mode": "fixed", "cap": 256},
+  "fixed512": {"mode": "fixed", "cap": 512},
+  "fixed1024": {"mode": "fixed", "cap": 1024},
+  "fixed2048": {"mode": "fixed", "cap": 2048},
+  "fixed4096": {"mode": "fixed", "cap": 4096},
+  "load": {"mode": "load"},
+  "aimd": {"mode": "aimd"},
+  "joint": {"mode": "joint"},
+  "aging": {"mode": "aging"}
+}

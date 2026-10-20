@@ -1,0 +1,2016 @@
+{
+  "complete": true,
+  "runs": [
+    {
+      "policy": "stock",
+      "repeat": 1,
+      "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/quality_drift_opt/stock-repeat1",
+      "integrity_audit_errors": [],
+      "performance_audit_errors": [
+        "measurement-time JIT warning; whole session requires investigation/rerun"
+      ],
+      "jit_warnings": [
+        "(EngineCore pid=1391375) WARNING 10-20 19:39:13 [jit_monitor.py:140] Triton kernel JIT compilation during inference: _topk_log_softmax_kernel. This causes a latency spike; consider extending warmup to cover this shape/config."
+      ],
+      "exact_vs_original_native": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": true,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "exact_vs_original_fixed": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": false,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "logprob_margins": [
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 1,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9968146085739136
+            ],
+            [
+              " and",
+              -1.0124396085739136
+            ],
+            [
+              ",",
+              -1.9343146085739136
+            ],
+            [
+              ".",
+              -3.059314727783203
+            ],
+            [
+              " which",
+              -4.324939727783203
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 2,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9988802671432495
+            ],
+            [
+              " and",
+              -1.0145052671432495
+            ],
+            [
+              ",",
+              -1.9363802671432495
+            ],
+            [
+              ".",
+              -3.045755386352539
+            ],
+            [
+              " which",
+              -4.311380386352539
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 8,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9988802671432495
+            ],
+            [
+              " and",
+              -1.0145052671432495
+            ],
+            [
+              ",",
+              -1.9363802671432495
+            ],
+            [
+              ".",
+              -3.045755386352539
+            ],
+            [
+              " which",
+              -4.311380386352539
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 1,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9973378777503967
+            ],
+            [
+              " and",
+              -1.012962818145752
+            ],
+            [
+              ",",
+              -1.934837818145752
+            ],
+            [
+              ".",
+              -3.059837818145752
+            ],
+            [
+              " which",
+              -4.309837818145752
+            ]
+          ],
+          "top1_minus_top2": 0.015624940395355225,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 2,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " and",
+              -1.0044363737106323
+            ],
+            [
+              " that",
+              -1.0044363737106323
+            ],
+            [
+              ",",
+              -1.9419363737106323
+            ],
+            [
+              ".",
+              -3.051311492919922
+            ],
+            [
+              " which",
+              -4.316936492919922
+            ]
+          ],
+          "top1_minus_top2": 0.0,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            323,
+            31747,
+            429,
+            2803,
+            311,
+            387,
+            5435,
+            311,
+            264,
+            3151,
+            8544,
+            13,
+            4354,
+            11,
+            279,
+            1140,
+            374,
+            537,
+            2797,
+            476,
+            55787,
+            13
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 8,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9912192821502686
+            ],
+            [
+              " and",
+              -1.0224692821502686
+            ],
+            [
+              ",",
+              -1.9287192821502686
+            ],
+            [
+              ".",
+              -3.0537192821502686
+            ],
+            [
+              " which",
+              -4.319344520568848
+            ]
+          ],
+          "top1_minus_top2": 0.03125,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        }
+      ],
+      "trace_sha256": "02fee74f68253382b793b0687fe7e23d3f2299c5130a021fd585ae9fc1eb962d"
+    },
+    {
+      "policy": "off",
+      "repeat": 1,
+      "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/quality_drift_opt/off-repeat1",
+      "integrity_audit_errors": [],
+      "performance_audit_errors": [
+        "measurement-time JIT warning; whole session requires investigation/rerun"
+      ],
+      "jit_warnings": [
+        "(EngineCore pid=1393060) WARNING 10-20 19:44:19 [jit_monitor.py:140] Triton kernel JIT compilation during inference: _topk_log_softmax_kernel. This causes a latency spike; consider extending warmup to cover this shape/config."
+      ],
+      "exact_vs_original_native": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": true,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "exact_vs_original_fixed": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": false,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "logprob_margins": [
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 1,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9968146085739136
+            ],
+            [
+              " and",
+              -1.0124396085739136
+            ],
+            [
+              ",",
+              -1.9343146085739136
+            ],
+            [
+              ".",
+              -3.059314727783203
+            ],
+            [
+              " which",
+              -4.324939727783203
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 2,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9988802671432495
+            ],
+            [
+              " and",
+              -1.0145052671432495
+            ],
+            [
+              ",",
+              -1.9363802671432495
+            ],
+            [
+              ".",
+              -3.045755386352539
+            ],
+            [
+              " which",
+              -4.311380386352539
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 8,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9988802671432495
+            ],
+            [
+              " and",
+              -1.0145052671432495
+            ],
+            [
+              ",",
+              -1.9363802671432495
+            ],
+            [
+              ".",
+              -3.045755386352539
+            ],
+            [
+              " which",
+              -4.311380386352539
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 1,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9973378777503967
+            ],
+            [
+              " and",
+              -1.012962818145752
+            ],
+            [
+              ",",
+              -1.934837818145752
+            ],
+            [
+              ".",
+              -3.059837818145752
+            ],
+            [
+              " which",
+              -4.309837818145752
+            ]
+          ],
+          "top1_minus_top2": 0.015624940395355225,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 2,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9969738125801086
+            ],
+            [
+              " and",
+              -1.0125987529754639
+            ],
+            [
+              ",",
+              -1.9344737529754639
+            ],
+            [
+              ".",
+              -3.059473752975464
+            ],
+            [
+              " which",
+              -4.325098991394043
+            ]
+          ],
+          "top1_minus_top2": 0.015624940395355225,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 8,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9971348643302917
+            ],
+            [
+              " and",
+              -1.0127599239349365
+            ],
+            [
+              ",",
+              -1.9346349239349365
+            ],
+            [
+              ".",
+              -3.0596349239349365
+            ],
+            [
+              " which",
+              -4.325259685516357
+            ]
+          ],
+          "top1_minus_top2": 0.015625059604644775,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        }
+      ],
+      "trace_sha256": "02fee74f68253382b793b0687fe7e23d3f2299c5130a021fd585ae9fc1eb962d"
+    },
+    {
+      "policy": "fixed1536",
+      "repeat": 1,
+      "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/quality_drift_opt/fixed1536-repeat1",
+      "integrity_audit_errors": [],
+      "performance_audit_errors": [
+        "measurement-time JIT warning; whole session requires investigation/rerun"
+      ],
+      "jit_warnings": [
+        "(EngineCore pid=1393383) WARNING 10-20 19:45:05 [jit_monitor.py:140] Triton kernel JIT compilation during inference: _topk_log_softmax_kernel. This causes a latency spike; consider extending warmup to cover this shape/config."
+      ],
+      "exact_vs_original_native": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": true,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "exact_vs_original_fixed": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": false,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "logprob_margins": [
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 1,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9968146085739136
+            ],
+            [
+              " and",
+              -1.0124396085739136
+            ],
+            [
+              ",",
+              -1.9343146085739136
+            ],
+            [
+              ".",
+              -3.059314727783203
+            ],
+            [
+              " which",
+              -4.324939727783203
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 2,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9968146085739136
+            ],
+            [
+              " and",
+              -1.0124396085739136
+            ],
+            [
+              ",",
+              -1.9343146085739136
+            ],
+            [
+              ".",
+              -3.059314727783203
+            ],
+            [
+              " which",
+              -4.324939727783203
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 8,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9968146085739136
+            ],
+            [
+              " and",
+              -1.0124396085739136
+            ],
+            [
+              ",",
+              -1.9343146085739136
+            ],
+            [
+              ".",
+              -3.059314727783203
+            ],
+            [
+              " which",
+              -4.324939727783203
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 1,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9973378777503967
+            ],
+            [
+              " and",
+              -1.012962818145752
+            ],
+            [
+              ",",
+              -1.934837818145752
+            ],
+            [
+              ".",
+              -3.059837818145752
+            ],
+            [
+              " which",
+              -4.309837818145752
+            ]
+          ],
+          "top1_minus_top2": 0.015624940395355225,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 2,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " and",
+              -1.0044363737106323
+            ],
+            [
+              " that",
+              -1.0044363737106323
+            ],
+            [
+              ",",
+              -1.9419363737106323
+            ],
+            [
+              ".",
+              -3.051311492919922
+            ],
+            [
+              " which",
+              -4.316936492919922
+            ]
+          ],
+          "top1_minus_top2": 0.0,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            323,
+            31747,
+            429,
+            2803,
+            311,
+            387,
+            5435,
+            311,
+            264,
+            3151,
+            8544,
+            13,
+            4354,
+            11,
+            279,
+            1140,
+            374,
+            537,
+            2797,
+            476,
+            55787,
+            13
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 8,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9888815879821777
+            ],
+            [
+              " and",
+              -1.0201315879821777
+            ],
+            [
+              ",",
+              -1.9420065879821777
+            ],
+            [
+              ".",
+              -3.0513815879821777
+            ],
+            [
+              " which",
+              -4.317006587982178
+            ]
+          ],
+          "top1_minus_top2": 0.03125,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        }
+      ],
+      "trace_sha256": "02fee74f68253382b793b0687fe7e23d3f2299c5130a021fd585ae9fc1eb962d"
+    },
+    {
+      "policy": "stock",
+      "repeat": 2,
+      "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/quality_drift_opt/stock-repeat2",
+      "integrity_audit_errors": [],
+      "performance_audit_errors": [
+        "measurement-time JIT warning; whole session requires investigation/rerun"
+      ],
+      "jit_warnings": [
+        "(EngineCore pid=1393681) WARNING 10-20 19:45:51 [jit_monitor.py:140] Triton kernel JIT compilation during inference: _topk_log_softmax_kernel. This causes a latency spike; consider extending warmup to cover this shape/config."
+      ],
+      "exact_vs_original_native": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": true,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "exact_vs_original_fixed": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": false,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "logprob_margins": [
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 1,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9968146085739136
+            ],
+            [
+              " and",
+              -1.0124396085739136
+            ],
+            [
+              ",",
+              -1.9343146085739136
+            ],
+            [
+              ".",
+              -3.059314727783203
+            ],
+            [
+              " which",
+              -4.324939727783203
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 2,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9968146085739136
+            ],
+            [
+              " and",
+              -1.0124396085739136
+            ],
+            [
+              ",",
+              -1.9343146085739136
+            ],
+            [
+              ".",
+              -3.059314727783203
+            ],
+            [
+              " which",
+              -4.324939727783203
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 8,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9968146085739136
+            ],
+            [
+              " and",
+              -1.0124396085739136
+            ],
+            [
+              ",",
+              -1.9343146085739136
+            ],
+            [
+              ".",
+              -3.059314727783203
+            ],
+            [
+              " which",
+              -4.324939727783203
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 1,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9973378777503967
+            ],
+            [
+              " and",
+              -1.012962818145752
+            ],
+            [
+              ",",
+              -1.934837818145752
+            ],
+            [
+              ".",
+              -3.059837818145752
+            ],
+            [
+              " which",
+              -4.309837818145752
+            ]
+          ],
+          "top1_minus_top2": 0.015624940395355225,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 2,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " and",
+              -1.0044363737106323
+            ],
+            [
+              " that",
+              -1.0044363737106323
+            ],
+            [
+              ",",
+              -1.9419363737106323
+            ],
+            [
+              ".",
+              -3.051311492919922
+            ],
+            [
+              " which",
+              -4.316936492919922
+            ]
+          ],
+          "top1_minus_top2": 0.0,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            323,
+            31747,
+            429,
+            2803,
+            311,
+            387,
+            5435,
+            311,
+            264,
+            3151,
+            8544,
+            13,
+            4354,
+            11,
+            279,
+            1140,
+            374,
+            537,
+            2797,
+            476,
+            55787,
+            13
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 8,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9971348643302917
+            ],
+            [
+              " and",
+              -1.0127599239349365
+            ],
+            [
+              ",",
+              -1.9346349239349365
+            ],
+            [
+              ".",
+              -3.0596349239349365
+            ],
+            [
+              " which",
+              -4.325259685516357
+            ]
+          ],
+          "top1_minus_top2": 0.015625059604644775,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        }
+      ],
+      "trace_sha256": "02fee74f68253382b793b0687fe7e23d3f2299c5130a021fd585ae9fc1eb962d"
+    },
+    {
+      "policy": "off",
+      "repeat": 2,
+      "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/quality_drift_opt/off-repeat2",
+      "integrity_audit_errors": [],
+      "performance_audit_errors": [
+        "measurement-time JIT warning; whole session requires investigation/rerun"
+      ],
+      "jit_warnings": [
+        "(EngineCore pid=1393955) WARNING 10-20 19:46:38 [jit_monitor.py:140] Triton kernel JIT compilation during inference: _topk_log_softmax_kernel. This causes a latency spike; consider extending warmup to cover this shape/config."
+      ],
+      "exact_vs_original_native": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": true,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "exact_vs_original_fixed": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": false,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "logprob_margins": [
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 1,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9968146085739136
+            ],
+            [
+              " and",
+              -1.0124396085739136
+            ],
+            [
+              ",",
+              -1.9343146085739136
+            ],
+            [
+              ".",
+              -3.059314727783203
+            ],
+            [
+              " which",
+              -4.324939727783203
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 2,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9988802671432495
+            ],
+            [
+              " and",
+              -1.0145052671432495
+            ],
+            [
+              ",",
+              -1.9363802671432495
+            ],
+            [
+              ".",
+              -3.045755386352539
+            ],
+            [
+              " which",
+              -4.311380386352539
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 8,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9988802671432495
+            ],
+            [
+              " and",
+              -1.0145052671432495
+            ],
+            [
+              ",",
+              -1.9363802671432495
+            ],
+            [
+              ".",
+              -3.045755386352539
+            ],
+            [
+              " which",
+              -4.311380386352539
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 1,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9973378777503967
+            ],
+            [
+              " and",
+              -1.012962818145752
+            ],
+            [
+              ",",
+              -1.934837818145752
+            ],
+            [
+              ".",
+              -3.059837818145752
+            ],
+            [
+              " which",
+              -4.309837818145752
+            ]
+          ],
+          "top1_minus_top2": 0.015624940395355225,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 2,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " and",
+              -1.0044363737106323
+            ],
+            [
+              " that",
+              -1.0044363737106323
+            ],
+            [
+              ",",
+              -1.9419363737106323
+            ],
+            [
+              ".",
+              -3.051311492919922
+            ],
+            [
+              " which",
+              -4.316936492919922
+            ]
+          ],
+          "top1_minus_top2": 0.0,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            323,
+            31747,
+            429,
+            2803,
+            311,
+            387,
+            5435,
+            311,
+            264,
+            3151,
+            8544,
+            13,
+            4354,
+            11,
+            279,
+            1140,
+            374,
+            537,
+            2797,
+            476,
+            55787,
+            13
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 8,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9971348643302917
+            ],
+            [
+              " and",
+              -1.0127599239349365
+            ],
+            [
+              ",",
+              -1.9346349239349365
+            ],
+            [
+              ".",
+              -3.0596349239349365
+            ],
+            [
+              " which",
+              -4.325259685516357
+            ]
+          ],
+          "top1_minus_top2": 0.015625059604644775,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        }
+      ],
+      "trace_sha256": "02fee74f68253382b793b0687fe7e23d3f2299c5130a021fd585ae9fc1eb962d"
+    },
+    {
+      "policy": "fixed1536",
+      "repeat": 2,
+      "session": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/quality_drift_opt/fixed1536-repeat2",
+      "integrity_audit_errors": [],
+      "performance_audit_errors": [
+        "measurement-time JIT warning; whole session requires investigation/rerun"
+      ],
+      "jit_warnings": [
+        "(EngineCore pid=1394263) WARNING 10-20 19:47:24 [jit_monitor.py:140] Triton kernel JIT compilation during inference: _topk_log_softmax_kernel. This causes a latency spike; consider extending warmup to cover this shape/config."
+      ],
+      "exact_vs_original_native": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": true,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "exact_vs_original_fixed": {
+        "n0": true,
+        "n1": true,
+        "n2": true,
+        "n3": true,
+        "n4": true,
+        "n5": true,
+        "tail0": true,
+        "tail1": false,
+        "tail2": true,
+        "tail3": true,
+        "tail4": true
+      },
+      "logprob_margins": [
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 1,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9968146085739136
+            ],
+            [
+              " and",
+              -1.0124396085739136
+            ],
+            [
+              ",",
+              -1.9343146085739136
+            ],
+            [
+              ".",
+              -3.059314727783203
+            ],
+            [
+              " which",
+              -4.324939727783203
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 2,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9988802671432495
+            ],
+            [
+              " and",
+              -1.0145052671432495
+            ],
+            [
+              ",",
+              -1.9363802671432495
+            ],
+            [
+              ".",
+              -3.045755386352539
+            ],
+            [
+              " which",
+              -4.311380386352539
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "teacher_forced",
+          "offered_batch": 8,
+          "position_0based": 0,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9988802671432495
+            ],
+            [
+              " and",
+              -1.0145052671432495
+            ],
+            [
+              ",",
+              -1.9363802671432495
+            ],
+            [
+              ".",
+              -3.045755386352539
+            ],
+            [
+              " which",
+              -4.311380386352539
+            ]
+          ],
+          "top1_minus_top2": 0.015625,
+          "generated_token_ids": [
+            429
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 1,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " that",
+              -0.9973378777503967
+            ],
+            [
+              " and",
+              -1.012962818145752
+            ],
+            [
+              ",",
+              -1.934837818145752
+            ],
+            [
+              ".",
+              -3.059837818145752
+            ],
+            [
+              " which",
+              -4.309837818145752
+            ]
+          ],
+          "top1_minus_top2": 0.015624940395355225,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            429,
+            2803,
+            311,
+            387,
+            4194,
+            476,
+            45205,
+            13,
+            2379,
+            2578,
+            387,
+            4460,
+            311,
+            1855,
+            264,
+            1140,
+            315,
+            4244,
+            369,
+            264,
+            3151,
+            7428
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 2,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " and",
+              -1.0044363737106323
+            ],
+            [
+              " that",
+              -1.0044363737106323
+            ],
+            [
+              ",",
+              -1.9419363737106323
+            ],
+            [
+              ".",
+              -3.051311492919922
+            ],
+            [
+              " which",
+              -4.316936492919922
+            ]
+          ],
+          "top1_minus_top2": 0.0,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            323,
+            31747,
+            429,
+            2803,
+            311,
+            387,
+            5435,
+            311,
+            264,
+            3151,
+            8544,
+            13,
+            4354,
+            11,
+            279,
+            1140,
+            374,
+            537,
+            2797,
+            476,
+            55787,
+            13
+          ]
+        },
+        {
+          "kind": "autoregressive",
+          "offered_batch": 8,
+          "position_0based": 10,
+          "common_prefix_aligned": true,
+          "top5": [
+            [
+              " and",
+              -1.0070220232009888
+            ],
+            [
+              " that",
+              -1.0070220232009888
+            ],
+            [
+              ",",
+              -1.9288970232009888
+            ],
+            [
+              ".",
+              -3.053896903991699
+            ],
+            [
+              " which",
+              -4.319521903991699
+            ]
+          ],
+          "top1_minus_top2": 0.0,
+          "generated_token_ids": [
+            2216,
+            198,
+            785,
+            1196,
+            702,
+            3897,
+            264,
+            1140,
+            315,
+            4244,
+            323,
+            31747,
+            429,
+            2803,
+            311,
+            387,
+            5435,
+            311,
+            264,
+            3151,
+            8544,
+            13,
+            4354,
+            11,
+            279,
+            1140,
+            374,
+            537,
+            2797,
+            476,
+            55787,
+            13
+          ]
+        }
+      ],
+      "trace_sha256": "02fee74f68253382b793b0687fe7e23d3f2299c5130a021fd585ae9fc1eb962d"
+    }
+  ],
+  "pairs": [
+    {
+      "repeat": 1,
+      "stock_off_exact": 11,
+      "stock_fixed_exact": 11,
+      "total": 11
+    },
+    {
+      "repeat": 2,
+      "stock_off_exact": 11,
+      "stock_fixed_exact": 11,
+      "total": 11
+    }
+  ],
+  "ended_unix": 1792496849.119122,
+  "target": "tail1",
+  "seed": 419,
+  "first_difference_1based": 11,
+  "original_native_token": 429,
+  "original_fixed_token": 323,
+  "common_prefix_tokens": [
+    2216,
+    198,
+    785,
+    1196,
+    702,
+    3897,
+    264,
+    1140,
+    315,
+    4244
+  ],
+  "original_prompt_tokens": [
+    12135,
+    29557,
+    11635,
+    11150,
+    2233,
+    11913,
+    6943,
+    10782,
+    12826,
+    14215,
+    19590,
+    12575,
+    17220,
+    8610,
+    11117,
+    11775,
+    12839
+  ],
+  "baseline": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_match1536/default-stock-s419/correctness-seed419",
+  "changed": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/raw/opt_match1536/default-fixed1536-s419/correctness-seed419",
+  "source_sha256": "31a90b8f2171569c29076a7b74887877f6c7532cfc4f7fc10325c9565f514f72",
+  "classification": "Independent numerical diagnostics; excluded from performance matrices."
+}

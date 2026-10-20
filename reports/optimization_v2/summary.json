@@ -1,0 +1,353 @@
+[
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "equalized1536",
+    "repeats": 3,
+    "decode99": 114.35951511666667,
+    "prefill95": 9934.230178333333,
+    "output_tok_s": 581.548208152972
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "repeats": 3,
+    "decode99": 126.79120349,
+    "prefill95": 9736.614128983332,
+    "output_tok_s": 587.7726622016052
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "interference",
+    "policy": "stock",
+    "repeats": 3,
+    "decode99": 253.07495613666666,
+    "prefill95": 9574.368192583332,
+    "output_tok_s": 595.2244919419961
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "equalized1536",
+    "repeats": 3,
+    "decode99": 107.09670494666668,
+    "prefill95": 690.3318595999996,
+    "output_tok_s": 606.7199982482101
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "repeats": 3,
+    "decode99": 106.3038525733333,
+    "prefill95": 647.0886014499997,
+    "output_tok_s": 606.7976497814531
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "mixed",
+    "policy": "stock",
+    "repeats": 3,
+    "decode99": 162.7083154866667,
+    "prefill95": 585.2493473833331,
+    "output_tok_s": 607.0651222957512
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "equalized1536",
+    "repeats": 3,
+    "decode99": 117.63415118333333,
+    "prefill95": 515.8914602166666,
+    "output_tok_s": 383.2459880600365
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "repeats": 3,
+    "decode99": 129.56002756666666,
+    "prefill95": 481.7481120333333,
+    "output_tok_s": 383.3610448941002
+  },
+  {
+    "stage": "opt_match1536",
+    "scenario": "transition",
+    "policy": "stock",
+    "repeats": 3,
+    "decode99": 230.79952441,
+    "prefill95": 446.77166331666666,
+    "output_tok_s": 383.5657374115441
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "repeats": 1,
+    "decode99": 144.12077909,
+    "prefill95": 9617.34332105,
+    "output_tok_s": 589.6006905951433
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "interference",
+    "policy": "fixed1792",
+    "repeats": 1,
+    "decode99": 136.01093208,
+    "prefill95": 10230.160307949998,
+    "output_tok_s": 571.8219197555468
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "repeats": 1,
+    "decode99": 128.86140181999994,
+    "prefill95": 444.43602054999997,
+    "output_tok_s": 574.7409731120691
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "mixed",
+    "policy": "fixed1792",
+    "repeats": 1,
+    "decode99": 117.13728530999967,
+    "prefill95": 474.5950276,
+    "output_tok_s": 574.0855076971621
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "repeats": 1,
+    "decode99": 144.46781854999998,
+    "prefill95": 466.69565409999996,
+    "output_tok_s": 383.4243305945738
+  },
+  {
+    "stage": "opt_refine",
+    "scenario": "transition",
+    "policy": "fixed1792",
+    "repeats": 1,
+    "decode99": 138.8022026,
+    "prefill95": 627.2675491499994,
+    "output_tok_s": 382.9489130432321
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "balanced",
+    "repeats": 1,
+    "decode99": 162.24533493,
+    "prefill95": 9753.10730615,
+    "output_tok_s": 584.3659692702286
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "equalized",
+    "repeats": 1,
+    "decode99": 144.05150721,
+    "prefill95": 9909.4096925,
+    "output_tok_s": 580.5047074594997
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "repeats": 1,
+    "decode99": 127.89395978,
+    "prefill95": 9797.670062149999,
+    "output_tok_s": 585.2873141395933
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "interference",
+    "policy": "stock",
+    "repeats": 1,
+    "decode99": 249.20295541,
+    "prefill95": 9459.942837049999,
+    "output_tok_s": 599.7887219945554
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "repeats": 1,
+    "decode99": 127.86211588999998,
+    "prefill95": 445.05758779999996,
+    "output_tok_s": 574.725027399657
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "equalized",
+    "repeats": 1,
+    "decode99": 133.76514695999998,
+    "prefill95": 449.3443544,
+    "output_tok_s": 574.7369500241834
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "repeats": 1,
+    "decode99": 100.82094352,
+    "prefill95": 446.7072762,
+    "output_tok_s": 575.0509712840195
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "mixed",
+    "policy": "stock",
+    "repeats": 1,
+    "decode99": 154.98505136,
+    "prefill95": 424.7119045,
+    "output_tok_s": 575.1185931168282
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "balanced",
+    "repeats": 1,
+    "decode99": 164.5320781,
+    "prefill95": 469.85413675,
+    "output_tok_s": 383.3415690646162
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "equalized",
+    "repeats": 1,
+    "decode99": 147.93096735,
+    "prefill95": 505.89845874999986,
+    "output_tok_s": 383.2574695959863
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "repeats": 1,
+    "decode99": 130.67680715,
+    "prefill95": 487.7503701,
+    "output_tok_s": 383.34952672253894
+  },
+  {
+    "stage": "opt_screen",
+    "scenario": "transition",
+    "policy": "stock",
+    "repeats": 1,
+    "decode99": 227.19076725999997,
+    "prefill95": 439.74070905,
+    "output_tok_s": 383.6568898948032
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "balanced",
+    "repeats": 5,
+    "decode99": 161.523372682,
+    "prefill95": 9720.404507279998,
+    "output_tok_s": 585.9238062070983
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "equalized256",
+    "repeats": 5,
+    "decode99": 146.687961846,
+    "prefill95": 9760.9027401,
+    "output_tok_s": 584.476766980919
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "fixed1536",
+    "repeats": 5,
+    "decode99": 126.94710540199999,
+    "prefill95": 9727.704850119999,
+    "output_tok_s": 588.1643399413073
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "interference",
+    "policy": "stock",
+    "repeats": 5,
+    "decode99": 252.87763301,
+    "prefill95": 9586.213751969999,
+    "output_tok_s": 594.8935905797468
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "balanced",
+    "repeats": 5,
+    "decode99": 118.795501388,
+    "prefill95": 436.81491692,
+    "output_tok_s": 608.498403424676
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "equalized256",
+    "repeats": 5,
+    "decode99": 125.38257378199995,
+    "prefill95": 436.46118065999997,
+    "output_tok_s": 608.5099491517534
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "fixed1536",
+    "repeats": 5,
+    "decode99": 96.53045644599997,
+    "prefill95": 440.07793333999996,
+    "output_tok_s": 608.634146630525
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "mixed",
+    "policy": "stock",
+    "repeats": 5,
+    "decode99": 124.060178046,
+    "prefill95": 420.4424155,
+    "output_tok_s": 608.8327499161237
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "balanced",
+    "repeats": 5,
+    "decode99": 164.058524382,
+    "prefill95": 474.71969924,
+    "output_tok_s": 383.36172736114986
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "equalized256",
+    "repeats": 5,
+    "decode99": 147.30136689,
+    "prefill95": 474.46109125,
+    "output_tok_s": 383.32114924167485
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "fixed1536",
+    "repeats": 5,
+    "decode99": 129.00592530400002,
+    "prefill95": 479.54308803,
+    "output_tok_s": 383.4099125732128
+  },
+  {
+    "stage": "opt_validation",
+    "scenario": "transition",
+    "policy": "stock",
+    "repeats": 5,
+    "decode99": 230.004949202,
+    "prefill95": 444.83136571,
+    "output_tok_s": 383.57757571099364
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "complete": true,
+  "formal_trials": 165,
+  "all_trials": 421,
+  "source_unchanged": true,
+  "source_and_model_verified": true,
+  "audit_errors": 0,
+  "matrix_finished": true,
+  "profiles_finished": true,
+  "numerical_finished": true,
+  "node_profile_finished": true,
+  "observe_node_profile_finished": true,
+  "stage_trial_counts": {
+    "ablation": 36,
+    "balanced": 45,
+    "calibration_extension": 16,
+    "compatibility": 18,
+    "default_pilot": 18,
+    "formal": 165,
+    "idle": 3,
+    "load_calibration": 1,
+    "mechanism": 15,
+    "native": 30,
+    "native2048": 10,
+    "pilot": 38,
+    "profiles": 5,
+    "starvation": 15,
+    "validation": 6
+  },
+  "required_stage_trials": {
+    "formal": 165,
+    "mechanism": 15,
+    "starvation": 15,
+    "native": 30,
+    "native2048": 10,
+    "ablation": 36,
+    "compatibility": 18,
+    "idle": 3,
+    "profiles": 5,
+    "balanced": 45
+  }
+}

@@ -1,0 +1,1035 @@
+{
+  "captures": [
+    {
+      "policy": "balanced",
+      "command": [
+        "/usr/local/cuda/bin/nsys",
+        "profile",
+        "--trace=cuda,nvtx",
+        "--sample=none",
+        "--cpuctxsw=none",
+        "--cuda-graph-trace=node",
+        "--capture-range=cudaProfilerApi",
+        "--capture-range-end=stop",
+        "--force-overwrite=true",
+        "--output=/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-balanced/capture",
+        "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/bin/python",
+        "-m",
+        "benchmarks.session",
+        "--policy",
+        "balanced",
+        "--controller-json",
+        "{\"mode\": \"joint\", \"minimum\": 2048}",
+        "--track",
+        "default",
+        "--profile",
+        "--seeds",
+        "919",
+        "--scenarios",
+        "interference",
+        "--output",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-balanced/raw"
+      ],
+      "returncode": 0,
+      "frozen": {
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/apb/controller.py": "ebd7a69ec924712bfe92c3a04b8210fef9ddd99cb773d4382b11135418fa95b4",
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/apb/runtime.py": "22e3b26d9b4f9e7cc494a3d97efb3ca975096ea83bb7a387bbbd99a952fc2440",
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/benchmarks/session.py": "704ba7277608cf440954b66c92174a8dedbac903a9af792b77857799b231bbc6"
+      },
+      "classification": "diagnostic only; outside performance matrices",
+      "export_returncode": 0,
+      "audit_errors": [],
+      "gpu": {
+        "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-balanced/capture.sqlite",
+        "granularity": "node",
+        "policy": "balanced",
+        "gpu_graph_ms": {
+          "count": 0,
+          "mean": null,
+          "p50": null,
+          "p90": null,
+          "p95": null,
+          "p99": null,
+          "max": null
+        },
+        "exposed_kernel_ms": {
+          "count": 47157,
+          "mean": 0.10003327548402192,
+          "p50": 0.005728,
+          "p90": 0.28515,
+          "p95": 0.5562912,
+          "p99": 1.471736,
+          "max": 1.68895
+        },
+        "graph_internal_kernel_count": 37230,
+        "top_kernels": [
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize160x128x32_stage4_warpsize2x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 2184,
+            "duration_ms": 1841.714172
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (bool)1, (bool)0, (bool)0, (bool)0, (bool)1, (bool)0, (bool)0, (bool)0>(flash::Flash_fwd_params)",
+            "count": 756,
+            "duration_ms": 844.767163
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (bool)0, (bool)0, (bool)0, (bool)0, (bool)1, (bool)0, (bool)1, (bool)0>(flash::Flash_fwd_params)",
+            "count": 2856,
+            "duration_ms": 813.461782
+          },
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize192x128x32_stage3_warpsize4x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 700,
+            "duration_ms": 387.966429
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_sliced1x2_ldg8_f2f_stages_64x6_tn",
+            "count": 2856,
+            "duration_ms": 217.237123
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_128x64_ldg8_f2f_stages_64x3_tn",
+            "count": 2856,
+            "duration_ms": 128.697413
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_ldg8_f2f_stages_64x6_tn",
+            "count": 128,
+            "duration_ms": 93.926802
+          },
+          {
+            "name": "triton_poi_fused_mul_silu_slice_1",
+            "count": 3612,
+            "duration_ms": 70.067482
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_ldg8_f2f_stages_64x5_tn",
+            "count": 2856,
+            "duration_ms": 70.022814
+          },
+          {
+            "name": "triton_red_fused_fused_add_rms_norm_2",
+            "count": 3612,
+            "duration_ms": 47.387023
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_f16_s161616gemm_f16_32x32_128x2_tn_align8>(T1::Params)",
+            "count": 2856,
+            "duration_ms": 38.287294
+          },
+          {
+            "name": "triton_red_fused_3",
+            "count": 3483,
+            "duration_ms": 31.395759
+          },
+          {
+            "name": "triton_red_fused_fused_add_rms_norm_0",
+            "count": 3612,
+            "duration_ms": 29.438044
+          },
+          {
+            "name": "void vllm::reshape_and_cache_flash_kernel<unsigned short, unsigned short, (vllm::Fp8KVCacheDataType)0>(const T1 *, const T1 *, T2 *, T2 *, const long *, long, long, long, long, long, int, int, int, const float *, const float *, int)",
+            "count": 3612,
+            "duration_ms": 24.178547
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_combine_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (int)4, (int)3, (bool)1>(flash::Flash_fwd_params)",
+            "count": 2856,
+            "duration_ms": 16.387267
+          },
+          {
+            "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 10)]::operator ()() const::[lambda(c10::Half) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+            "count": 5712,
+            "duration_ms": 12.608094
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_256x128_32x3_tn_align8>(T1::Params)",
+            "count": 28,
+            "duration_ms": 12.444409
+          },
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 56,
+            "duration_ms": 11.857022
+          },
+          {
+            "name": "ampere_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_tn",
+            "count": 28,
+            "duration_ms": 9.841738
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x3_tn_align8>(T1::Params)",
+            "count": 28,
+            "duration_ms": 4.004234
+          }
+        ],
+        "name_based_categories": {
+          "GEMM": {
+            "count": 14576,
+            "duration_ms": 2815.9994500000003
+          },
+          "Attention": {
+            "count": 10080,
+            "duration_ms": 1698.7947589999999
+          },
+          "Activation": {
+            "count": 3612,
+            "duration_ms": 70.067482
+          },
+          "Norm": {
+            "count": 7353,
+            "duration_ms": 77.87008900000001
+          },
+          "Other": {
+            "count": 11020,
+            "duration_ms": 50.282377999999994
+          },
+          "Sampling/softmax": {
+            "count": 516,
+            "duration_ms": 4.255014
+          }
+        }
+      },
+      "completed_work": {
+        "callbacks": 128,
+        "prompt_tokens": 53248,
+        "replay_tokens": 0,
+        "decode_tokens": 1898,
+        "mixed_steps": 26,
+        "note": "Logical first 128 completion callbacks; profiler can include edge work and changes execution timing."
+      },
+      "artifact_hashes": {
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-balanced/capture.nsys-rep": "dfc9cde8ceee48b322e6de5e94d0810e5eed9ca464b7ea647abdbfe01ced4942",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-balanced/capture.sqlite": "ab3c0d0bc86a29ef131c66d2cc623ff1b2cac1f02e019aa759141c83fb99c049",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-balanced/raw/scheduler.jsonl": "fab0903f3330d3e77a97f107fd8fbf0bc2fbead6e5d4834cac313b4017fee297"
+      },
+      "complete": true
+    },
+    {
+      "policy": "fixed1536",
+      "command": [
+        "/usr/local/cuda/bin/nsys",
+        "profile",
+        "--trace=cuda,nvtx",
+        "--sample=none",
+        "--cpuctxsw=none",
+        "--cuda-graph-trace=node",
+        "--capture-range=cudaProfilerApi",
+        "--capture-range-end=stop",
+        "--force-overwrite=true",
+        "--output=/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-fixed1536/capture",
+        "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/bin/python",
+        "-m",
+        "benchmarks.session",
+        "--policy",
+        "fixed1536",
+        "--controller-json",
+        "{\"fixed_idle_relax\": true}",
+        "--track",
+        "default",
+        "--profile",
+        "--seeds",
+        "919",
+        "--scenarios",
+        "interference",
+        "--output",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-fixed1536/raw"
+      ],
+      "returncode": 0,
+      "frozen": {
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/apb/controller.py": "ebd7a69ec924712bfe92c3a04b8210fef9ddd99cb773d4382b11135418fa95b4",
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/apb/runtime.py": "22e3b26d9b4f9e7cc494a3d97efb3ca975096ea83bb7a387bbbd99a952fc2440",
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/benchmarks/session.py": "704ba7277608cf440954b66c92174a8dedbac903a9af792b77857799b231bbc6"
+      },
+      "classification": "diagnostic only; outside performance matrices",
+      "export_returncode": 0,
+      "audit_errors": [],
+      "gpu": {
+        "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-fixed1536/capture.sqlite",
+        "granularity": "node",
+        "policy": "fixed1536",
+        "gpu_graph_ms": {
+          "count": 0,
+          "mean": null,
+          "p50": null,
+          "p90": null,
+          "p95": null,
+          "p99": null,
+          "max": null
+        },
+        "exposed_kernel_ms": {
+          "count": 46398,
+          "mean": 0.10066519063321729,
+          "p50": 0.011312,
+          "p90": 0.288478,
+          "p95": 0.546717,
+          "p99": 1.11733892,
+          "max": 1.580374
+        },
+        "graph_internal_kernel_count": 33945,
+        "top_kernels": [
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize160x128x32_stage4_warpsize2x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 2884,
+            "duration_ms": 1773.223178
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (bool)1, (bool)0, (bool)0, (bool)0, (bool)1, (bool)0, (bool)0, (bool)0>(flash::Flash_fwd_params)",
+            "count": 1008,
+            "duration_ms": 937.445672
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (bool)0, (bool)0, (bool)0, (bool)0, (bool)1, (bool)0, (bool)1, (bool)0>(flash::Flash_fwd_params)",
+            "count": 2604,
+            "duration_ms": 745.362572
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_256x128_32x3_tn_align8>(T1::Params)",
+            "count": 952,
+            "duration_ms": 425.086121
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_sliced1x2_ldg8_f2f_stages_64x6_tn",
+            "count": 2604,
+            "duration_ms": 198.770276
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_128x64_ldg8_f2f_stages_64x3_tn",
+            "count": 2604,
+            "duration_ms": 118.32217
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_ldg8_f2f_stages_64x6_tn",
+            "count": 128,
+            "duration_ms": 93.969748
+          },
+          {
+            "name": "triton_poi_fused_mul_silu_slice_1",
+            "count": 3612,
+            "duration_ms": 71.150524
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_ldg8_f2f_stages_64x5_tn",
+            "count": 2604,
+            "duration_ms": 63.893348
+          },
+          {
+            "name": "triton_red_fused_fused_add_rms_norm_2",
+            "count": 3612,
+            "duration_ms": 46.839015
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_f16_s161616gemm_f16_32x32_128x2_tn_align8>(T1::Params)",
+            "count": 2604,
+            "duration_ms": 35.046053
+          },
+          {
+            "name": "triton_red_fused_3",
+            "count": 3483,
+            "duration_ms": 32.043352
+          },
+          {
+            "name": "triton_red_fused_fused_add_rms_norm_0",
+            "count": 3612,
+            "duration_ms": 29.291952
+          },
+          {
+            "name": "void vllm::reshape_and_cache_flash_kernel<unsigned short, unsigned short, (vllm::Fp8KVCacheDataType)0>(const T1 *, const T1 *, T2 *, T2 *, const long *, long, long, long, long, long, int, int, int, const float *, const float *, int)",
+            "count": 3612,
+            "duration_ms": 23.905586
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_combine_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (int)4, (int)3, (bool)1>(flash::Flash_fwd_params)",
+            "count": 2604,
+            "duration_ms": 15.047679
+          },
+          {
+            "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 10)]::operator ()() const::[lambda(c10::Half) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+            "count": 5208,
+            "duration_ms": 11.768616
+          },
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 56,
+            "duration_ms": 11.707536
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_32x3_tn",
+            "count": 56,
+            "duration_ms": 10.637025
+          },
+          {
+            "name": "ampere_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_tn",
+            "count": 28,
+            "duration_ms": 9.724231
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x3_tn_align8>(T1::Params)",
+            "count": 28,
+            "duration_ms": 3.948392
+          }
+        ],
+        "name_based_categories": {
+          "GEMM": {
+            "count": 14576,
+            "duration_ms": 2746.530785
+          },
+          "Attention": {
+            "count": 9828,
+            "duration_ms": 1721.761509
+          },
+          "Activation": {
+            "count": 3612,
+            "duration_ms": 71.150524
+          },
+          "Norm": {
+            "count": 7353,
+            "duration_ms": 77.148017
+          },
+          "Other": {
+            "count": 10513,
+            "duration_ms": 50.129147999999994
+          },
+          "Sampling/softmax": {
+            "count": 516,
+            "duration_ms": 3.9435320000000003
+          }
+        }
+      },
+      "completed_work": {
+        "callbacks": 128,
+        "prompt_tokens": 53248,
+        "replay_tokens": 0,
+        "decode_tokens": 1852,
+        "mixed_steps": 35,
+        "note": "Logical first 128 completion callbacks; profiler can include edge work and changes execution timing."
+      },
+      "artifact_hashes": {
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-fixed1536/capture.nsys-rep": "1f2dad716a001d7e7fe75b6e5d9f8b3174c54c700d83ac1dade3429d102430f5",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-fixed1536/capture.sqlite": "d33227f9d257e1ff0463b2a42827ed6b55f207864b7193b6d3cf678d2eca3b03",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-fixed1536/raw/scheduler.jsonl": "2d8d8141b29afadb9995a28de1c639e281a2a02c7518e82f0b0c891589e251cf"
+      },
+      "complete": true
+    },
+    {
+      "policy": "equalized",
+      "command": [
+        "/usr/local/cuda/bin/nsys",
+        "profile",
+        "--trace=cuda,nvtx",
+        "--sample=none",
+        "--cpuctxsw=none",
+        "--cuda-graph-trace=node",
+        "--capture-range=cudaProfilerApi",
+        "--capture-range-end=stop",
+        "--force-overwrite=true",
+        "--output=/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized/capture",
+        "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/bin/python",
+        "-m",
+        "benchmarks.session",
+        "--policy",
+        "equalized",
+        "--controller-json",
+        "{\"cap\": 2048}",
+        "--track",
+        "default",
+        "--profile",
+        "--seeds",
+        "919",
+        "--scenarios",
+        "interference",
+        "--output",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized/raw"
+      ],
+      "returncode": 0,
+      "frozen": {
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/apb/controller.py": "ebd7a69ec924712bfe92c3a04b8210fef9ddd99cb773d4382b11135418fa95b4",
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/apb/runtime.py": "22e3b26d9b4f9e7cc494a3d97efb3ca975096ea83bb7a387bbbd99a952fc2440",
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/benchmarks/session.py": "704ba7277608cf440954b66c92174a8dedbac903a9af792b77857799b231bbc6"
+      },
+      "classification": "diagnostic only; outside performance matrices",
+      "export_returncode": 0,
+      "audit_errors": [],
+      "gpu": {
+        "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized/capture.sqlite",
+        "granularity": "node",
+        "policy": "equalized",
+        "gpu_graph_ms": {
+          "count": 0,
+          "mean": null,
+          "p50": null,
+          "p90": null,
+          "p95": null,
+          "p99": null,
+          "max": null
+        },
+        "exposed_kernel_ms": {
+          "count": 47157,
+          "mean": 0.10242348277032015,
+          "p50": 0.005792,
+          "p90": 0.286942,
+          "p95": 0.6638423999999999,
+          "p99": 1.48314108,
+          "max": 1.821173
+        },
+        "graph_internal_kernel_count": 37230,
+        "top_kernels": [
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize160x128x32_stage4_warpsize2x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 1988,
+            "duration_ms": 1581.885557
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (bool)1, (bool)0, (bool)0, (bool)0, (bool)1, (bool)0, (bool)0, (bool)0>(flash::Flash_fwd_params)",
+            "count": 756,
+            "duration_ms": 864.2841
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (bool)0, (bool)0, (bool)0, (bool)0, (bool)1, (bool)0, (bool)1, (bool)0>(flash::Flash_fwd_params)",
+            "count": 2856,
+            "duration_ms": 817.796008
+          },
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize192x128x32_stage3_warpsize4x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 672,
+            "duration_ms": 633.652965
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_sliced1x2_ldg8_f2f_stages_64x6_tn",
+            "count": 2856,
+            "duration_ms": 218.190742
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_128x64_ldg8_f2f_stages_64x3_tn",
+            "count": 2856,
+            "duration_ms": 130.036537
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_ldg8_f2f_stages_64x6_tn",
+            "count": 128,
+            "duration_ms": 93.969849
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_256x128_32x3_tn_align8>(T1::Params)",
+            "count": 168,
+            "duration_ms": 74.918768
+          },
+          {
+            "name": "triton_poi_fused_mul_silu_slice_1",
+            "count": 3612,
+            "duration_ms": 70.612073
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_ldg8_f2f_stages_64x5_tn",
+            "count": 2856,
+            "duration_ms": 70.129036
+          },
+          {
+            "name": "triton_red_fused_fused_add_rms_norm_2",
+            "count": 3612,
+            "duration_ms": 46.328611
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_f16_s161616gemm_f16_32x32_128x2_tn_align8>(T1::Params)",
+            "count": 2856,
+            "duration_ms": 38.466276
+          },
+          {
+            "name": "triton_red_fused_3",
+            "count": 3483,
+            "duration_ms": 31.65967
+          },
+          {
+            "name": "triton_red_fused_fused_add_rms_norm_0",
+            "count": 3612,
+            "duration_ms": 28.815453
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_256x64_32x4_tn_align8>(T1::Params)",
+            "count": 56,
+            "duration_ms": 25.800381
+          },
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 84,
+            "duration_ms": 24.389544
+          },
+          {
+            "name": "void vllm::reshape_and_cache_flash_kernel<unsigned short, unsigned short, (vllm::Fp8KVCacheDataType)0>(const T1 *, const T1 *, T2 *, T2 *, const long *, long, long, long, long, long, int, int, int, const float *, const float *, int)",
+            "count": 3612,
+            "duration_ms": 24.111505
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_combine_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (int)4, (int)3, (bool)1>(flash::Flash_fwd_params)",
+            "count": 2856,
+            "duration_ms": 16.526664
+          },
+          {
+            "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 10)]::operator ()() const::[lambda(c10::Half) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+            "count": 5712,
+            "duration_ms": 13.016087
+          },
+          {
+            "name": "ampere_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_tn",
+            "count": 28,
+            "duration_ms": 9.780261
+          }
+        ],
+        "name_based_categories": {
+          "GEMM": {
+            "count": 14576,
+            "duration_ms": 2905.1925639999995
+          },
+          "Attention": {
+            "count": 10080,
+            "duration_ms": 1722.7182770000002
+          },
+          "Activation": {
+            "count": 3612,
+            "duration_ms": 70.612073
+          },
+          "Norm": {
+            "count": 7353,
+            "duration_ms": 76.191357
+          },
+          "Other": {
+            "count": 11020,
+            "duration_ms": 51.00042499999999
+          },
+          "Sampling/softmax": {
+            "count": 516,
+            "duration_ms": 4.269481
+          }
+        }
+      },
+      "completed_work": {
+        "callbacks": 128,
+        "prompt_tokens": 53248,
+        "replay_tokens": 0,
+        "decode_tokens": 1898,
+        "mixed_steps": 26,
+        "note": "Logical first 128 completion callbacks; profiler can include edge work and changes execution timing."
+      },
+      "artifact_hashes": {
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized/capture.nsys-rep": "adf296f183e6436e9d2b466bb4854edd116aa2bffaaf33fbd5d6c45d1390778f",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized/capture.sqlite": "6e0059a0ebb3848bcfe801bbe6981f481460e983fd40fb79e03b2baea676b5a5",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized/raw/scheduler.jsonl": "e0316e3560d2f4cedf46204dc2c5dbec61ac952ad2945dd447970840c2e25467"
+      },
+      "complete": true
+    },
+    {
+      "policy": "equalized256",
+      "command": [
+        "/usr/local/cuda/bin/nsys",
+        "profile",
+        "--trace=cuda,nvtx",
+        "--sample=none",
+        "--cpuctxsw=none",
+        "--cuda-graph-trace=node",
+        "--capture-range=cudaProfilerApi",
+        "--capture-range-end=stop",
+        "--force-overwrite=true",
+        "--output=/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized256/capture",
+        "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/bin/python",
+        "-m",
+        "benchmarks.session",
+        "--policy",
+        "equalized256",
+        "--controller-json",
+        "{\"mode\": \"equalized\", \"cap\": 2048, \"chunk_alignment\": 256}",
+        "--track",
+        "default",
+        "--profile",
+        "--seeds",
+        "919",
+        "--scenarios",
+        "interference",
+        "--output",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized256/raw"
+      ],
+      "returncode": 0,
+      "frozen": {
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/apb/controller.py": "ebd7a69ec924712bfe92c3a04b8210fef9ddd99cb773d4382b11135418fa95b4",
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/apb/runtime.py": "22e3b26d9b4f9e7cc494a3d97efb3ca975096ea83bb7a387bbbd99a952fc2440",
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/benchmarks/session.py": "704ba7277608cf440954b66c92174a8dedbac903a9af792b77857799b231bbc6"
+      },
+      "classification": "diagnostic only; outside performance matrices",
+      "export_returncode": 0,
+      "audit_errors": [],
+      "gpu": {
+        "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized256/capture.sqlite",
+        "granularity": "node",
+        "policy": "equalized256",
+        "gpu_graph_ms": {
+          "count": 0,
+          "mean": null,
+          "p50": null,
+          "p90": null,
+          "p95": null,
+          "p99": null,
+          "max": null
+        },
+        "exposed_kernel_ms": {
+          "count": 47157,
+          "mean": 0.10107090468011096,
+          "p50": 0.005792,
+          "p90": 0.2870384,
+          "p95": 0.560701,
+          "p99": 1.48432508,
+          "max": 2.002579
+        },
+        "graph_internal_kernel_count": 37230,
+        "top_kernels": [
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize160x128x32_stage4_warpsize2x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 2184,
+            "duration_ms": 1829.818982
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (bool)1, (bool)0, (bool)0, (bool)0, (bool)1, (bool)0, (bool)0, (bool)0>(flash::Flash_fwd_params)",
+            "count": 756,
+            "duration_ms": 856.09612
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (bool)0, (bool)0, (bool)0, (bool)0, (bool)1, (bool)0, (bool)1, (bool)0>(flash::Flash_fwd_params)",
+            "count": 2856,
+            "duration_ms": 817.981294
+          },
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize192x128x32_stage3_warpsize4x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 448,
+            "duration_ms": 272.807413
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_sliced1x2_ldg8_f2f_stages_64x6_tn",
+            "count": 2856,
+            "duration_ms": 218.211724
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_256x128_32x3_tn_align8>(T1::Params)",
+            "count": 252,
+            "duration_ms": 156.068366
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_128x64_ldg8_f2f_stages_64x3_tn",
+            "count": 2856,
+            "duration_ms": 130.081102
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_ldg8_f2f_stages_64x6_tn",
+            "count": 128,
+            "duration_ms": 93.963954
+          },
+          {
+            "name": "triton_poi_fused_mul_silu_slice_1",
+            "count": 3612,
+            "duration_ms": 71.017533
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_ldg8_f2f_stages_64x5_tn",
+            "count": 2856,
+            "duration_ms": 70.11186
+          },
+          {
+            "name": "triton_red_fused_fused_add_rms_norm_2",
+            "count": 3612,
+            "duration_ms": 46.82676
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_f16_s161616gemm_f16_32x32_128x2_tn_align8>(T1::Params)",
+            "count": 2856,
+            "duration_ms": 38.480055
+          },
+          {
+            "name": "triton_red_fused_3",
+            "count": 3483,
+            "duration_ms": 31.80969
+          },
+          {
+            "name": "triton_red_fused_fused_add_rms_norm_0",
+            "count": 3612,
+            "duration_ms": 29.36014
+          },
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 84,
+            "duration_ms": 24.383784
+          },
+          {
+            "name": "void vllm::reshape_and_cache_flash_kernel<unsigned short, unsigned short, (vllm::Fp8KVCacheDataType)0>(const T1 *, const T1 *, T2 *, T2 *, const long *, long, long, long, long, long, int, int, int, const float *, const float *, int)",
+            "count": 3612,
+            "duration_ms": 24.105638
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_combine_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (int)4, (int)3, (bool)1>(flash::Flash_fwd_params)",
+            "count": 2856,
+            "duration_ms": 16.533935
+          },
+          {
+            "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 10)]::operator ()() const::[lambda(c10::Half) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+            "count": 5712,
+            "duration_ms": 12.957382
+          },
+          {
+            "name": "ampere_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_tn",
+            "count": 28,
+            "duration_ms": 9.78455
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x3_tn_align8>(T1::Params)",
+            "count": 28,
+            "duration_ms": 3.981898
+          }
+        ],
+        "name_based_categories": {
+          "GEMM": {
+            "count": 14576,
+            "duration_ms": 2847.693688
+          },
+          "Attention": {
+            "count": 10080,
+            "duration_ms": 1714.716987
+          },
+          "Activation": {
+            "count": 3612,
+            "duration_ms": 71.017533
+          },
+          "Norm": {
+            "count": 7353,
+            "duration_ms": 77.23296500000001
+          },
+          "Other": {
+            "count": 11020,
+            "duration_ms": 51.111318000000004
+          },
+          "Sampling/softmax": {
+            "count": 516,
+            "duration_ms": 4.428161
+          }
+        }
+      },
+      "completed_work": {
+        "callbacks": 128,
+        "prompt_tokens": 53248,
+        "replay_tokens": 0,
+        "decode_tokens": 1898,
+        "mixed_steps": 26,
+        "note": "Logical first 128 completion callbacks; profiler can include edge work and changes execution timing."
+      },
+      "artifact_hashes": {
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized256/capture.nsys-rep": "7d332ccb2ad38b6c1c3d550238aff25d4e5db8d3359699ac397a57afbdca7f7b",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized256/capture.sqlite": "ca0dcb152cc6a5ef312392b68a41cca66acede0e5f4709d7cec82d86e2708b15",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized256/raw/scheduler.jsonl": "1a4f1c9195ead0e0b8c0a0d1675d3b25ae43aa6e834326d7715e563181505f44"
+      },
+      "complete": true
+    },
+    {
+      "policy": "equalized1536",
+      "command": [
+        "/usr/local/cuda/bin/nsys",
+        "profile",
+        "--trace=cuda,nvtx",
+        "--sample=none",
+        "--cpuctxsw=none",
+        "--cuda-graph-trace=node",
+        "--capture-range=cudaProfilerApi",
+        "--capture-range-end=stop",
+        "--force-overwrite=true",
+        "--output=/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized1536/capture",
+        "/mnt/ondeviceinfer/experiments/vllm_kv_scheduling_latest_v0320/environment/bin/python",
+        "-m",
+        "benchmarks.session",
+        "--policy",
+        "equalized1536",
+        "--controller-json",
+        "{\"mode\": \"equalized\", \"cap\": 1536, \"chunk_alignment\": 512}",
+        "--track",
+        "default",
+        "--profile",
+        "--seeds",
+        "919",
+        "--scenarios",
+        "interference",
+        "--output",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized1536/raw"
+      ],
+      "returncode": 0,
+      "frozen": {
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/apb/controller.py": "ebd7a69ec924712bfe92c3a04b8210fef9ddd99cb773d4382b11135418fa95b4",
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/apb/runtime.py": "22e3b26d9b4f9e7cc494a3d97efb3ca975096ea83bb7a387bbbd99a952fc2440",
+        "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget/benchmarks/session.py": "704ba7277608cf440954b66c92174a8dedbac903a9af792b77857799b231bbc6"
+      },
+      "classification": "diagnostic only; outside performance matrices",
+      "export_returncode": 0,
+      "audit_errors": [],
+      "gpu": {
+        "path": "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized1536/capture.sqlite",
+        "granularity": "node",
+        "policy": "equalized1536",
+        "gpu_graph_ms": {
+          "count": 0,
+          "mean": null,
+          "p50": null,
+          "p90": null,
+          "p95": null,
+          "p99": null,
+          "max": null
+        },
+        "exposed_kernel_ms": {
+          "count": 46398,
+          "mean": 0.10258826479589639,
+          "p50": 0.01168,
+          "p90": 0.28947,
+          "p95": 0.5559696500000001,
+          "p99": 1.19557696,
+          "max": 1.497047
+        },
+        "graph_internal_kernel_count": 33945,
+        "top_kernels": [
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize160x128x32_stage4_warpsize2x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 2492,
+            "duration_ms": 1724.869185
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (bool)1, (bool)0, (bool)0, (bool)0, (bool)1, (bool)0, (bool)0, (bool)0>(flash::Flash_fwd_params)",
+            "count": 1008,
+            "duration_ms": 947.730497
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (bool)0, (bool)0, (bool)0, (bool)0, (bool)1, (bool)0, (bool)1, (bool)0>(flash::Flash_fwd_params)",
+            "count": 2604,
+            "duration_ms": 748.69856
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_tensorop_f16_s16816gemm_relu_f16_256x128_32x3_tn_align8>(T1::Params)",
+            "count": 560,
+            "duration_ms": 250.842032
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_sliced1x2_ldg8_f2f_stages_64x6_tn",
+            "count": 2604,
+            "duration_ms": 199.447451
+          },
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize96x128x32_stage4_warpsize2x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 644,
+            "duration_ms": 198.691974
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_128x64_ldg8_f2f_stages_64x3_tn",
+            "count": 2604,
+            "duration_ms": 119.288464
+          },
+          {
+            "name": "sm80_xmma_gemm_f16f16_f16f32_f32_tn_n_tilesize192x128x32_stage3_warpsize4x2x1_tensor16x8x16_execute_kernel__5x_cublas",
+            "count": 196,
+            "duration_ms": 109.8899
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_ldg8_f2f_stages_64x6_tn",
+            "count": 128,
+            "duration_ms": 94.008745
+          },
+          {
+            "name": "triton_poi_fused_mul_silu_slice_1",
+            "count": 3612,
+            "duration_ms": 70.44441
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_64x64_ldg8_f2f_stages_64x5_tn",
+            "count": 2604,
+            "duration_ms": 64.025044
+          },
+          {
+            "name": "triton_red_fused_fused_add_rms_norm_2",
+            "count": 3612,
+            "duration_ms": 46.291821
+          },
+          {
+            "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_f16_s161616gemm_f16_32x32_128x2_tn_align8>(T1::Params)",
+            "count": 2604,
+            "duration_ms": 35.209778
+          },
+          {
+            "name": "triton_red_fused_3",
+            "count": 3483,
+            "duration_ms": 32.043593
+          },
+          {
+            "name": "triton_red_fused_fused_add_rms_norm_0",
+            "count": 3612,
+            "duration_ms": 29.087779
+          },
+          {
+            "name": "void vllm::reshape_and_cache_flash_kernel<unsigned short, unsigned short, (vllm::Fp8KVCacheDataType)0>(const T1 *, const T1 *, T2 *, T2 *, const long *, long, long, long, long, long, int, int, int, const float *, const float *, int)",
+            "count": 3612,
+            "duration_ms": 24.02316
+          },
+          {
+            "name": "void flash::flash_fwd_splitkv_combine_kernel<Flash_fwd_kernel_traits<(int)128, (int)64, (int)128, (int)4, (bool)0, (bool)0, cutlass::half_t, Flash_kernel_traits<(int)128, (int)64, (int)128, (int)4, cutlass::half_t>>, (int)4, (int)3, (bool)1>(flash::Flash_fwd_params)",
+            "count": 2604,
+            "duration_ms": 15.142946
+          },
+          {
+            "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 10)]::operator ()() const::[lambda(c10::Half) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+            "count": 5208,
+            "duration_ms": 11.942589
+          },
+          {
+            "name": "ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_32x3_tn",
+            "count": 56,
+            "duration_ms": 10.434266
+          },
+          {
+            "name": "ampere_fp16_s1688gemm_fp16_128x128_ldg8_f2f_stages_32x1_tn",
+            "count": 28,
+            "duration_ms": 9.778142
+          }
+        ],
+        "name_based_categories": {
+          "GEMM": {
+            "count": 14576,
+            "duration_ms": 2822.618029
+          },
+          "Attention": {
+            "count": 9828,
+            "duration_ms": 1735.595163
+          },
+          "Activation": {
+            "count": 3612,
+            "duration_ms": 70.44441
+          },
+          "Norm": {
+            "count": 7353,
+            "duration_ms": 76.404718
+          },
+          "Other": {
+            "count": 10513,
+            "duration_ms": 50.33071699999999
+          },
+          "Sampling/softmax": {
+            "count": 516,
+            "duration_ms": 4.497273
+          }
+        }
+      },
+      "completed_work": {
+        "callbacks": 128,
+        "prompt_tokens": 53248,
+        "replay_tokens": 0,
+        "decode_tokens": 1852,
+        "mixed_steps": 35,
+        "note": "Logical first 128 completion callbacks; profiler can include edge work and changes execution timing."
+      },
+      "artifact_hashes": {
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized1536/capture.nsys-rep": "7de6219fb8ac141e9c43d8eab35eb02f3cbee7083f9e3946fc5940aa00bec1c1",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized1536/capture.sqlite": "160e1ff51b970bfb57724153ce7c3a05802e449f8ff7266889b1f72fdae2659d",
+        "/mnt/ondeviceinfer/experiments/adaptive_prefill_budget_v0320_opt2/diagnostic_profiles/node-equalized1536/raw/scheduler.jsonl": "e1ccae8ab27815193809b9097fb56df33996354ffcf44b55222b3d1adf3890ba"
+      },
+      "complete": true
+    }
+  ],
+  "interpretation": "Node trace includes graph kernels. Function-name categories are heuristic; activity sums are not wall time, utilization, or a causal speedup estimate. Different completed work is recorded explicitly."
+}

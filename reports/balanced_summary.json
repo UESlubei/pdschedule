@@ -1,0 +1,74 @@
+[
+  {
+    "scenario": "interference",
+    "policy": "stock",
+    "repeats": 5,
+    "decode99": 251.960127478,
+    "prefill95": 9552.836406429999,
+    "output_tok_s": 596.4004543022688
+  },
+  {
+    "scenario": "interference",
+    "policy": "fixed2048",
+    "repeats": 5,
+    "decode99": 161.36115776,
+    "prefill95": 9723.29994453,
+    "output_tok_s": 585.8265776229272
+  },
+  {
+    "scenario": "interference",
+    "policy": "joint",
+    "repeats": 5,
+    "decode99": 161.622126354,
+    "prefill95": 9716.88534286,
+    "output_tok_s": 586.1328975779492
+  },
+  {
+    "scenario": "transition",
+    "policy": "stock",
+    "repeats": 5,
+    "decode99": 229.63146923600002,
+    "prefill95": 443.47616211,
+    "output_tok_s": 383.58933402767303
+  },
+  {
+    "scenario": "transition",
+    "policy": "fixed2048",
+    "repeats": 5,
+    "decode99": 164.120208058,
+    "prefill95": 470.73522019,
+    "output_tok_s": 383.3765316067543
+  },
+  {
+    "scenario": "transition",
+    "policy": "joint",
+    "repeats": 5,
+    "decode99": 163.79797676,
+    "prefill95": 469.24143392999997,
+    "output_tok_s": 383.3928339529956
+  },
+  {
+    "scenario": "mixed",
+    "policy": "stock",
+    "repeats": 5,
+    "decode99": 124.03776180999995,
+    "prefill95": 421.37752204,
+    "output_tok_s": 597.9500511133879
+  },
+  {
+    "scenario": "mixed",
+    "policy": "fixed2048",
+    "repeats": 5,
+    "decode99": 118.599618944,
+    "prefill95": 436.62964278,
+    "output_tok_s": 597.7889787090536
+  },
+  {
+    "scenario": "mixed",
+    "policy": "joint",
+    "repeats": 5,
+    "decode99": 118.39760410399998,
+    "prefill95": 436.60940404999997,
+    "output_tok_s": 597.8257112772557
+  }
+]

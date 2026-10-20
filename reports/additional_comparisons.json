@@ -1,0 +1,1130 @@
+[
+  {
+    "stage": "ablation",
+    "configuration": "default-aging-aging-every-step",
+    "scenario": "interference",
+    "baseline": "aging",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 13.10444764387119,
+    "ci95": [
+      12.321204421223664,
+      13.931850670967515
+    ],
+    "changes": [
+      13.06028783942239,
+      13.931850670967517,
+      12.321204421223664
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-aging-aging-every-step",
+    "scenario": "interference",
+    "baseline": "aging",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": -19.56589042092195,
+    "ci95": [
+      -19.736359716950357,
+      -19.35194538299584
+    ],
+    "changes": [
+      -19.736359716950357,
+      -19.609366162819654,
+      -19.35194538299584
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-aging-aging-every-step",
+    "scenario": "interference",
+    "baseline": "aging",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": 8.876957412976404,
+    "ci95": [
+      8.654122549655007,
+      9.068191218560596
+    ],
+    "changes": [
+      9.068191218560596,
+      8.908558470713611,
+      8.654122549655007
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-fixed4096-reserve-off",
+    "scenario": "interference",
+    "baseline": "fixed4096",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -0.13337265434818132,
+    "ci95": [
+      -0.4090734046836797,
+      0.16357548291987545
+    ],
+    "changes": [
+      0.16357548291987545,
+      -0.4090734046836797,
+      -0.1546200412807397
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-fixed4096-reserve-off",
+    "scenario": "interference",
+    "baseline": "fixed4096",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": -0.28828633971340983,
+    "ci95": [
+      -0.3734534040335524,
+      -0.20565057937240727
+    ],
+    "changes": [
+      -0.28575503573426975,
+      -0.3734534040335524,
+      -0.20565057937240727
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-fixed4096-reserve-off",
+    "scenario": "interference",
+    "baseline": "fixed4096",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": 0.11168250238471344,
+    "ci95": [
+      0.01863318117749646,
+      0.18690443959541447
+    ],
+    "changes": [
+      0.1295098863812294,
+      0.18690443959541447,
+      0.01863318117749646
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-fixed512-idle-relax",
+    "scenario": "interference",
+    "baseline": "fixed512",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 0.5093157194226724,
+    "ci95": [
+      -0.21726448744828764,
+      1.2503594913806815
+    ],
+    "changes": [
+      0.49485215433562324,
+      1.2503594913806815,
+      -0.21726448744828764
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-fixed512-idle-relax",
+    "scenario": "interference",
+    "baseline": "fixed512",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": -0.3863582385091287,
+    "ci95": [
+      -0.7480677766400601,
+      -0.18452078078151635
+    ],
+    "changes": [
+      -0.7480677766400601,
+      -0.18452078078151635,
+      -0.22648615810580974
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-fixed512-idle-relax",
+    "scenario": "interference",
+    "baseline": "fixed512",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": 0.2613842073984814,
+    "ci95": [
+      0.12803562466616736,
+      0.4714938457317741
+    ],
+    "changes": [
+      0.4714938457317741,
+      0.12803562466616736,
+      0.18462315179750277
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-ema01",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 7.138878840096148,
+    "ci95": [
+      7.104286605572651,
+      7.181834957853783
+    ],
+    "changes": [
+      7.181834957853783,
+      7.130514956862011,
+      7.104286605572652
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-ema01",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": -2.3763769469921794,
+    "ci95": [
+      -2.4161300670127006,
+      -2.3522621278887046
+    ],
+    "changes": [
+      -2.3522621278887046,
+      -2.3607386460751334,
+      -2.4161300670127006
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-ema01",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": 1.4650231521950847,
+    "ci95": [
+      1.38630079104336,
+      1.5345099392929828
+    ],
+    "changes": [
+      1.38630079104336,
+      1.4742587262489115,
+      1.5345099392929828
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-ema04",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -2.7597672921349514,
+    "ci95": [
+      -3.126438924723795,
+      -2.1502491848778282
+    ],
+    "changes": [
+      -3.0026137668032304,
+      -2.1502491848778282,
+      -3.1264389247237956
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-ema04",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 1.3800282850352656,
+    "ci95": [
+      1.0995821854718812,
+      1.7647218639690765
+    ],
+    "changes": [
+      1.7647218639690765,
+      1.275780805664839,
+      1.0995821854718812
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-ema04",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -0.40674054727000514,
+    "ci95": [
+      -0.58393270074244,
+      -0.26858551712762857
+    ],
+    "changes": [
+      -0.58393270074244,
+      -0.3677034239399468,
+      -0.26858551712762857
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-k1",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -2.6675003727725355,
+    "ci95": [
+      -3.705192616850128,
+      -1.444165258700103
+    ],
+    "changes": [
+      -2.8531432427673753,
+      -3.705192616850128,
+      -1.444165258700103
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-k1",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 3.6869687677422234,
+    "ci95": [
+      3.6138576719528586,
+      3.7435541124638316
+    ],
+    "changes": [
+      3.70349451880998,
+      3.7435541124638316,
+      3.613857671952858
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-k1",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -1.082360700693578,
+    "ci95": [
+      -1.166196607923109,
+      -1.0026146495690003
+    ],
+    "changes": [
+      -1.166196607923109,
+      -1.0782708445886247,
+      -1.0026146495690003
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-k16",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 12.1534304213754,
+    "ci95": [
+      11.314833591461749,
+      12.682061097279183
+    ],
+    "changes": [
+      11.314833591461749,
+      12.463396575385266,
+      12.682061097279185
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-k16",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": -3.5647322503785475,
+    "ci95": [
+      -3.851254798041248,
+      -3.370113874342018
+    ],
+    "changes": [
+      -3.472828078752377,
+      -3.370113874342018,
+      -3.851254798041248
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-k16",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": 2.1324062429207777,
+    "ci95": [
+      1.9203450631859686,
+      2.321949376451471
+    ],
+    "changes": [
+      1.9203450631859686,
+      2.154924289124893,
+      2.321949376451471
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-k4",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": -1.8150021720623855,
+    "ci95": [
+      -2.4139050348337188,
+      -1.186360341597803
+    ],
+    "changes": [
+      -2.4139050348337188,
+      -1.8447411397556346,
+      -1.186360341597803
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-k4",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 1.8898483376509272,
+    "ci95": [
+      1.7442648811514916,
+      2.027616257615583
+    ],
+    "changes": [
+      2.027616257615583,
+      1.8976638741857066,
+      1.7442648811514916
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-k4",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -0.5584925646346198,
+    "ci95": [
+      -0.6908949512078211,
+      -0.44395275086858144
+    ],
+    "changes": [
+      -0.6908949512078211,
+      -0.5406299918274571,
+      -0.44395275086858144
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-min1024",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 111.49593298339198,
+    "ci95": [
+      110.4084131587951,
+      113.1583482888472
+    ],
+    "changes": [
+      110.92103750253366,
+      110.4084131587951,
+      113.1583482888472
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-min1024",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": -27.48455804704067,
+    "ci95": [
+      -27.650950877162796,
+      -27.293961777920316
+    ],
+    "changes": [
+      -27.293961777920316,
+      -27.508761486038903,
+      -27.650950877162796
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-min1024",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": 13.347323189411956,
+    "ci95": [
+      13.033362091241974,
+      13.586503130535355
+    ],
+    "changes": [
+      13.033362091241973,
+      13.422104346458541,
+      13.586503130535355
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-min512",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 33.291471582539025,
+    "ci95": [
+      32.97684976629169,
+      33.622510225601275
+    ],
+    "changes": [
+      33.2750547557241,
+      32.97684976629169,
+      33.622510225601275
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-min512",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": -19.780733502090612,
+    "ci95": [
+      -19.91290342387654,
+      -19.58401878832784
+    ],
+    "changes": [
+      -19.58401878832784,
+      -19.84527829406746,
+      -19.91290342387654
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-min512",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": 9.261000044939202,
+    "ci95": [
+      8.99748160148166,
+      9.438870544743128
+    ],
+    "changes": [
+      8.99748160148166,
+      9.346647988592816,
+      9.438870544743128
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-rho01",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 1.137906762204118,
+    "ci95": [
+      -1.2515365481908458,
+      5.322069250722605
+    ],
+    "changes": [
+      -0.6568124159194055,
+      -1.2515365481908458,
+      5.322069250722605
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-rho01",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": 0.04909811255718877,
+    "ci95": [
+      -0.3755160442896144,
+      0.38043915592023136
+    ],
+    "changes": [
+      0.14237122604094932,
+      0.38043915592023136,
+      -0.3755160442896144
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-rho01",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": -1.6543637937349587e-05,
+    "ci95": [
+      -0.18173363262642406,
+      0.23658482654291824
+    ],
+    "changes": [
+      -0.18173363262642406,
+      -0.05490082483030623,
+      0.23658482654291824
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-rho03",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "decode99",
+    "pairs": 3,
+    "mean_change_pct": 0.7314858894778157,
+    "ci95": [
+      0.2626988966040189,
+      1.6683659519237448
+    ],
+    "changes": [
+      0.2633928199056834,
+      0.2626988966040189,
+      1.6683659519237448
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-rho03",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "prefill95",
+    "pairs": 3,
+    "mean_change_pct": -0.8513414048543592,
+    "ci95": [
+      -1.0520055135159523,
+      -0.7354822860010879
+    ],
+    "changes": [
+      -0.7354822860010879,
+      -0.7665364150460374,
+      -1.0520055135159523
+    ]
+  },
+  {
+    "stage": "ablation",
+    "configuration": "default-joint-rho03",
+    "scenario": "interference",
+    "baseline": "joint",
+    "metric": "output_tok_s",
+    "pairs": 3,
+    "mean_change_pct": 0.41440696041400066,
+    "ci95": [
+      0.30085237525447894,
+      0.586718976531686
+    ],
+    "changes": [
+      0.30085237525447894,
+      0.35564952945583705,
+      0.586718976531686
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a0",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -12.925670205430734,
+    "ci95": [
+      -13.061083447441916,
+      -12.781715497949133
+    ],
+    "changes": [
+      -12.671231980281183,
+      -13.07855290810165,
+      -12.816328640800467,
+      -12.976163574934462,
+      -13.086073923035912
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a0",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 3.476668270788079,
+    "ci95": [
+      3.3891335432020187,
+      3.560175025492196
+    ],
+    "changes": [
+      3.4099447484540635,
+      3.3121527780659132,
+      3.540366666682271,
+      3.521612527379858,
+      3.59926463335829
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a0",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -1.1679808558883775,
+    "ci95": [
+      -1.2399097170248785,
+      -1.0530956653915458
+    ],
+    "changes": [
+      -1.190773134645251,
+      -0.9405366570574225,
+      -1.2378588762449683,
+      -1.2176403903540356,
+      -1.2530952211402102
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a0",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -37.798802894624274,
+    "ci95": [
+      -44.938787095094064,
+      -30.727847046443863
+    ],
+    "changes": [
+      -48.59173386532554,
+      -31.421694732869522,
+      -30.32700001416815,
+      -30.781770235506734,
+      -47.871815625251415
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a0",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 19.40288565847747,
+    "ci95": [
+      17.392409666386484,
+      21.192888993604956
+    ],
+    "changes": [
+      20.343241742694396,
+      15.77103606129462,
+      18.08954887573315,
+      21.25121034034978,
+      21.55939127231541
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a0",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.16109888396231176,
+    "ci95": [
+      -0.2130845930959291,
+      -0.10911317482869443
+    ],
+    "changes": [
+      -0.14727442004611735,
+      -0.11531131014289597,
+      -0.08383441690578142,
+      -0.22359087873856653,
+      -0.2354833939781975
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a1",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -12.860992662459985,
+    "ci95": [
+      -13.365977277977453,
+      -12.356008046942515
+    ],
+    "changes": [
+      -12.20050901725438,
+      -13.642666426358673,
+      -12.126850983389225,
+      -13.125320233425363,
+      -13.209616651872281
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a1",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 3.374866568201478,
+    "ci95": [
+      3.182832023321942,
+      3.5669011130810135
+    ],
+    "changes": [
+      3.6123960796157206,
+      3.1858613645292744,
+      3.0668145082125786,
+      3.408808371126004,
+      3.600452517523811
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a1",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -1.1140096640745578,
+    "ci95": [
+      -1.2613610377351892,
+      -0.9666582904139265
+    ],
+    "changes": [
+      -1.2958633739968195,
+      -0.8666182077487705,
+      -0.9727060582967684,
+      -1.1546429199785546,
+      -1.280217760351876
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a1",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -37.86500459463736,
+    "ci95": [
+      -44.865867637315674,
+      -30.944957524409766
+    ],
+    "changes": [
+      -48.389241218001835,
+      -30.932570238379686,
+      -30.772373314571034,
+      -31.314900516147382,
+      -47.91593768608686
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a1",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 19.30864671727189,
+    "ci95": [
+      17.42057720861235,
+      21.196716225931432
+    ],
+    "changes": [
+      20.964329597810092,
+      16.115614744030736,
+      17.39638565873136,
+      20.07888523753756,
+      21.988018348249703
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th1024-a1",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.15931781531390188,
+    "ci95": [
+      -0.1965473908985138,
+      -0.12338274831627416
+    ],
+    "changes": [
+      -0.1520560598881504,
+      -0.14394906979368072,
+      -0.09432179587041123,
+      -0.1899992841764564,
+      -0.21626286684081064
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th512-a0",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -20.121684644974945,
+    "ci95": [
+      -20.641239141745075,
+      -19.5412699273784
+    ],
+    "changes": [
+      -20.92470613727606,
+      -19.94821230882231,
+      -18.98542242905783,
+      -20.266217361643633,
+      -20.483864988074885
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th512-a0",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 6.350140028462299,
+    "ci95": [
+      5.9624608878857455,
+      6.65402082438852
+    ],
+    "changes": [
+      5.67634046349319,
+      6.485770659080958,
+      6.8407575511026275,
+      6.45031907876652,
+      6.297512389868198
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th512-a0",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.8984000970175643,
+    "ci95": [
+      -1.0314618218879645,
+      -0.7348872653300353
+    ],
+    "changes": [
+      -0.6258186526359788,
+      -0.9530594540003379,
+      -1.122093365494159,
+      -0.9471080982154434,
+      -0.8439209147419025
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th512-a0",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -59.49473593630449,
+    "ci95": [
+      -63.406267069537634,
+      -56.29853029848616
+    ],
+    "changes": [
+      -66.02771906622395,
+      -57.40450603979521,
+      -56.95079629983088,
+      -55.09327642648692,
+      -61.99738184918546
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th512-a0",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 50.170588250549834,
+    "ci95": [
+      45.793125377732125,
+      54.54805112336754
+    ],
+    "changes": [
+      53.026951371914336,
+      43.54669982802364,
+      44.42263793034951,
+      55.54232365806045,
+      54.31432846440125
+    ]
+  },
+  {
+    "stage": "native",
+    "configuration": "default-stock-th512-a0",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.2817253707123024,
+    "ci95": [
+      -0.3594777454461773,
+      -0.20397299597842755
+    ],
+    "changes": [
+      -0.18587408966852514,
+      -0.26366918254047134,
+      -0.19222380900730807,
+      -0.3960397381985614,
+      -0.3708200341466461
+    ]
+  },
+  {
+    "stage": "native2048",
+    "configuration": "default-stock-th2048-a0",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": 1.137948244894078,
+    "ci95": [
+      0.9167805783901928,
+      1.3975871026381892
+    ],
+    "changes": [
+      1.1141616386489694,
+      0.8319444604373283,
+      1.6555656147451137,
+      0.9070770303066356,
+      1.1809924803323435
+    ]
+  },
+  {
+    "stage": "native2048",
+    "configuration": "default-stock-th2048-a0",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 1.2139642262103978,
+    "ci95": [
+      1.0696784239140111,
+      1.3452541616662783
+    ],
+    "changes": [
+      1.255019603601304,
+      0.9794588835523754,
+      1.3050690170044899,
+      1.0997170415332658,
+      1.430556585360554
+    ]
+  },
+  {
+    "stage": "native2048",
+    "configuration": "default-stock-th2048-a0",
+    "scenario": "interference",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.27564325157023006,
+    "ci95": [
+      -0.3967006554106267,
+      -0.16279000225986495
+    ],
+    "changes": [
+      -0.25196539700573783,
+      -0.07755023903851521,
+      -0.3717349728570407,
+      -0.2095643213267384,
+      -0.46740132762311815
+    ]
+  },
+  {
+    "stage": "native2048",
+    "configuration": "default-stock-th2048-a0",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "decode99",
+    "pairs": 5,
+    "mean_change_pct": -7.604547443084309,
+    "ci95": [
+      -15.547647689619657,
+      -0.13801368526481728
+    ],
+    "changes": [
+      -19.773594830146013,
+      -0.3878571158050237,
+      0.556168688189751,
+      -1.026691571093541,
+      -17.390762386566717
+    ]
+  },
+  {
+    "stage": "native2048",
+    "configuration": "default-stock-th2048-a0",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "prefill95",
+    "pairs": 5,
+    "mean_change_pct": 3.223245164190134,
+    "ci95": [
+      2.9455270683481016,
+      3.500963260032166
+    ],
+    "changes": [
+      3.5210933275859224,
+      2.7396417277006035,
+      3.010608113193447,
+      3.6177469925182892,
+      3.227135659952407
+    ]
+  },
+  {
+    "stage": "native2048",
+    "configuration": "default-stock-th2048-a0",
+    "scenario": "mixed",
+    "baseline": "stock",
+    "metric": "output_tok_s",
+    "pairs": 5,
+    "mean_change_pct": -0.0220299744778929,
+    "ci95": [
+      -0.026448974320596452,
+      -0.017711426792252905
+    ],
+    "changes": [
+      -0.019347814991055312,
+      -0.021257328137080922,
+      -0.014302087921036488,
+      -0.028827207635817587,
+      -0.02641543370447419
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "completed_unix": 1792497012.251734,
+  "trials": 134,
+  "performance_trials": 105,
+  "quality_trials": 29,
+  "sessions": 35,
+  "profile_sessions": 5,
+  "tests": 30,
+  "audit_errors": 0,
+  "primary_robust_guardrails": true,
+  "primary_incremental_p99": true,
+  "selected_policy": "fixed1536",
+  "selected_stage": "opt_validation",
+  "incremental_baseline": "balanced",
+  "quality_mismatches": [
+    {
+      "stage": "opt_match1536",
+      "policy": "fixed1536",
+      "id": "tail1",
+      "cohort": "tail",
+      "exact": false,
+      "first_mismatch_1based": 11,
+      "output_length": 32,
+      "baseline_length": 32,
+      "text": "ric\nThe user has provided a list of words and phrases that seem to be related to a specific topic. However, the list is not clear or coherent.",
+      "baseline_text": "ric\nThe user has provided a list of words that seem to be random or unrelated. They might be trying to create a list of words for a specific purpose"
+    }
+  ],
+  "numerical_diagnostic_sessions": 6,
+  "source_passed": true
+}

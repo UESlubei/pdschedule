@@ -208,7 +208,8 @@ def main():
     text+=['','另保留一次采集完成后审计失败的诊断：最初目录名 balanced 被旧审计逻辑当成原有冻结阶段，查找不存在的 formal-source.json。统一改为 node- 前缀目录后重采并通过，原始失败产物保存在 diagnostic_profiles/balanced/；该失败不影响性能矩阵，也未加入上述五组有效采集。']
     text+=['','函数名分类仅为启发式归类。不同窗口的 Decode 工作量、请求状态和边缘在途工作可能不同，且 Profiler 会扰动执行；活动时长之和不等于墙钟时间、利用率或可加的阶段成本。这些数据用于核查主要 GPU 活动与图内覆盖，不按合计时间比值宣称优化收益。', '',
         '新策略未改变模型 kernel、KV 分配或全局编译缓冲区。本轮主要机制证据为实际切块、完成间隔与请求排队的受控对照。时钟未锁定，随机化轮内顺序和新鲜基线降低漂移影响，但不能消除全部系统偏差。', '']
-    path=ROOT/'reports/动态Prefill_Budget第二轮优化报告.md';body=path.read_text()
+    path=DATA/'report_materials/优化阶段统计.md';path.parent.mkdir(parents=True,exist_ok=True)
+    body=path.read_text() if path.exists() else '# 动态 Prefill Budget 第二轮优化报告\n\n## 独立验证与最终选择\n\n## 复现与证据\n\n阶段统计保存在实验数据目录；项目完整报告由 benchmarks.project_report 统一生成。\n'
     a=body.index('## 独立验证与最终选择');b=body.index('## 复现与证据',a)
     recovery=body[body.index('## 交互中断与恢复',a):b] if '## 交互中断与恢复' in body[a:b] else ''
     body=body[:a]+'## 独立验证与最终选择\n\n'+'\n'.join(text)+'\n'+recovery+body[b:]

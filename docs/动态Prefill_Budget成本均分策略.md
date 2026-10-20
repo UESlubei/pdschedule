@@ -1,6 +1,6 @@
 # 按计算成本均分的 Prefill Budget
 
-本策略在 vLLM V1 Scheduler 内按请求的实际计算前沿选择每轮共享 Prefill/Replay 配额。它使用历史实验标定的前馈成本模型；AIMD 的反馈状态不决定此模式的预算。性能结论见 [第二轮优化报告](../reports/动态Prefill_Budget第二轮优化报告.md)。
+本策略在 vLLM V1 Scheduler 内按请求的实际计算前沿选择每轮共享 Prefill/Replay 配额。它使用历史实验标定的前馈成本模型；AIMD 的反馈状态不决定此模式的预算。性能结论见 [完整项目报告](../reports/动态Prefill_Budget完整实验报告.md)。
 
 ## 规则
 

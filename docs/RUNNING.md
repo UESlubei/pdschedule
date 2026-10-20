@@ -63,3 +63,13 @@ Nsight数据是独立诊断运行，不加入性能主表。`benchmarks.profile`
 `numerical_probe`在数据根目录的`quality_drift`保留4个stock/off新服务与公共前缀logprobs，`profile_nodes`在`profiles_node`保留独立节点采集；这些均不加入421个标准Trial。整体图采集与节点采集的Kernel统计覆盖不同，重算用`profile_summary`读取SQLite，不需要重跑GPU。
 
 现有解释正文与验收数字绑定本批原始数据。使用同一数据执行分析命令可重建表图与工程证据；若换模型、环境或新的APB_DATA重新实验，需复核性能正文、数值漂移解释和新实验的验收结论，不能直接沿用旧报告中的收益。
+
+## 统一项目报告
+
+最终验收与最新优化统一记录于[完整项目报告](../reports/动态Prefill_Budget完整实验报告.md)。从仓库已有统计JSON重建，无需启动推理：
+
+```bash
+PYTHONPATH="$PWD" python -m benchmarks.project_report
+```
+
+`write_report`、`write_engineering`、`finalize_optimization`的阶段文字材料写到相应`APB_DATA/report_materials/`。后台主流水线在阶段验收后调用`project_report`生成唯一项目报告，不再向README追加独立阶段报告入口。

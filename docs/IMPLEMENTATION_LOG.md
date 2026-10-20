@@ -62,3 +62,7 @@ Nsight本机默认cuda-graph-trace=graph，逐Kernel表不含图内节点。保�
 六个数值诊断服务已完成：原始correctness重复均返回原stock分支，stock/off与stock/Fixed各次均为11/11一致。额外自回归探测中，两次未修改stock在offered batch=2时均完整复现原Fixed的32-token分支；共同前10个输出一致，第11位“ that”与“ and”的返回logprob并列。该证据支持原生批次/数值敏感性，不能把offered batch当成实际每步GPU批大小，也不代表logprobs模式精确还原原运行路径。原134个Trial中230/231输出比较一致，自然问答126/126、合成尾块104/105；原始不一致保持不变。逐token复核与来源Hash保存为numerical_batch_reproduction.json。
 
 数值探测首次请求logprobs时触发Top-K内核JIT，通用性能审计拒绝该诊断服务。保留拒绝项与原始日志，诊断单独检查请求、长度、Trace与响应完整性；六个服务不提供时延或吞吐证据，性能主矩阵的JIT审计标准未修改。最终工程配置为有Decode时共享1536、无Decode时4096；成本均分在同基础预算下暴露短请求配额利用不足，受控真实Scheduler实验由11次含Prefill步骤增至16次，因此保留为实验模式，不替换最终配置。
+
+## 项目文档整合（2026-10-21）
+
+阶段报告、性能归因和工程验证合并为`reports/动态Prefill_Budget完整实验报告.md`，以1536/4096当前配置、最新验证与负结果为主。原始报告移入实验数据目录`document_archive/20261021-report-consolidation`，Git历史保留发布版本。新增`benchmarks.project_report`从已有审计JSON重建唯一项目报告；阶段文字生成改写到`APB_DATA/report_materials/`，后台流水线不再追加重复报告入口。同步明确补充三种子mixed TTFT配对增幅8.89%、95%区间[5.75,15.10]的约束限制。本次未新增GPU实验，未改动在线调度、模型或历史统计。

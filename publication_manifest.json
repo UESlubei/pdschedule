@@ -1,14 +1,18 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "source_project": "/home/sdn/wjh/Ondeviceinfer/source/adaptive_prefill_budget",
   "files": [
     {
+      "path": "PUBLICATION.md",
+      "source_sha256": "a5a24b32a077c55253eee917a479e43aba57196d072815a5b654e92150b6faf2",
+      "published_sha256": "a5a24b32a077c55253eee917a479e43aba57196d072815a5b654e92150b6faf2",
+      "changes": []
+    },
+    {
       "path": "README.md",
-      "source_sha256": "8055cf93e5eb40115af9e003569f969c33a7f5d45f079a6557d7b517cd3e9025",
-      "published_sha256": "7ed8daa1f52bbdd36c802c8979b3d18d5ed683b7fff3ee854c14874a93e5756d",
-      "changes": [
-        "publication README rewritten; original archived in docs/本地项目原始README.md"
-      ]
+      "source_sha256": "2f095654ad4aa999205c95a07d54580fd21da4a0f87b8ce174ebb8b671cdaafe",
+      "published_sha256": "2f095654ad4aa999205c95a07d54580fd21da4a0f87b8ce174ebb8b671cdaafe",
+      "changes": []
     },
     {
       "path": "apb/__init__.py",
@@ -60,8 +64,8 @@
     },
     {
       "path": "benchmarks/finalize_optimization.py",
-      "source_sha256": "80cbeebb9c5a0e5f8ad835e29df35d61e89739570c08ca080f084255613c5a2f",
-      "published_sha256": "80cbeebb9c5a0e5f8ad835e29df35d61e89739570c08ca080f084255613c5a2f",
+      "source_sha256": "e005c9d77bc25dea1a58ce4f0f9a4563294853803a5853f3a322bccb9bbdca96",
+      "published_sha256": "e005c9d77bc25dea1a58ce4f0f9a4563294853803a5853f3a322bccb9bbdca96",
       "changes": []
     },
     {
@@ -143,6 +147,12 @@
       "changes": []
     },
     {
+      "path": "benchmarks/project_report.py",
+      "source_sha256": "b697fe74f503e04c3680cf0a34825c5f3e685adc7b374e6bf3b5f7c19ca509fc",
+      "published_sha256": "b697fe74f503e04c3680cf0a34825c5f3e685adc7b374e6bf3b5f7c19ca509fc",
+      "changes": []
+    },
+    {
       "path": "benchmarks/quality_probe_optimization.py",
       "source_sha256": "31a90b8f2171569c29076a7b74887877f6c7532cfc4f7fc10325c9565f514f72",
       "published_sha256": "31a90b8f2171569c29076a7b74887877f6c7532cfc4f7fc10325c9565f514f72",
@@ -150,8 +160,8 @@
     },
     {
       "path": "benchmarks/recovery_master.py",
-      "source_sha256": "86b47eaefd6081f05d01b1321d55cb2c163b22ecf24333da96359135863306af",
-      "published_sha256": "86b47eaefd6081f05d01b1321d55cb2c163b22ecf24333da96359135863306af",
+      "source_sha256": "903f582eb4e6f7f3f820c39708bbc5b79449c4aba0e1c06e55cada31232a5b68",
+      "published_sha256": "903f582eb4e6f7f3f820c39708bbc5b79449c4aba0e1c06e55cada31232a5b68",
       "changes": []
     },
     {
@@ -180,14 +190,14 @@
     },
     {
       "path": "benchmarks/write_engineering.py",
-      "source_sha256": "12a9a3aa44f2d3872f418f85658d67ff24a117d23c3559b58c76b6650f9f8a92",
-      "published_sha256": "12a9a3aa44f2d3872f418f85658d67ff24a117d23c3559b58c76b6650f9f8a92",
+      "source_sha256": "94189ff56c8f1fe498b64d2ca73174ce0276bc304cf75f3327667dd627ee6331",
+      "published_sha256": "94189ff56c8f1fe498b64d2ca73174ce0276bc304cf75f3327667dd627ee6331",
       "changes": []
     },
     {
       "path": "benchmarks/write_report.py",
-      "source_sha256": "8d565e4a224ff7097d23c9d2603afe973aae2989f2a7a17c7c60b684b4a31e25",
-      "published_sha256": "8d565e4a224ff7097d23c9d2603afe973aae2989f2a7a17c7c60b684b4a31e25",
+      "source_sha256": "a1e1ad8de3b32a66f6fc85b9d9ad2aa29728df87b626b22a5e49015b52dffbb5",
+      "published_sha256": "a1e1ad8de3b32a66f6fc85b9d9ad2aa29728df87b626b22a5e49015b52dffbb5",
       "changes": []
     },
     {
@@ -234,26 +244,26 @@
     },
     {
       "path": "docs/IMPLEMENTATION_LOG.md",
-      "source_sha256": "3be8a166fa04e1483f50ca671a0efecd71829e701c4f47287f811b973bb4f4b3",
-      "published_sha256": "3be8a166fa04e1483f50ca671a0efecd71829e701c4f47287f811b973bb4f4b3",
+      "source_sha256": "3b49e268ba374d0e3fc286aff8d9dc49674abb34f44db630d72771eb70bcfd63",
+      "published_sha256": "3b49e268ba374d0e3fc286aff8d9dc49674abb34f44db630d72771eb70bcfd63",
       "changes": []
     },
     {
       "path": "docs/RUNNING.md",
-      "source_sha256": "95d01ccae07a0f4691132ec283881c81bc3a841a4abd15ca068962f5fdf6ac8e",
-      "published_sha256": "95d01ccae07a0f4691132ec283881c81bc3a841a4abd15ca068962f5fdf6ac8e",
+      "source_sha256": "737bb6aa68e0f570641b9380a41f1c63b4847d15bec90afb4e954134bcd63572",
+      "published_sha256": "737bb6aa68e0f570641b9380a41f1c63b4847d15bec90afb4e954134bcd63572",
       "changes": []
     },
     {
       "path": "docs/SERVER_CONTINUATION.md",
-      "source_sha256": "2f4e5cfe943e6d5fa0acb1906f058b5df696bacded295c76e9962ad6b96db3e1",
-      "published_sha256": "2f4e5cfe943e6d5fa0acb1906f058b5df696bacded295c76e9962ad6b96db3e1",
+      "source_sha256": "8c806fe7152285c6a621caba3180543d9accc1d3479433e74dd11c18fbc6a4dd",
+      "published_sha256": "8c806fe7152285c6a621caba3180543d9accc1d3479433e74dd11c18fbc6a4dd",
       "changes": []
     },
     {
       "path": "docs/WORK_STATE.md",
-      "source_sha256": "33fbe8966e0b9155fb57026b79b51a9266bf8de1f60b746d181a3bf6bafb840e",
-      "published_sha256": "33fbe8966e0b9155fb57026b79b51a9266bf8de1f60b746d181a3bf6bafb840e",
+      "source_sha256": "f39a0645b55f6bafcdb44d29f4c5575f6f911f3eb4f417cb30abf943047511fe",
+      "published_sha256": "f39a0645b55f6bafcdb44d29f4c5575f6f911f3eb4f417cb30abf943047511fe",
       "changes": []
     },
     {
@@ -276,8 +286,8 @@
     },
     {
       "path": "docs/动态Prefill_Budget成本均分策略.md",
-      "source_sha256": "0a06808d78d0a0b8199b760f7ef0a39f894aa8f6fcb7f730092abcc1e09d4f28",
-      "published_sha256": "0a06808d78d0a0b8199b760f7ef0a39f894aa8f6fcb7f730092abcc1e09d4f28",
+      "source_sha256": "0952e1d87428ad895d61b5d2aefa087c5b16f83f6469135a7ec3d1aedff9fea1",
+      "published_sha256": "0952e1d87428ad895d61b5d2aefa087c5b16f83f6469135a7ec3d1aedff9fea1",
       "changes": []
     },
     {
@@ -636,33 +646,9 @@
     },
     {
       "path": "reports/动态Prefill_Budget完整实验报告.md",
-      "source_sha256": "034d0dfdc2b50bdb062a200a5b04ccf4b1432a8bf751cf99c143b3d0e17f9c38",
-      "published_sha256": "b07803ebd83fb07681099f9607c8986cc422104ced775ad8f84fd33a562cbcef",
-      "changes": [
-        "absolute project Markdown link converted to relative"
-      ]
-    },
-    {
-      "path": "reports/动态Prefill_Budget第二轮优化报告.md",
-      "source_sha256": "4c6bd42412139974206b3049715cc4bc01beab7095cb77dde051970b1c6c1056",
-      "published_sha256": "61a05c9012d4859874dfffdd1535f4a970d7e213cb2c7c832bc294f29020dc45",
-      "changes": [
-        "absolute project Markdown link converted to relative"
-      ]
-    },
-    {
-      "path": "reports/工程验证与开销.md",
-      "source_sha256": "f7a9bac03af42dceeed07370c630a36de0bb563ffb604dc9cf37dc0e307bf015",
-      "published_sha256": "f7a9bac03af42dceeed07370c630a36de0bb563ffb604dc9cf37dc0e307bf015",
+      "source_sha256": "ee6c132424013ccf37f2d54e80edab62709b4ad14bf7e690d0a7d4ac0a6d0ee5",
+      "published_sha256": "ee6c132424013ccf37f2d54e80edab62709b4ad14bf7e690d0a7d4ac0a6d0ee5",
       "changes": []
-    },
-    {
-      "path": "reports/性能归因与结论.md",
-      "source_sha256": "af3c9e1566217f6a130425864d9361f1e9c90d4f7c9529acbd1e6c201152e857",
-      "published_sha256": "35d6a77ae0c18e65362b38b6cc7441e5adb4b966fd8728edf13b287b8dbdeb87",
-      "changes": [
-        "absolute project Markdown link converted to relative"
-      ]
     },
     {
       "path": "requirements/vllm0320-cu129-lock.txt",
@@ -744,10 +730,18 @@
     }
   ],
   "publication_only_files": [
-    "PUBLICATION.md",
     ".gitignore",
     ".gitattributes",
-    "docs/本地项目原始README.md",
     "publication_manifest.json"
-  ]
+  ],
+  "consolidation": {
+    "single_report": "reports/动态Prefill_Budget完整实验报告.md",
+    "removed_redundant_documents": [
+      "reports/动态Prefill_Budget第二轮优化报告.md",
+      "reports/性能归因与结论.md",
+      "reports/工程验证与开销.md",
+      "docs/本地项目原始README.md"
+    ],
+    "online_code_and_experiment_json_unchanged": true
+  }
 }

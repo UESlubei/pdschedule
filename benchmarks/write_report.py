@@ -34,7 +34,7 @@ def main():
     verification_path=DATA/'manifests/final-source-verification.json'
     verification=json.loads(verification_path.read_text()) if verification_path.exists() else {}
     source_verified=verification.get('passed',False) and verification.get('weights_verified',False)
-    finished=all((ROOT/'reports'/name).exists() for name in ['性能归因与结论.md','工程验证与开销.md']) and (DATA/'driver-completed.json').exists() and primary_finished and matrix_finished and profiles_finished and numerical_finished and node_finished and observe_node_finished and source_verified and unchanged and not any(a['errors'] for a in audits)
+    finished=all((DATA/'report_materials'/name).exists() for name in ['性能归因与结论.md','工程验证与开销.md']) and (DATA/'driver-completed.json').exists() and primary_finished and matrix_finished and profiles_finished and numerical_finished and node_finished and observe_node_finished and source_verified and unchanged and not any(a['errors'] for a in audits)
     selection=json.loads((DATA/'manifests/static-selection.json').read_text());load=json.loads((DATA/'manifests/load-selection.json').read_text())
     title='完整实验报告' if finished else '实验报告（持续更新，验证矩阵尚未完成）'
     sections=[f'# 动态 Prefill Budget 调度：{title}',
@@ -95,11 +95,11 @@ def main():
     for heading,next_heading,name in [
         ('## 10. 性能不及预期的优化与原因','## 11. Profile与工程开销','性能归因与结论.md'),
         ('## 11. Profile与工程开销','## 12. 适用范围、限制与复现','工程验证与开销.md')]:
-        supplement=ROOT/'reports'/name
+        supplement=DATA/'report_materials'/name
         if supplement.exists():
             a=sections.index(heading);b=sections.index(next_heading)
             sections[a+1:b]=[supplement.read_text().split('\n',1)[-1].strip()]
-    out=ROOT/'reports/动态Prefill_Budget完整实验报告.md';out.write_text('\n\n'.join(sections)+'\n')
+    out=DATA/'report_materials/基线阶段统计.md';out.parent.mkdir(parents=True,exist_ok=True);out.write_text('\n\n'.join(sections)+'\n')
     dump(ROOT/'reports/completion.json',{'complete':finished,'formal_trials':len(formal),'all_trials':len(rows),'source_unchanged':unchanged,'source_and_model_verified':source_verified,'audit_errors':sum(len(a['errors']) for a in audits), 'matrix_finished':matrix_finished,'profiles_finished':profiles_finished,'numerical_finished':numerical_finished,'node_profile_finished':node_finished,'observe_node_profile_finished':observe_node_finished,'stage_trial_counts':dict(counts),'required_stage_trials':expected})
     print(out)
 

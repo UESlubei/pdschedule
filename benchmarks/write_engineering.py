@@ -78,7 +78,7 @@ def main():
       f'原安装、stock源码副本、候选可重放补丁、12项冻结输入及模型全部文件共{len(verified["checks"])}项最终Hash检查通过。完整权重分片SHA256再次一致；没有改写原安装或权重。源码检查：`'+str(DATA/'manifests/final-source-verification.json')+'`。',
       '开发阶段另保留1个关停遥测未落盘的失败Session：`raw/failures/eager-observe-abort`。统一shutdown_timeout=20后重跑通过；失败数据未伪造summary，也未计入有效性能统计。',
       '支持范围为已验证的单GPU、Dense文本、FCFS、普通逐Token生成。Spec、多模态、LoRA、KV Connector及多GPU不在本轮验收范围。有限自然问答、有限负载和本机环境的结论不能代替完整模型质量或生产规模验证。'])
-    path=ROOT/'reports/工程验证与开销.md';path.write_text('\n\n'.join(sections)+'\n');print(path)
+    path=DATA/'report_materials/工程验证与开销.md';path.parent.mkdir(parents=True,exist_ok=True);path.write_text('\n\n'.join(sections)+'\n');print(path)
 
 
 if __name__=='__main__':main()
